@@ -5,6 +5,7 @@ public class AdsBanner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		HZInterstitialAd.Fetch("GameOver");
 		HZBannerShowOptions showOptions = new HZBannerShowOptions ();
 		showOptions.Position = HZBannerShowOptions.POSITION_BOTTOM;
 		showOptions.Tag = "Banner";
