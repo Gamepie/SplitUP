@@ -2642,7 +2642,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.7
+  m_Time: 3
   m_StartWidth: 0.15
   m_EndWidth: 0.02
   m_Colors:
@@ -2661,7 +2661,7 @@ TrailRenderer:
     m_Color[4]:
       serializedVersion: 2
       rgba: 4287400830
-  m_MinVertexDistance: 1e-10
+  m_MinVertexDistance: 5
   m_Autodestruct: 0
 --- !u!114 &72868378
 MonoBehaviour:
@@ -9427,26 +9427,13 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 14
+  preFillCount: 1
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000010809933284, guid: 49bfa4dc4fb144e2f867b1c3b026021f, type: 2}
-  - {fileID: 1000012244103154, guid: cd9b13e9cd5d046df8e4720cb91de161, type: 2}
-  - {fileID: 1000013280533554, guid: 901f86a73125e4475999b18b522a00b8, type: 2}
-  - {fileID: 1000012371204592, guid: 06d15b0a678ff4ec2950d27b9f3ad16c, type: 2}
-  - {fileID: 1000011915759950, guid: 988f78c888bbf45b9b3e2bec61337e25, type: 2}
-  - {fileID: 1000013682418684, guid: 3c202a7a669344a9da62d116032bf306, type: 2}
-  - {fileID: 1000011557528876, guid: 4969635974ab04fa7a101ed176912884, type: 2}
-  - {fileID: 1000010983039788, guid: a355582a7fa5b4786bbde6b09efa8bd9, type: 2}
-  - {fileID: 1000013437374976, guid: 75d3d89c671f749c591837b3a8f22ebc, type: 2}
-  - {fileID: 1000013481729740, guid: 74f3e09c4bbd24ab1a4e6d4ca3914c55, type: 2}
-  - {fileID: 1000013829876860, guid: 978bef768527c4edd87b555610e6ea64, type: 2}
-  - {fileID: 1000012337055526, guid: 0d15cf415d3a24eaa9af6f4f6903eb22, type: 2}
-  - {fileID: 1000012618238682, guid: dcba0fd252cbd4292ba11614d0c93252, type: 2}
-  - {fileID: 1000013908494534, guid: 86314e503605c47df9fe3f70594cf46a, type: 2}
+  - {fileID: 1000012359278204, guid: a84bd61f3fdf74790be4172180d7c518, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
