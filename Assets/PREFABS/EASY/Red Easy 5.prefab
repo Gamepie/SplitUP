@@ -22,7 +22,7 @@ GameObject:
   - 212: {fileID: 212000013930503816}
   - 114: {fileID: 114000012863981540}
   - 60: {fileID: 60000012935937294}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 1
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 4: {fileID: 4000010826346220}
   - 212: {fileID: 212000010618370264}
   - 61: {fileID: 61000012638739130}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 4: {fileID: 4000011420370214}
   - 212: {fileID: 212000012793731242}
   - 60: {fileID: 60000012531627860}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000011114371064}
   - 212: {fileID: 212000011962222466}
   - 61: {fileID: 61000012013893826}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000011457339290}
   - 212: {fileID: 212000010400520520}
   - 60: {fileID: 60000011268724562}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000013897045978}
   - 212: {fileID: 212000012984432486}
   - 60: {fileID: 60000011290866064}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 2
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - 212: {fileID: 212000011346527166}
   - 114: {fileID: 114000013492595894}
   - 60: {fileID: 60000011715154038}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - 50: {fileID: 50000012408682246}
   - 212: {fileID: 212000011517338210}
   - 95: {fileID: 95000011290375690}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Easy 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - 4: {fileID: 4000010747915800}
   - 212: {fileID: 212000012089004136}
   - 60: {fileID: 60000014271871842}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Open Polygon
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

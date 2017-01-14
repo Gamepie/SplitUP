@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013940025646}
   - 50: {fileID: 50000012106312456}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Start Pattern 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - 4: {fileID: 4000012867342086}
   - 212: {fileID: 212000013177747392}
   - 60: {fileID: 60000013816831326}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - 4: {fileID: 4000011222225924}
   - 212: {fileID: 212000013049644718}
   - 60: {fileID: 60000010499002336}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - 4: {fileID: 4000010158526342}
   - 212: {fileID: 212000012761427364}
   - 60: {fileID: 60000013258226384}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - 4: {fileID: 4000012757673980}
   - 212: {fileID: 212000014162103908}
   - 60: {fileID: 60000013474674548}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

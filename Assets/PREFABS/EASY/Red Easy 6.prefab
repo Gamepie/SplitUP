@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013182956740}
   - 212: {fileID: 212000011464604130}
   - 61: {fileID: 61000011582661272}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000011914657720}
   - 212: {fileID: 212000012707226174}
   - 60: {fileID: 60000011299782850}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000010452040786}
   - 212: {fileID: 212000012247621020}
   - 61: {fileID: 61000010024128614}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000012897198570}
   - 212: {fileID: 212000010453873976}
   - 60: {fileID: 60000012955618146}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000010645983086}
   - 212: {fileID: 212000012099046100}
   - 60: {fileID: 60000011835589744}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Losange
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 50: {fileID: 50000013787671044}
   - 212: {fileID: 212000014161086732}
   - 95: {fileID: 95000012210096596}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Easy 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000014239055810}
   - 212: {fileID: 212000010285295726}
   - 60: {fileID: 60000012250715592}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - 4: {fileID: 4000013247908526}
   - 212: {fileID: 212000012152096860}
   - 60: {fileID: 60000011090305880}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - 212: {fileID: 212000010497441992}
   - 60: {fileID: 60000012747504214}
   - 60: {fileID: 60000010218089784}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

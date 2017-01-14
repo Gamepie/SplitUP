@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011530777626}
   - 212: {fileID: 212000012410699082}
   - 60: {fileID: 60000012791475576}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000010865658398}
   - 212: {fileID: 212000011827348042}
   - 60: {fileID: 60000010439449350}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 212: {fileID: 212000012254876178}
   - 61: {fileID: 61000010398415344}
   - 95: {fileID: 95000011056399746}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000010798767264}
   - 212: {fileID: 212000010941886024}
   - 60: {fileID: 60000013257005740}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000011595281122}
   - 212: {fileID: 212000011677097756}
   - 60: {fileID: 60000012241440552}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012984052524}
   - 50: {fileID: 50000010149276664}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Easy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 4000011107790220}
   - 212: {fileID: 212000012586418736}
   - 61: {fileID: 61000012050028086}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 4: {fileID: 4000010228069842}
   - 212: {fileID: 212000010721627404}
   - 60: {fileID: 60000011996926082}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

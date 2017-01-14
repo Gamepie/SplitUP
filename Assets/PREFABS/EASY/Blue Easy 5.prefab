@@ -22,7 +22,7 @@ GameObject:
   - 212: {fileID: 212000011196970910}
   - 61: {fileID: 61000010904316552}
   - 95: {fileID: 95000011109470112}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 4: {fileID: 4000012254613210}
   - 212: {fileID: 212000011270100906}
   - 60: {fileID: 60000013397506536}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 4: {fileID: 4000012049807258}
   - 212: {fileID: 212000013692652398}
   - 60: {fileID: 60000013331485800}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000014256473836}
   - 212: {fileID: 212000014063820214}
   - 61: {fileID: 61000010167856296}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000012055885518}
   - 212: {fileID: 212000012401021652}
   - 60: {fileID: 60000011077565652}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - 212: {fileID: 212000013255371480}
   - 60: {fileID: 60000010419078688}
   - 114: {fileID: 114000013794387996}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Obstacles-25
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - 4: {fileID: 4000014175230634}
   - 212: {fileID: 212000012606175228}
   - 60: {fileID: 60000010035868276}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Right Obstacle
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - 4: {fileID: 4000010953523694}
   - 212: {fileID: 212000010411079592}
   - 60: {fileID: 60000010954953772}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - 4: {fileID: 4000014145010092}
   - 212: {fileID: 212000014289567854}
   - 60: {fileID: 60000012112686844}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011354807442}
   - 50: {fileID: 50000014119627302}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Easy 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - 4: {fileID: 4000010358408526}
   - 212: {fileID: 212000013593562306}
   - 60: {fileID: 60000011641676658}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - 4: {fileID: 4000013713926556}
   - 212: {fileID: 212000014219678682}
   - 60: {fileID: 60000010474707488}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Left obstacl
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

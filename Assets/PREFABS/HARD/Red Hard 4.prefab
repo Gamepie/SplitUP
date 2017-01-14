@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012582670012}
   - 212: {fileID: 212000012057618824}
   - 61: {fileID: 61000010239725638}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000010914451020}
   - 212: {fileID: 212000013745583370}
   - 60: {fileID: 60000011646833922}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Diamond
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000013137022764}
   - 212: {fileID: 212000010829351712}
   - 61: {fileID: 61000010190849960}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000014111699906}
   - 212: {fileID: 212000011991958818}
   - 60: {fileID: 60000012378801088}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 50: {fileID: 50000012802871576}
   - 212: {fileID: 212000013002164188}
   - 95: {fileID: 95000014064968818}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Hard 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000014102444906}
   - 212: {fileID: 212000012487426106}
   - 60: {fileID: 60000013271421708}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000012019852854}
   - 212: {fileID: 212000010098655800}
   - 60: {fileID: 60000012561183166}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

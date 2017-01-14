@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012327026668}
   - 212: {fileID: 212000012846309928}
   - 61: {fileID: 61000010671740978}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000010523146180}
   - 212: {fileID: 212000012956582014}
   - 60: {fileID: 60000011861109364}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000013956174914}
   - 212: {fileID: 212000013465607848}
   - 60: {fileID: 60000012205015304}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000014184705912}
   - 212: {fileID: 212000012301548446}
   - 60: {fileID: 60000011868715192}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012233764108}
   - 50: {fileID: 50000010110714190}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Med 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 212: {fileID: 212000010106460598}
   - 60: {fileID: 60000013597072598}
   - 114: {fileID: 114000012223413186}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 212: {fileID: 212000013792885144}
   - 61: {fileID: 61000012804180486}
   - 95: {fileID: 95000011980472012}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - 4: {fileID: 4000011373143766}
   - 212: {fileID: 212000010993425898}
   - 60: {fileID: 60000012971044588}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle hole
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

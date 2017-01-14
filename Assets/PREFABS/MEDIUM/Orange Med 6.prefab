@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011856748912}
   - 212: {fileID: 212000013778034346}
   - 60: {fileID: 60000013428944250}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000011946784752}
   - 212: {fileID: 212000010775804044}
   - 60: {fileID: 60000012823673732}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013570128274}
   - 114: {fileID: 114000014161232944}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - 4: {fileID: 4000012247240606}
   - 212: {fileID: 212000012479754806}
   - 61: {fileID: 61000010787691530}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - 4: {fileID: 4000011156656372}
   - 212: {fileID: 212000011734465692}
   - 60: {fileID: 60000012387847262}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle down (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - 4: {fileID: 4000013368025120}
   - 212: {fileID: 212000010545333504}
   - 60: {fileID: 60000013466430702}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle down
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - 4: {fileID: 4000010763267056}
   - 212: {fileID: 212000012669221370}
   - 60: {fileID: 60000011070045470}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle dot (3)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 212: {fileID: 212000012285172504}
   - 61: {fileID: 61000010197610680}
   - 95: {fileID: 95000011749736870}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - 4: {fileID: 4000011999033924}
   - 212: {fileID: 212000012583202984}
   - 60: {fileID: 60000012311922228}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012324954698}
   - 50: {fileID: 50000012359675038}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Med 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - 4: {fileID: 4000012292987484}
   - 212: {fileID: 212000011390174980}
   - 60: {fileID: 60000010981996514}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle dot (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

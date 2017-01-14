@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011608267556}
   - 212: {fileID: 212000012846035666}
   - 60: {fileID: 60000014185049694}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Open circle 1
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000012247932326}
   - 212: {fileID: 212000010592992186}
   - 60: {fileID: 60000011250984828}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Middle triangle pattern
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000013243586876}
   - 212: {fileID: 212000014099278954}
   - 60: {fileID: 60000010107787148}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Open circle 1 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000011311702682}
   - 212: {fileID: 212000011606723974}
   - 61: {fileID: 61000012470037098}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000012630909636}
   - 212: {fileID: 212000010849870410}
   - 60: {fileID: 60000010806372126}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Open circle 1 (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 212: {fileID: 212000011538056584}
   - 61: {fileID: 61000010338851380}
   - 95: {fileID: 95000010988639816}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010586712464}
   - 50: {fileID: 50000014283820596}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Med 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

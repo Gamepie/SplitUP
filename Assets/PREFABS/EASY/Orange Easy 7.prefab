@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013860213480}
   - 212: {fileID: 212000010627287414}
   - 60: {fileID: 60000013021608762}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: key-left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000011325954824}
   - 212: {fileID: 212000012655660090}
   - 60: {fileID: 60000012873821392}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: key-right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000011138022422}
   - 212: {fileID: 212000012241109626}
   - 61: {fileID: 61000010562874810}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013947448212}
   - 50: {fileID: 50000011588145560}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Easy 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 212: {fileID: 212000011281383840}
   - 61: {fileID: 61000011202675638}
   - 95: {fileID: 95000010755644266}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 212: {fileID: 212000011057919458}
   - 114: {fileID: 114000010015780518}
   - 60: {fileID: 60000013025396064}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Diamond2
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

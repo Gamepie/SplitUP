@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013312326718}
   - 50: {fileID: 50000014260836900}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Hard 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - 4: {fileID: 4000010110870012}
   - 212: {fileID: 212000012828222360}
   - 61: {fileID: 61000010327310040}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 212: {fileID: 212000013346491244}
   - 61: {fileID: 61000010955052464}
   - 95: {fileID: 95000011985380688}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000013238510740}
   - 212: {fileID: 212000012280825386}
   - 60: {fileID: 60000011271851078}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000013983063946}
   - 212: {fileID: 212000012794046300}
   - 60: {fileID: 60000010416490496}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - 114: {fileID: 114000012007263434}
   - 60: {fileID: 60000011059304330}
   - 114: {fileID: 114000011532178174}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rotate open circle
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - 4: {fileID: 4000011890125038}
   - 212: {fileID: 212000010342709672}
   - 60: {fileID: 60000012537425596}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

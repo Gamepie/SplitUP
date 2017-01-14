@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010496036340}
   - 212: {fileID: 212000011769378224}
   - 60: {fileID: 60000011938748074}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 212: {fileID: 212000010899597948}
   - 61: {fileID: 61000013702043816}
   - 95: {fileID: 95000013521587872}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012665451858}
   - 50: {fileID: 50000010812060930}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Easy 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000010575980308}
   - 212: {fileID: 212000014199929268}
   - 61: {fileID: 61000011380642406}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000010777279612}
   - 212: {fileID: 212000014124189300}
   - 60: {fileID: 60000010438272948}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 4000011015517998}
   - 212: {fileID: 212000010511969968}
   - 60: {fileID: 60000010242531926}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 4000010975581748}
   - 212: {fileID: 212000013562891626}
   - 60: {fileID: 60000012916628090}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

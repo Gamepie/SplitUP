@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012369189800}
   - 212: {fileID: 212000011198433950}
   - 61: {fileID: 61000012117176446}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 212: {fileID: 212000010159774320}
   - 61: {fileID: 61000012697414950}
   - 95: {fileID: 95000011812009358}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 4: {fileID: 4000011116823646}
   - 212: {fileID: 212000012914492504}
   - 60: {fileID: 60000010562815686}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000014034914464}
   - 212: {fileID: 212000012118885278}
   - 60: {fileID: 60000012479386232}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle down (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000012266149032}
   - 212: {fileID: 212000013924834836}
   - 60: {fileID: 60000013404951996}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Open square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000010674216042}
   - 212: {fileID: 212000013009302574}
   - 60: {fileID: 60000014236281678}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle down
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013952740284}
   - 50: {fileID: 50000010029381174}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Med 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013483444124}
   - 212: {fileID: 212000013113449602}
   - 60: {fileID: 60000013002537664}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000012245384916}
   - 212: {fileID: 212000011637836948}
   - 60: {fileID: 60000010199455792}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Right (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000010989636368}
   - 212: {fileID: 212000012408027838}
   - 60: {fileID: 60000010126309902}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013314782620}
   - 50: {fileID: 50000012442908620}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Med 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 212: {fileID: 212000010639212314}
   - 61: {fileID: 61000013269426624}
   - 95: {fileID: 95000012150795966}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 4000012207278448}
   - 212: {fileID: 212000013685318628}
   - 61: {fileID: 61000010535793470}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 4000013476925800}
   - 212: {fileID: 212000011579201232}
   - 60: {fileID: 60000011788599878}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Triangle Left (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 4: {fileID: 4000010602897156}
   - 212: {fileID: 212000013313658618}
   - 60: {fileID: 60000013476995156}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Pylon-13
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

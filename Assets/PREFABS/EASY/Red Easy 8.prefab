@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000014201549716}
   - 212: {fileID: 212000011563839228}
   - 60: {fileID: 60000010311624868}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000013743443278}
   - 212: {fileID: 212000013134253974}
   - 61: {fileID: 61000014040354592}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000014097243600}
   - 212: {fileID: 212000011184432138}
   - 60: {fileID: 60000013444806028}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000010945453628}
   - 212: {fileID: 212000010904853130}
   - 60: {fileID: 60000014247022194}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 2
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 50: {fileID: 50000010418249266}
   - 212: {fileID: 212000010561999188}
   - 95: {fileID: 95000011001656418}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Easy 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000013534474312}
   - 212: {fileID: 212000010763072228}
   - 61: {fileID: 61000011031345924}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000011256929862}
   - 212: {fileID: 212000011830094438}
   - 60: {fileID: 60000012958851324}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: round-34
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - 4: {fileID: 4000010338661664}
   - 212: {fileID: 212000012133659008}
   - 60: {fileID: 60000013398941780}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
