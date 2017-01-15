@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012127658810}
   - 212: {fileID: 212000013134561234}
   - 60: {fileID: 60000011174578060}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000013752411386}
   - 212: {fileID: 212000012144366908}
   - 61: {fileID: 61000014171081730}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000013238141512}
   - 212: {fileID: 212000010744938028}
   - 60: {fileID: 60000010189211834}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000013053789136}
   - 212: {fileID: 212000010559589862}
   - 60: {fileID: 60000010342022336}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000010627936864}
   - 212: {fileID: 212000013950806440}
   - 60: {fileID: 60000013049013596}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010658029616}
   - 50: {fileID: 50000014046729056}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Easy 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - 4: {fileID: 4000011614283400}
   - 212: {fileID: 212000013342336554}
   - 60: {fileID: 60000011801411440}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - 4: {fileID: 4000012233034930}
   - 212: {fileID: 212000011606534614}
   - 60: {fileID: 60000013164639644}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - 212: {fileID: 212000013183845852}
   - 61: {fileID: 61000012310452608}
   - 95: {fileID: 95000012546052640}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - 4: {fileID: 4000010883388136}
   - 212: {fileID: 212000013655121564}
   - 60: {fileID: 60000010196597524}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - 4: {fileID: 4000013590529784}
   - 212: {fileID: 212000013525831318}
   - 60: {fileID: 60000013167638580}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

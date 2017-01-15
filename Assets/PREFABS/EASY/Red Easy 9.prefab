@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000014241080370}
   - 212: {fileID: 212000013583097294}
   - 60: {fileID: 60000010880580830}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Box right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000010188346082}
   - 212: {fileID: 212000013441856492}
   - 60: {fileID: 60000012269591634}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000011597280630}
   - 212: {fileID: 212000010557593368}
   - 61: {fileID: 61000010264700886}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000010686865146}
   - 212: {fileID: 212000012358084558}
   - 60: {fileID: 60000011515654458}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Box Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000012689788222}
   - 212: {fileID: 212000013005925712}
   - 60: {fileID: 60000011835645022}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 4000013425125780}
   - 212: {fileID: 212000011718907662}
   - 61: {fileID: 61000010319332710}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 4000012579992592}
   - 212: {fileID: 212000012526307380}
   - 60: {fileID: 60000010853556404}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Obstacles-24
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 4: {fileID: 4000010846802838}
   - 212: {fileID: 212000014264523404}
   - 60: {fileID: 60000011226016562}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - 4: {fileID: 4000012971177182}
   - 212: {fileID: 212000013942567328}
   - 60: {fileID: 60000012850689940}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Small Triangle 1
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - 4: {fileID: 4000012224246902}
   - 212: {fileID: 212000010438310916}
   - 60: {fileID: 60000012302024484}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - 50: {fileID: 50000011205374056}
   - 212: {fileID: 212000010602686004}
   - 95: {fileID: 95000013730064472}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Easy 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}

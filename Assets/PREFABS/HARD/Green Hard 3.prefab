@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011456374074}
   - 50: {fileID: 50000010095167460}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Hard 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 212: {fileID: 212000011974866368}
   - 61: {fileID: 61000013749366624}
   - 95: {fileID: 95000013446739370}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000012900014216}
   - 212: {fileID: 212000013722638726}
   - 60: {fileID: 60000012317770638}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Border Obstacle Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000012615056150}
   - 212: {fileID: 212000010652870712}
   - 60: {fileID: 60000013137578898}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Border obstacle Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000013660605542}
   - 212: {fileID: 212000010039495272}
   - 61: {fileID: 61000011263536454}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 212: {fileID: 212000013046584408}
   - 114: {fileID: 114000013853168982}
   - 60: {fileID: 60000012643070338}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000013641098642}
   - 212: {fileID: 212000012638461932}
   - 60: {fileID: 60000010864958226}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Big Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - 212: {fileID: 212000010240256136}
   - 114: {fileID: 114000010481391808}
   - 60: {fileID: 60000011913616158}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

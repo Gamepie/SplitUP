@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010504371904}
   - 212: {fileID: 212000013568319828}
   - 60: {fileID: 60000010450697920}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000011124480262}
   - 212: {fileID: 212000011083165612}
   - 61: {fileID: 61000011805001742}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000013281372018}
   - 212: {fileID: 212000012798493754}
   - 60: {fileID: 60000013790347286}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Diamond
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000013385503510}
   - 212: {fileID: 212000013916541718}
   - 60: {fileID: 60000014070043894}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000011112841408}
   - 212: {fileID: 212000012463785004}
   - 60: {fileID: 60000011553659642}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010244814210}
   - 50: {fileID: 50000012521746656}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Easy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 212: {fileID: 212000011941125010}
   - 61: {fileID: 61000010213454076}
   - 95: {fileID: 95000012984368432}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 4: {fileID: 4000013671613882}
   - 212: {fileID: 212000013067312114}
   - 60: {fileID: 60000010685343418}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   - 212: {fileID: 212000010348246872}
   - 114: {fileID: 114000012001400968}
   - 60: {fileID: 60000014159181886}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Obstacles-25
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - 4: {fileID: 4000013799763182}
   - 212: {fileID: 212000012183252246}
   - 60: {fileID: 60000012854582414}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   - 212: {fileID: 212000011169373940}
   - 114: {fileID: 114000010256980096}
   - 60: {fileID: 60000013560315988}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Obstacles-25 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

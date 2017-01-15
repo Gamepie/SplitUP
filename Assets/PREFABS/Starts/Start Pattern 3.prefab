@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000014134262976}
   - 50: {fileID: 50000013879673604}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Start Pattern 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - 4: {fileID: 4000012549750570}
   - 212: {fileID: 212000012460708726}
   - 60: {fileID: 60000013432294932}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - 4: {fileID: 4000011612076518}
   - 212: {fileID: 212000011664993722}
   - 60: {fileID: 60000013619485430}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - 4: {fileID: 4000011291886002}
   - 212: {fileID: 212000010205790316}
   - 60: {fileID: 60000010317412226}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - 4: {fileID: 4000014121983664}
   - 212: {fileID: 212000010801782648}
   - 60: {fileID: 60000011105941818}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - 4: {fileID: 4000012470620358}
   - 212: {fileID: 212000010361798100}
   - 60: {fileID: 60000010926474696}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - 4: {fileID: 4000010139578188}
   - 212: {fileID: 212000011681944948}
   - 60: {fileID: 60000012992027468}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 3 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - 4: {fileID: 4000012601252964}
   - 212: {fileID: 212000010787663100}
   - 60: {fileID: 60000013441141164}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - 4: {fileID: 4000013229988918}
   - 212: {fileID: 212000010632861256}
   - 60: {fileID: 60000013482802562}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

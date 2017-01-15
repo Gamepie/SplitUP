@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013478302852}
   - 212: {fileID: 212000010716867706}
   - 60: {fileID: 60000011424067978}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Big Square (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000013808150858}
   - 212: {fileID: 212000012382260658}
   - 60: {fileID: 60000010350723274}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Pylon-13
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000012670194902}
   - 212: {fileID: 212000013941386852}
   - 60: {fileID: 60000010752240040}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Long Circle open
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000013449866382}
   - 212: {fileID: 212000010689049208}
   - 60: {fileID: 60000010497548632}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Big Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 212: {fileID: 212000011771232316}
   - 61: {fileID: 61000012915955796}
   - 95: {fileID: 95000012109973428}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000014045445994}
   - 212: {fileID: 212000010412417024}
   - 60: {fileID: 60000011813012316}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Long Circle open (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000010715226602}
   - 212: {fileID: 212000011504021456}
   - 61: {fileID: 61000012595051074}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - 4: {fileID: 4000011832349188}
   - 212: {fileID: 212000010314043300}
   - 60: {fileID: 60000011573264446}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000014205103192}
   - 50: {fileID: 50000012049958248}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Med 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

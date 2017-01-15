@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013288424546}
   - 212: {fileID: 212000011314437550}
   - 60: {fileID: 60000011918156168}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sphere Right (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 212: {fileID: 212000013688658492}
   - 61: {fileID: 61000011981002074}
   - 95: {fileID: 95000013872235380}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 4: {fileID: 4000014017866254}
   - 212: {fileID: 212000014162475750}
   - 60: {fileID: 60000012352400246}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000010477120778}
   - 212: {fileID: 212000014258578520}
   - 60: {fileID: 60000011543664432}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000010243585044}
   - 212: {fileID: 212000013567525574}
   - 60: {fileID: 60000013086479004}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sphere Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000011468762820}
   - 212: {fileID: 212000012655412936}
   - 60: {fileID: 60000010543255446}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sphere Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011330528060}
   - 50: {fileID: 50000013015986182}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Med 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - 4: {fileID: 4000010089152726}
   - 212: {fileID: 212000012407834790}
   - 61: {fileID: 61000011189076644}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - 4: {fileID: 4000010045292010}
   - 212: {fileID: 212000013289399440}
   - 60: {fileID: 60000012011960614}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sphere Left (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - 4: {fileID: 4000013596227718}
   - 212: {fileID: 212000014282152868}
   - 60: {fileID: 60000013667863730}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sphere Center
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013566011756}
   - 212: {fileID: 212000013680673288}
   - 60: {fileID: 60000011218981290}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010264023868}
   - 212: {fileID: 212000011981491656}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - 4: {fileID: 4000012067457614}
   - 212: {fileID: 212000010640337252}
   - 61: {fileID: 61000011671776004}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013757876092}
   - 212: {fileID: 212000010820723676}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - 212: {fileID: 212000011887417870}
   - 61: {fileID: 61000011037092178}
   - 95: {fileID: 95000011871399336}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012333018592}
   - 50: {fileID: 50000011153022006}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Med 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013108962712}
   - 212: {fileID: 212000012293481678}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010445911728}
   - 212: {fileID: 212000010188432744}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - 4: {fileID: 4000011924967132}
   - 212: {fileID: 212000012009904544}
   - 60: {fileID: 60000012435589402}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Key Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - 4: {fileID: 4000012014077536}
   - 212: {fileID: 212000013295213854}
   - 60: {fileID: 60000013493237396}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Key Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

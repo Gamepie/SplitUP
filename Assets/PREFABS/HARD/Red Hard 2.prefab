@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010333059318}
   - 212: {fileID: 212000010681463750}
   - 114: {fileID: 114000010013468164}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000012789232996}
   - 212: {fileID: 212000013389453902}
   - 61: {fileID: 61000010286296698}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 4000010220910958}
   - 212: {fileID: 212000013264707302}
   - 114: {fileID: 114000012732434500}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 4: {fileID: 4000012535356920}
   - 212: {fileID: 212000014134843320}
   - 114: {fileID: 114000013159079046}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 50: {fileID: 50000013471098714}
   - 212: {fileID: 212000013762700064}
   - 95: {fileID: 95000012042209866}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Red Hard 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000014150334146}
   - 212: {fileID: 212000012151155914}
   - 61: {fileID: 61000013790500698}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011390653800}
   - 212: {fileID: 212000013028403124}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Pylon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

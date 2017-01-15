@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010731578772}
   - 212: {fileID: 212000012436700094}
   - 60: {fileID: 60000013119094628}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013342177368}
   - 50: {fileID: 50000012555307656}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Green Easy 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - 4: {fileID: 4000010566002988}
   - 212: {fileID: 212000013432111330}
   - 61: {fileID: 61000010332972602}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - 212: {fileID: 212000013249724470}
   - 61: {fileID: 61000010643481042}
   - 95: {fileID: 95000014076175556}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000012178094348}
   - 212: {fileID: 212000013396152100}
   - 60: {fileID: 60000010932724714}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 4000013467533580}
   - 212: {fileID: 212000011181721836}
   - 60: {fileID: 60000011168982530}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: circle obstacle-14
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 4000013376723968}
   - 212: {fileID: 212000011146004552}
   - 60: {fileID: 60000012993274810}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

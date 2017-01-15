@@ -22,7 +22,7 @@ GameObject:
   - 212: {fileID: 212000010340941150}
   - 61: {fileID: 61000012956297826}
   - 95: {fileID: 95000010328664578}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 4: {fileID: 4000012907616046}
   - 212: {fileID: 212000011994069848}
   - 61: {fileID: 61000012249105148}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 4: {fileID: 4000010897299112}
   - 212: {fileID: 212000011449315754}
   - 60: {fileID: 60000012985394288}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013277373116}
   - 50: {fileID: 50000012911523170}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Easy 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - 4: {fileID: 4000011460656758}
   - 212: {fileID: 212000012247788926}
   - 60: {fileID: 60000011631211776}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle Obstacles-18
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}

@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010469024744}
   - 212: {fileID: 212000012350600234}
   - 60: {fileID: 60000010859175354}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000010262121392}
   - 212: {fileID: 212000013212330006}
   - 60: {fileID: 60000012711829830}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Box Left
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - 212: {fileID: 212000013428252082}
   - 61: {fileID: 61000011660325880}
   - 95: {fileID: 95000012271263300}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - 4: {fileID: 4000011332809236}
   - 212: {fileID: 212000010594380656}
   - 60: {fileID: 60000010663886496}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (2)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 4000010147450940}
   - 212: {fileID: 212000010167943240}
   - 61: {fileID: 61000010227885690}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 4000012698282578}
   - 212: {fileID: 212000013106366194}
   - 60: {fileID: 60000013952650810}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - 4: {fileID: 4000010607376812}
   - 212: {fileID: 212000013064724240}
   - 60: {fileID: 60000012211922530}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (4)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - 4: {fileID: 4000014245963914}
   - 212: {fileID: 212000013712136590}
   - 60: {fileID: 60000010942734300}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (6)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   - 4: {fileID: 4000012952198806}
   - 212: {fileID: 212000011406437458}
   - 60: {fileID: 60000013441706368}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 6
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - 4: {fileID: 4000010474886350}
   - 212: {fileID: 212000011309619736}
   - 60: {fileID: 60000013590303110}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (5)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - 4: {fileID: 4000013857643012}
   - 212: {fileID: 212000011053584912}
   - 60: {fileID: 60000010167884922}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Box Right
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - 4: {fileID: 4000012463112638}
   - 212: {fileID: 212000012698706678}
   - 60: {fileID: 60000010923639892}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   - 4: {fileID: 4000011086299252}
   - 212: {fileID: 212000012537478112}
   - 60: {fileID: 60000012821757538}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Little Square (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - 4: {fileID: 4000010130827620}
   - 212: {fileID: 212000011404718074}
   - 60: {fileID: 60000010743870190}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - 4: {fileID: 4000010963911482}
   - 212: {fileID: 212000010550660064}
   - 60: {fileID: 60000011176955068}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot (3)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013810766358}
   - 50: {fileID: 50000010318211520}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Orange Hard 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

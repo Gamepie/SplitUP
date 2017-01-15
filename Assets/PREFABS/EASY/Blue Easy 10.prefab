@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010917230826}
   - 212: {fileID: 212000011730016934}
   - 60: {fileID: 60000012591079220}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: triangle polygon-32
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - 4: {fileID: 4000011864947206}
   - 212: {fileID: 212000011021033046}
   - 60: {fileID: 60000010384368766}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Dot
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012903690866}
   - 50: {fileID: 50000012588911816}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Easy 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - 4: {fileID: 4000014278396546}
   - 212: {fileID: 212000010784004340}
   - 60: {fileID: 60000010971343268}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012812318560}
   - 212: {fileID: 212000012314202588}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Trangle back-31
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - 4: {fileID: 4000010273376682}
   - 212: {fileID: 212000011379156524}
   - 60: {fileID: 60000010499898816}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 7
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - 212: {fileID: 212000013640981272}
   - 61: {fileID: 61000010255793740}
   - 95: {fileID: 95000012351345556}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - 4: {fileID: 4000013351508238}
   - 212: {fileID: 212000011631085946}
   - 60: {fileID: 60000013193953046}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - 4: {fileID: 4000010157472412}
   - 212: {fileID: 212000013414310176}
   - 61: {fileID: 61000014226438796}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}

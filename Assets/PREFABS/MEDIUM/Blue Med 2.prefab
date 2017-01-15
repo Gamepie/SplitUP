@@ -22,7 +22,7 @@ GameObject:
   - 50: {fileID: 50000012522112062}
   - 212: {fileID: 212000013948783928}
   - 95: {fileID: 95000011197601030}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Blue Med 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - 4: {fileID: 4000010907777474}
   - 212: {fileID: 212000011143247588}
   - 60: {fileID: 60000013278528160}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Diamond
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - 212: {fileID: 212000013566208310}
   - 61: {fileID: 61000013357712210}
   - 95: {fileID: 95000011439040910}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 4000012468203774}
   - 212: {fileID: 212000010774325518}
   - 60: {fileID: 60000012255732416}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - 4: {fileID: 4000011229964514}
   - 212: {fileID: 212000014056570162}
   - 60: {fileID: 60000010485275536}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 4
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - 4: {fileID: 4000012877590762}
   - 212: {fileID: 212000012480571470}
   - 60: {fileID: 60000012469960768}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Right Obstacle
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - 4: {fileID: 4000011522868802}
   - 212: {fileID: 212000011317541986}
   - 60: {fileID: 60000010548851626}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Left obstacl
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - 4: {fileID: 4000013139929544}
   - 212: {fileID: 212000011737016458}
   - 61: {fileID: 61000011407971024}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: HSBar
   m_TagString: HSBar
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - 4: {fileID: 4000011465037462}
   - 212: {fileID: 212000013261596482}
   - 60: {fileID: 60000014109140976}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: 5 (1)
   m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
