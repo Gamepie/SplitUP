@@ -222,7 +222,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4774391343174172}
   - component: {fileID: 212513210314346426}
+<<<<<<< HEAD
   - component: {fileID: 60396306608845922}
+=======
+  - component: {fileID: 60308785089684112}
+>>>>>>> 5dfeb54a4705c3827f6ea041c83b50e07ea4671f
   m_Layer: 14
   m_Name: R_8
   m_TagString: Untagged
@@ -773,6 +777,24 @@ PolygonCollider2D:
       - {x: -0.006960094, y: 0.328125}
       - {x: -0.002962768, y: 0.33804798}
       - {x: -0.24155849, y: -0.097970724}
+--- !u!60 &60308785089684112
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495249379651598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.546875, y: 0.125}
+      - {x: -0.546875, y: -0.125}
+      - {x: 0.546875, y: -0.125}
+      - {x: 0.546875, y: 0.125}
 --- !u!60 &60365358090570764
 PolygonCollider2D:
   m_ObjectHideFlags: 1
