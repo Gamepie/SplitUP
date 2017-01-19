@@ -1922,8 +1922,8 @@ GameObject:
   - 114: {fileID: 72868375}
   - 114: {fileID: 72868376}
   - 96: {fileID: 72868377}
-  - 60: {fileID: 72868374}
   - 114: {fileID: 72868378}
+  - 58: {fileID: 72868374}
   m_Layer: 30
   m_Name: BouleG
   m_TagString: Untagged
@@ -1994,8 +1994,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &72868374
-PolygonCollider2D:
+--- !u!58 &72868374
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2006,16 +2006,8 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.45999998, y: 0.074999996}
-      - {x: -0.45999998, y: -0.074999996}
-      - {x: 0.47, y: -0.074999996}
-      - {x: 0.47, y: 0.074999996}
-    - - {x: -0.39, y: 0.015}
-      - {x: 0.39999998, y: 0.015}
-      - {x: 0.39999998, y: -0.005}
-      - {x: -0.39, y: -0.005}
+  serializedVersion: 2
+  m_Radius: 0.26
 --- !u!114 &72868375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5799,11 +5791,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.0062144
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.6999999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5828,6 +5820,14 @@ Prefab:
     - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014021022216, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
@@ -5996,7 +5996,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768743008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: 2.8, z: 0}
+  m_LocalPosition: {x: 0, y: 3.5, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6061,7 +6061,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 791842913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.65, y: -4, z: 0}
+  m_LocalPosition: {x: 2.43, y: -4, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6114,7 +6114,7 @@ GameObject:
   - 114: {fileID: 898193435}
   - 114: {fileID: 898193436}
   - 96: {fileID: 898193437}
-  - 60: {fileID: 898193434}
+  - 58: {fileID: 898193434}
   m_Layer: 30
   m_Name: BouleD
   m_TagString: Untagged
@@ -6185,8 +6185,8 @@ SpriteRenderer:
   m_Color: {r: 0.9058824, g: 0.9215687, b: 0.9294118, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!60 &898193434
-PolygonCollider2D:
+--- !u!58 &898193434
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6197,16 +6197,8 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.45999998, y: 0.074999996}
-      - {x: -0.45999998, y: -0.074999996}
-      - {x: 0.47, y: -0.074999996}
-      - {x: 0.47, y: 0.074999996}
-    - - {x: -0.39, y: 0.015}
-      - {x: 0.39999998, y: 0.015}
-      - {x: 0.39999998, y: -0.005}
-      - {x: -0.39, y: -0.005}
+  serializedVersion: 2
+  m_Radius: 0.26
 --- !u!114 &898193435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6876,7 +6868,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915319708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0, y: -2.12, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6943,7 +6935,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 961647041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.17, y: -4, z: 0}
+  m_LocalPosition: {x: 0.17, y: -4, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -7019,8 +7011,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 226
-        y: 100
+        x: 274
+        y: 116
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7031,7 +7023,7 @@ MonoBehaviour:
           name: touched
           isSystemEvent: 0
           isGlobal: 0
-        toState: Test if Highscored
+        toState: Add Game Sessions LT
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7108,8 +7100,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 415
-        y: 104
+        x: 463
+        y: 120
         width: 108
         height: 16
       isBreakpoint: 0
@@ -7162,8 +7154,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 238.17969
-        y: 252.65625
+        x: 286.1797
+        y: 268.65625
         width: 144
         height: 32
       isBreakpoint: 0
@@ -7239,8 +7231,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 433
-        y: 228
+        x: 481
+        y: 244
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7333,8 +7325,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 52.117188
-        y: 159.76562
+        x: 100.11719
+        y: 175.76562
         width: 139
         height: 48
       isBreakpoint: 0
@@ -7424,8 +7416,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50.5625
-        y: 270.4375
+        x: 98.5625
+        y: 286.4375
         width: 137
         height: 32
       isBreakpoint: 0
@@ -7535,6 +7527,83 @@ MonoBehaviour:
         - ifError
         paramDataPos: 000000000100000000000000020000000300000004000000000000000500000000000000
         paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000
+    - name: Add Game Sessions LT
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 54.875
+        y: 107.96875
+        width: 169
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Test if Highscored
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Game Sessions LT
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - add
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: touched
       isSystemEvent: 0
@@ -7695,7 +7764,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1193047826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -7760,8 +7829,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1241255890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: 1.6, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1735176669}
@@ -7881,8 +7950,8 @@ Transform:
   m_PrefabInternal: {fileID: 283210961}
   m_GameObject: {fileID: 1421363639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: 0.6999999, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1735176669}
@@ -8566,7 +8635,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1735176666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0062144, y: 0.35134923, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -14156,7 +14225,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2059411260}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -4, z: 0}
+  m_LocalPosition: {x: -2.03, y: -4, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -14221,7 +14290,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2081838600}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0062144, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []

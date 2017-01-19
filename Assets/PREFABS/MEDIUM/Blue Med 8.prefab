@@ -173,6 +173,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013297598064}
   - 114: {fileID: 114000013224587360}
+  - 114: {fileID: 114000013587143892}
   m_Layer: 15
   m_Name: Dot Circle
   m_TagString: SpwnedObject
@@ -207,7 +208,6 @@ GameObject:
   - 4: {fileID: 4000011930309118}
   - 212: {fileID: 212000013348809398}
   - 61: {fileID: 61000011341047156}
-  - 95: {fileID: 95000013950647944}
   m_Layer: 15
   m_Name: HSBar (1)
   m_TagString: HSBar
@@ -256,7 +256,7 @@ Transform:
   m_GameObject: {fileID: 1000013960631486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5656745, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000011930309118}
@@ -474,11 +474,11 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.4549999, y: -0.074999996}
-      - {x: 1.395, y: -0.074999996}
-      - {x: 1.395, y: 0.125}
-      - {x: -1.4649999, y: 0.125}
-      - {x: -1.4649999, y: -0.065}
+    - - {x: -2.2734375, y: -0.1171875}
+      - {x: 2.1796875, y: -0.1171875}
+      - {x: 2.1796875, y: 0.1953125}
+      - {x: -2.2890625, y: 0.1953125}
+      - {x: -2.2890625, y: -0.1015625}
 --- !u!60 &60000010672384214
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -535,11 +535,11 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.4549999, y: -0.074999996}
-      - {x: 1.395, y: -0.074999996}
-      - {x: 1.395, y: 0.125}
-      - {x: -1.4649999, y: 0.125}
-      - {x: -1.4649999, y: -0.065}
+    - - {x: -2.2734375, y: -0.1171875}
+      - {x: 2.1796875, y: -0.1171875}
+      - {x: 2.1796875, y: 0.1953125}
+      - {x: -2.2890625, y: 0.1953125}
+      - {x: -2.2890625, y: -0.1015625}
 --- !u!60 &60000012284579032
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -554,11 +554,11 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.4549999, y: -0.074999996}
-      - {x: 1.395, y: -0.074999996}
-      - {x: 1.395, y: 0.125}
-      - {x: -1.4649999, y: 0.125}
-      - {x: -1.4649999, y: -0.065}
+    - - {x: -2.2734375, y: -0.1171875}
+      - {x: 2.1796875, y: -0.1171875}
+      - {x: 2.1796875, y: 0.1953125}
+      - {x: -2.2890625, y: 0.1953125}
+      - {x: -2.2890625, y: -0.1015625}
 --- !u!60 &60000012915860496
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -636,11 +636,11 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.4549999, y: -0.074999996}
-      - {x: 1.395, y: -0.074999996}
-      - {x: 1.395, y: 0.125}
-      - {x: -1.4649999, y: 0.125}
-      - {x: -1.4649999, y: -0.065}
+    - - {x: -2.2734375, y: -0.1171875}
+      - {x: 2.1796875, y: -0.1171875}
+      - {x: 2.1796875, y: 0.1953125}
+      - {x: -2.2890625, y: 0.1953125}
+      - {x: -2.2890625, y: -0.1015625}
 --- !u!60 &60000013808846376
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -673,9 +673,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.01}
+  m_Offset: {x: 0, y: 0.105}
   serializedVersion: 2
-  m_Size: {x: 6.3, y: 0.02}
+  m_Size: {x: 8.84, y: 0.21}
 --- !u!61 &61000012431817848
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -687,26 +687,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.01}
+  m_Offset: {x: 0, y: 0.105}
   serializedVersion: 2
-  m_Size: {x: 6.3, y: 0.02}
---- !u!95 &95000013950647944
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013624129102}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_Size: {x: 8.84, y: 0.21}
 --- !u!114 &114000013224587360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -850,7 +833,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -876,12 +859,23 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleApplicationEvents: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114000013587143892
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013128522912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212000010326605252
 SpriteRenderer:
   m_ObjectHideFlags: 1
