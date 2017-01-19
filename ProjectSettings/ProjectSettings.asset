@@ -490,7 +490,11 @@ PlayerSettings:
   tizenGPSPermissions: 0
   tizenMicrophonePermissions: 0
   tizenDeploymentTarget: 
+<<<<<<< HEAD
   tizenDeploymentTargetType: 0
+=======
+  tizenDeploymentTargetType: -1
+>>>>>>> a9741055a2db905cfebc7dbd1424f9dbd60c9532
   tizenMinOSVersion: 0
   n3dsUseExtSaveData: 0
   n3dsCompressStaticMem: 1

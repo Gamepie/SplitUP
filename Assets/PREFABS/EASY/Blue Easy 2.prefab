@@ -157,7 +157,11 @@ GameObject:
   - 212: {fileID: 212000010348246872}
   - 114: {fileID: 114000012001400968}
   - 60: {fileID: 60000014159181886}
+<<<<<<< HEAD
   - 114: {fileID: 114000013643472926}
+=======
+  - 114: {fileID: 114000011268365802}
+>>>>>>> a9741055a2db905cfebc7dbd1424f9dbd60c9532
   m_Layer: 15
   m_Name: Blue Obstacles-25
   m_TagString: SpwnedObject
@@ -193,7 +197,11 @@ GameObject:
   - 212: {fileID: 212000011169373940}
   - 114: {fileID: 114000010256980096}
   - 60: {fileID: 60000013560315988}
+<<<<<<< HEAD
   - 114: {fileID: 114000014195176162}
+=======
+  - 114: {fileID: 114000012091056566}
+>>>>>>> a9741055a2db905cfebc7dbd1424f9dbd60c9532
   m_Layer: 15
   m_Name: Blue Obstacles-25 (1)
   m_TagString: SpwnedObject
@@ -1090,6 +1098,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+<<<<<<< HEAD
+=======
+--- !u!114 &114000011268365802
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013414667986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> a9741055a2db905cfebc7dbd1424f9dbd60c9532
 --- !u!114 &114000012001400968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1265,6 +1287,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+<<<<<<< HEAD
 --- !u!114 &114000013643472926
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1277,6 +1300,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114000014195176162
+=======
+--- !u!114 &114000012091056566
+>>>>>>> a9741055a2db905cfebc7dbd1424f9dbd60c9532
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
