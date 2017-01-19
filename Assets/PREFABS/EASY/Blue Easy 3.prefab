@@ -156,7 +156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010197091294}
   - 212: {fileID: 212000013133008412}
-  - 61: {fileID: 61000012976018466}
+  - 60: {fileID: 60000011082720320}
   m_Layer: 15
   m_Name: Middle triangle pattern
   m_TagString: SpwnedObject
@@ -237,7 +237,7 @@ Transform:
   m_GameObject: {fileID: 1000013280533554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5656745, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010840669534}
@@ -369,6 +369,26 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.185}
       - {x: 0.16, y: 0.105}
       - {x: 0.11, y: 0.155}
+--- !u!60 &60000011082720320
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014165931308}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.19, y: 3.925}
+      - {x: -0.19, y: -3.895}
+      - {x: 0.16, y: -3.895}
+      - {x: 0.17999999, y: -3.875}
+      - {x: 0.17999999, y: 3.905}
+      - {x: 0.16, y: 3.925}
 --- !u!60 &60000011465212422
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -422,9 +442,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.105}
+  m_Offset: {x: 0, y: 0.01}
   serializedVersion: 2
-  m_Size: {x: 8.84, y: 0.21}
+  m_Size: {x: 6.3, y: 0.02}
 --- !u!61 &61000011972057260
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -436,23 +456,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.105}
+  m_Offset: {x: 0, y: 0.01}
   serializedVersion: 2
-  m_Size: {x: 8.84, y: 0.21}
---- !u!61 &61000012976018466
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014165931308}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.52, y: 12.15}
+  m_Size: {x: 6.3, y: 0.02}
 --- !u!95 &95000012157846420
 Animator:
   serializedVersion: 3

@@ -139,8 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000011452699066}
   - component: {fileID: 212000011878247042}
-  - component: {fileID: 114000010722861126}
-  - component: {fileID: 60000011956437004}
+  - component: {fileID: 60481026898348946}
   m_Layer: 14
   m_Name: Open Polygon
   m_TagString: SpwnedObject
@@ -430,7 +429,65 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60000011956437004
+--- !u!60 &60000012905290960
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012506944730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.046875, y: 2.03125}
+      - {x: -2.03125, y: 0.046875}
+      - {x: -2.03125, y: -0.046875}
+      - {x: -0.046875, y: -2.03125}
+      - {x: 0.03125, y: -2.03125}
+      - {x: 2.03125, y: -0.03125}
+      - {x: 2.03125, y: 0.046875}
+      - {x: 0.046875, y: 2.03125}
+--- !u!60 &60000013678119546
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012565650036}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -2.1875, y: 0.140625}
+      - {x: -2.1875, y: -0.140625}
+      - {x: 2.1875, y: -0.140625}
+      - {x: 2.1875, y: 0.140625}
+--- !u!60 &60000013750753256
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013410789998}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -2.1875, y: 0.140625}
+      - {x: -2.1875, y: -0.140625}
+      - {x: 2.1875, y: -0.140625}
+      - {x: 2.1875, y: 0.140625}
+--- !u!60 &60481026898348946
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -503,64 +560,6 @@ PolygonCollider2D:
       - {x: 0.015625, y: 3.984375}
       - {x: 0.25, y: 3.796875}
       - {x: 0.53125, y: 3.6875}
---- !u!60 &60000012905290960
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012506944730}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.046875, y: 2.03125}
-      - {x: -2.03125, y: 0.046875}
-      - {x: -2.03125, y: -0.046875}
-      - {x: -0.046875, y: -2.03125}
-      - {x: 0.03125, y: -2.03125}
-      - {x: 2.03125, y: -0.03125}
-      - {x: 2.03125, y: 0.046875}
-      - {x: 0.046875, y: 2.03125}
---- !u!60 &60000013678119546
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012565650036}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -2.1875, y: 0.140625}
-      - {x: -2.1875, y: -0.140625}
-      - {x: 2.1875, y: -0.140625}
-      - {x: 2.1875, y: 0.140625}
---- !u!60 &60000013750753256
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013410789998}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -2.1875, y: 0.140625}
-      - {x: -2.1875, y: -0.140625}
-      - {x: 2.1875, y: -0.140625}
-      - {x: 2.1875, y: 0.140625}
 --- !u!60 &60813218359130376
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -624,17 +623,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114000010722861126
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014020759036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf0f3ed6b5d242d9af3ee4525911244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &212000010792808102
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -700,7 +688,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9bf2f5f656b6e4d4e8789570dbe2776d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -735,7 +723,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: dc0491e768727465981f5b5893e10868, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -805,7 +793,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9bf2f5f656b6e4d4e8789570dbe2776d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -875,7 +863,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8f31decec06b547cfb3cd47ac9c20a8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -980,7 +968,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
