@@ -768,21 +768,22 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.40625, y: 2.09375}
-      - {x: -0.453125, y: 2.09375}
-      - {x: -0.46875, y: 2.078125}
-      - {x: -1.6875, y: 0.109375}
-      - {x: -1.6875, y: -0.234375}
-      - {x: -0.484375, y: -2.09375}
-      - {x: -0.4471898, y: -2.09375}
-      - {x: 1.6875, y: -0.03125}
-      - {x: 1.6875, y: 0.046875}
-      - {x: -0.125, y: 1.84375}
+    - - {x: -0.484375, y: 2.1796875}
+      - {x: -0.4765625, y: 1.3359375}
+      - {x: -1.4921875, y: 0.359375}
+      - {x: -1.7578125, y: 0.046875}
+      - {x: -1.7578125, y: -0.0390625}
+      - {x: -0.546875, y: -1.1640625}
+      - {x: -0.4765625, y: -2.1796875}
+      - {x: -0.4296875, y: -2.1796875}
+      - {x: 1.7578125, y: -0.03125}
+      - {x: 1.7578125, y: 0.03125}
+      - {x: -0.421875, y: 2.1796875}
 --- !u!60 &60000011299782850
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -812,19 +813,19 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.010774396, y: 1.7552798}
-      - {x: -0.8498826, y: 0.024238229}
-      - {x: -0.85430956, y: -0.0057091713}
-      - {x: -0.00549452, y: -1.765625}
-      - {x: 0.0625, y: -1.765625}
-      - {x: 0.9163805, y: 0.003777504}
-      - {x: 0.875, y: 0.078125}
-      - {x: 0.021334156, y: 1.7345893}
+    - - {x: -0.02734375, y: 1.8398438}
+      - {x: -0.91015625, y: 0.08984375}
+      - {x: -0.91015625, y: -0.03515625}
+      - {x: -0.04296875, y: -1.8398438}
+      - {x: 0.04296875, y: -1.8398438}
+      - {x: 0.91015625, y: -0.04296875}
+      - {x: 0.91015625, y: 0.11328125}
+      - {x: 0.02734375, y: 1.8398438}
 --- !u!60 &60000012250715592
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -834,15 +835,15 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.546875, y: 0.125}
-      - {x: -0.546875, y: -0.125}
-      - {x: 0.546875, y: -0.125}
-      - {x: 0.546875, y: 0.125}
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!60 &60000012747504214
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -872,20 +873,23 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.6875, y: -0.035368443}
-      - {x: 0.5014529, y: -2.1296024}
-      - {x: 0.5625, y: -2.09375}
-      - {x: 1.6875, y: -0.390625}
-      - {x: 1.6875, y: 0.28125}
-      - {x: 0.484375, y: 2.09375}
-      - {x: 0.375, y: 2.09375}
-      - {x: 0.4366517, y: 2.0675871}
-      - {x: -1.6875, y: 0.03125}
+    - - {x: 0.546875, y: 1.3671875}
+      - {x: 0.4765625, y: 2.1796875}
+      - {x: 0.4296875, y: 2.1796875}
+      - {x: 0.3984375, y: 2.15625}
+      - {x: -1.7578125, y: 0.0234375}
+      - {x: -1.7578125, y: -0.0390625}
+      - {x: 0.1015625, y: -1.859375}
+      - {x: 0.4375, y: -2.1796875}
+      - {x: 0.4765625, y: -2.1796875}
+      - {x: 0.4765625, y: -1.2265625}
+      - {x: 1.7578125, y: -0.1015625}
+      - {x: 1.7578125, y: 0.109375}
 --- !u!60 &60007814721923572
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -920,10 +924,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -2.1875, y: 0.140625}
-      - {x: -2.1875, y: -0.140625}
-      - {x: 2.1875, y: -0.140625}
-      - {x: 2.1875, y: 0.140625}
+    - - {x: -2.2773438, y: 0.13671875}
+      - {x: -2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: 0.13671875}
 --- !u!60 &60258473717516234
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -958,10 +962,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -2.1875, y: 0.140625}
-      - {x: -2.1875, y: -0.140625}
-      - {x: 2.1875, y: -0.140625}
-      - {x: 2.1875, y: 0.140625}
+    - - {x: -2.2773438, y: 0.13671875}
+      - {x: -2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: 0.13671875}
 --- !u!60 &60633379452688458
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1059,7 +1063,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1094,7 +1098,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4de5d14ebf8ca4fb4bf9c002c151a65a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1129,7 +1133,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf50691a7f44e4c56bf90f5f445f76bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1199,7 +1203,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 84af26a488a264285b9dc997ff54f9c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1234,7 +1238,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ab1f361452ba443d2a7eed4f3c79d9ad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1304,7 +1308,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf50691a7f44e4c56bf90f5f445f76bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1444,7 +1448,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf50691a7f44e4c56bf90f5f445f76bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1514,7 +1518,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf50691a7f44e4c56bf90f5f445f76bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1584,7 +1588,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9bf2f5f656b6e4d4e8789570dbe2776d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1654,7 +1658,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9bf2f5f656b6e4d4e8789570dbe2776d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
