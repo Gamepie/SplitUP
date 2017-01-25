@@ -691,16 +691,20 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 0.078125, y: 4.6640625}
-      - {x: -0.140625, y: 4.6640625}
-      - {x: -0.484375, y: 4.4140625}
-      - {x: -0.484375, y: -4.3984375}
-      - {x: -0.125, y: -4.6640625}
-      - {x: 0.078125, y: -4.6640625}
-      - {x: 0.453125, y: -4.4609375}
-      - {x: 0.484375, y: -4.3984375}
-      - {x: 0.484375, y: 4.3984375}
-      - {x: 0.171875, y: 4.6171875}
+    - - {x: 0.49609375, y: 4.5625}
+      - {x: 0.45703125, y: 4.59375}
+      - {x: 0.12890625, y: 4.796875}
+      - {x: 0.03515625, y: 4.8515625}
+      - {x: -0.04296875, y: 4.8515625}
+      - {x: -0.47265625, y: 4.5859375}
+      - {x: -0.50390625, y: 4.5546875}
+      - {x: -0.50390625, y: -4.546875}
+      - {x: -0.48828125, y: -4.5703125}
+      - {x: -0.02734375, y: -4.8515625}
+      - {x: 0.03515625, y: -4.8515625}
+      - {x: 0.47265625, y: -4.578125}
+      - {x: 0.50390625, y: -4.5546875}
+      - {x: 0.50390625, y: 4.5546875}
 --- !u!60 &60212947910843254
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -715,10 +719,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.546875, y: 0.125}
-      - {x: -0.546875, y: -0.125}
-      - {x: 0.546875, y: -0.125}
-      - {x: 0.546875, y: 0.125}
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!60 &60289014768848158
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -733,10 +737,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -2.1875, y: 0.140625}
-      - {x: -2.1875, y: -0.140625}
-      - {x: 2.1875, y: -0.140625}
-      - {x: 2.1875, y: 0.140625}
+    - - {x: -2.2773438, y: 0.13671875}
+      - {x: -2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: -0.13671875}
+      - {x: 2.2773438, y: 0.13671875}
 --- !u!60 &60299135322119160
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -795,10 +799,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.546875, y: 0.125}
-      - {x: -0.546875, y: -0.125}
-      - {x: 0.546875, y: -0.125}
-      - {x: 0.546875, y: 0.125}
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!60 &60701853534723418
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -813,10 +817,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.546875, y: 0.125}
-      - {x: -0.546875, y: -0.125}
-      - {x: 0.546875, y: -0.125}
-      - {x: 0.546875, y: 0.125}
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!60 &60827016122833196
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -831,10 +835,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.546875, y: 0.125}
-      - {x: -0.546875, y: -0.125}
-      - {x: 0.546875, y: -0.125}
-      - {x: 0.546875, y: 0.125}
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!60 &60900337576007924
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1168,7 +1172,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1199,7 +1203,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114000012732434500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1466,7 +1470,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1497,7 +1501,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114000013159079046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1764,7 +1768,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1795,7 +1799,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114594932576475082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2062,7 +2066,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2093,7 +2097,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!212 &212000010681463750
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -2123,7 +2127,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2193,7 +2197,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bfd34324d10734a08a2d88ec9c6d2c1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2228,7 +2232,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2333,7 +2337,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2368,7 +2372,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b2c6905c834484c4aaba5af1cd67381d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2403,7 +2407,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b2c6905c834484c4aaba5af1cd67381d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2508,7 +2512,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9bf2f5f656b6e4d4e8789570dbe2776d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2543,7 +2547,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b2c6905c834484c4aaba5af1cd67381d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2683,7 +2687,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f64095417fd8b4508ab11cf484e71941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
