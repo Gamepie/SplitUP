@@ -5999,7 +5999,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.2352941, g: 0.22491348, b: 0.22491348, a: 1}
+  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -6010,7 +6010,7 @@ Camera:
   far clip plane: 1000
   field of view: 50
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8567,7 +8567,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11949,17 +11949,13 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 5
+  preFillCount: 1
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
+  - {fileID: 1529533287521608, guid: 8e1b0772b63034139b86753faba28f97, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
