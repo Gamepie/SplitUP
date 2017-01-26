@@ -20,7 +20,7 @@ QualitySettings:
     blendWeights: 1
     textureQuality: 1
     anisotropicTextures: 0
-    antiAliasing: 0
+    antiAliasing: 2
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -109,7 +109,11 @@ QualitySettings:
     particleRaycastBudget: 256
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
+    - iPhone
+    - Android
+    - WebGL
   - serializedVersion: 2
     name: Beautiful
     pixelLightCount: 3
@@ -135,7 +139,11 @@ QualitySettings:
     particleRaycastBudget: 1024
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - WebGL
+    - Android
+    - iPhone
+    - Standalone
   - serializedVersion: 2
     name: Fantastic
     pixelLightCount: 4
@@ -161,7 +169,11 @@ QualitySettings:
     particleRaycastBudget: 4096
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
+    - iPhone
+    - Android
+    - WebGL
   m_PerPlatformDefaultQuality:
     Android: 0
     Standalone: 0

@@ -1818,7 +1818,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1178595747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07196432, y: -0.97574365, z: 0}
+  m_LocalPosition: {x: 1.27, y: 2.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1865,12 +1865,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.DontDestroyOnLoad
+        - HutongGames.PlayMaker.Actions.TargetFrameRate
+        - HutongGames.PlayMaker.Actions.GetFPS
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 8d4bb503
+        - 
+        - 
+        actionEnabled: 010001
+        actionIsOpen: 010101
+        actionStartIndex: 000000000100000002000000
+        actionHashCodes: 8d4bb503dcbe48043855d304
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1888,13 +1892,37 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.5
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 60
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -1907,11 +1935,15 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000
+        paramDataType: 14000000100000000f0000000f00000012000000
         paramName:
         - gameObject
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
+        - intValue
+        - updateInterval
+        - FPS
+        - FPS_asString
+        paramDataPos: 0000000000000000000000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
     - name: Show Ad Main Menu
       description: 
       colorIndex: 3

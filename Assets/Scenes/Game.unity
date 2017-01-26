@@ -115,7 +115,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21778759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.06, y: -3.69, z: 0}
+  m_LocalPosition: {x: 4.9, y: -5.1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.28874323}
   m_Children: []
   m_Father: {fileID: 1618695684}
@@ -1925,8 +1925,8 @@ GameObject:
   - component: {fileID: 72868375}
   - component: {fileID: 72868376}
   - component: {fileID: 72868377}
-  - component: {fileID: 72868374}
   - component: {fileID: 72868378}
+  - component: {fileID: 72868374}
   m_Layer: 30
   m_Name: BouleG
   m_TagString: Untagged
@@ -2002,8 +2002,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &72868374
-PolygonCollider2D:
+--- !u!58 &72868374
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2014,16 +2014,8 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.45999998, y: 0.074999996}
-      - {x: -0.45999998, y: -0.074999996}
-      - {x: 0.47, y: -0.074999996}
-      - {x: 0.47, y: 0.074999996}
-    - - {x: -0.39, y: 0.015}
-      - {x: 0.39999998, y: 0.015}
-      - {x: 0.39999998, y: -0.005}
-      - {x: -0.39, y: -0.005}
+  serializedVersion: 2
+  m_Radius: 0.26000002
 --- !u!114 &72868375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2653,7 +2645,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.7
+  m_Time: 0.8
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -2662,19 +2654,19 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.15
+        value: 0.15357783
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: 0.02
-        inSlope: 0
-        outSlope: 0
+        value: 0.031627912
+        inSlope: -0.013298382
+        outSlope: -0.013298382
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       key0:
         serializedVersion: 2
@@ -2719,11 +2711,11 @@ TrailRenderer:
       m_Mode: 0
       m_NumColorKeys: 5
       m_NumAlphaKeys: 5
-    numCornerVertices: 0
-    numCapVertices: 0
+    numCornerVertices: 30
+    numCapVertices: 30
     alignment: 0
     textureMode: 1
-  m_MinVertexDistance: 1e-10
+  m_MinVertexDistance: 0.1
   m_Autodestruct: 0
 --- !u!114 &72868378
 MonoBehaviour:
@@ -6260,8 +6252,8 @@ SpriteRenderer:
   m_Color: {r: 0.9058824, g: 0.9215687, b: 0.9294118, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!60 &898193434
-PolygonCollider2D:
+--- !u!58 &898193434
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6272,16 +6264,8 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.45999998, y: 0.074999996}
-      - {x: -0.45999998, y: -0.074999996}
-      - {x: 0.47, y: -0.074999996}
-      - {x: 0.47, y: 0.074999996}
-    - - {x: -0.39, y: 0.015}
-      - {x: 0.39999998, y: 0.015}
-      - {x: 0.39999998, y: -0.005}
-      - {x: -0.39, y: -0.005}
+  serializedVersion: 2
+  m_Radius: 0.26000002
 --- !u!114 &898193435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6908,7 +6892,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.7
+  m_Time: 0.8
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -6929,7 +6913,7 @@ TrailRenderer:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       key0:
         serializedVersion: 2
@@ -6978,7 +6962,7 @@ TrailRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 0
-  m_MinVertexDistance: 1e-10
+  m_MinVertexDistance: 0.1
   m_Autodestruct: 0
 --- !u!1 &915319708
 GameObject:
