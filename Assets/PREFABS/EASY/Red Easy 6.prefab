@@ -105,8 +105,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4000012858455136}
   - component: {fileID: 50000013787671044}
-  - component: {fileID: 212000014161086732}
-  - component: {fileID: 95000012210096596}
   m_Layer: 15
   m_Name: Red Easy 6
   m_TagString: Untagged
@@ -774,16 +772,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.484375, y: 2.1796875}
-      - {x: -0.4765625, y: 1.3359375}
-      - {x: -1.4921875, y: 0.359375}
-      - {x: -1.7578125, y: 0.046875}
-      - {x: -1.7578125, y: -0.0390625}
-      - {x: -0.546875, y: -1.1640625}
-      - {x: -0.4765625, y: -2.1796875}
-      - {x: -0.4296875, y: -2.1796875}
-      - {x: 1.7578125, y: -0.03125}
-      - {x: 1.7578125, y: 0.03125}
-      - {x: -0.421875, y: 2.1796875}
+      - {x: -0.46414232, y: -2.1773195}
+      - {x: 1.7784457, y: 0.009746075}
 --- !u!60 &60000011299782850
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -818,14 +808,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.02734375, y: 1.8398438}
-      - {x: -0.91015625, y: 0.08984375}
+    - - {x: 0.9201807, y: 0.008672476}
+      - {x: -0.0008958131, y: 1.8538833}
       - {x: -0.91015625, y: -0.03515625}
-      - {x: -0.04296875, y: -1.8398438}
-      - {x: 0.04296875, y: -1.8398438}
-      - {x: 0.91015625, y: -0.04296875}
-      - {x: 0.91015625, y: 0.11328125}
-      - {x: 0.02734375, y: 1.8398438}
+      - {x: -0.00038334727, y: -1.8717828}
 --- !u!60 &60000012250715592
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1017,23 +1003,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.01}
   serializedVersion: 2
   m_Size: {x: 6.3, y: 0.02}
---- !u!95 &95000012210096596
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013124713196}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!212 &212000010285295726
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1311,41 +1280,6 @@ SpriteRenderer:
   m_SortingLayerID: 1923212793
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf50691a7f44e4c56bf90f5f445f76bf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!212 &212000014161086732
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013124713196}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
