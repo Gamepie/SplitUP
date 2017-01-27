@@ -115,7 +115,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21778759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.06, y: -3.69, z: 0}
+  m_LocalPosition: {x: 4.9, y: -5.1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.28874323}
   m_Children: []
   m_Father: {fileID: 1618695684}
@@ -2645,7 +2645,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.7
+  m_Time: 0.8
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -2654,19 +2654,19 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.15
+        value: 0.15357783
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: 0.02
-        inSlope: 0
-        outSlope: 0
+        value: 0.031627912
+        inSlope: -0.013298382
+        outSlope: -0.013298382
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       key0:
         serializedVersion: 2
@@ -2715,7 +2715,7 @@ TrailRenderer:
     numCapVertices: 30
     alignment: 0
     textureMode: 1
-  m_MinVertexDistance: 1e-10
+  m_MinVertexDistance: 0.1
   m_Autodestruct: 0
 --- !u!114 &72868378
 MonoBehaviour:
@@ -7791,7 +7791,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.7
+  m_Time: 0.8
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -7812,7 +7812,7 @@ TrailRenderer:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       key0:
         serializedVersion: 2
@@ -7861,7 +7861,7 @@ TrailRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 0
-  m_MinVertexDistance: 1e-10
+  m_MinVertexDistance: 0.1
   m_Autodestruct: 0
 --- !u!1 &915319708
 GameObject:
@@ -8267,7 +8267,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Restart Level
+        toState: Add int GSLT
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8551,6 +8551,83 @@ MonoBehaviour:
         - ifError
         paramDataPos: 000000000100000000000000020000000300000004000000000000000500000000000000
         paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000
+    - name: Add int GSLT
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 434.1797
+        y: 160.5
+        width: 105
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Restart Level
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Game Sessions LT
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - add
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: touched
       isSystemEvent: 0
@@ -8590,7 +8667,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -13174,7 +13251,7 @@ MonoBehaviour:
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1529533287521608, guid: 8e1b0772b63034139b86753faba28f97, type: 2}
+  - {fileID: 0}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
