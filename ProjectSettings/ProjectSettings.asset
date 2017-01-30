@@ -476,7 +476,7 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Collab: 1
+    Collab: 0
     UNet: 1
   cloudProjectId: e9c28942-aaf7-40f5-9d42-ec3864b4e99f
   projectName: Split Up (1)

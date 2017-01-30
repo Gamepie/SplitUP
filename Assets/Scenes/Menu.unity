@@ -1871,7 +1871,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010001
+        actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000100000002000000
         actionHashCodes: 8d4bb503dcbe48043855d304
@@ -1893,8 +1893,8 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: FPS_as String
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1910,8 +1910,8 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0.5
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: FPS
           tooltip: 
           showInInspector: 0
           networkSync: 0
