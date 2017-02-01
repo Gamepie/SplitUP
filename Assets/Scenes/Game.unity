@@ -117,8 +117,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.06, y: -3.69, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.28874323}
-  m_LocalPosition: {x: 2.06, y: -3.71, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.47812092, z: 0.28874323}
   m_Children: []
   m_Father: {fileID: 1618695684}
   m_RootOrder: 1
@@ -1734,7 +1732,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2222,7 +2220,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2695,10 +2693,10 @@ TrailRenderer:
         serializedVersion: 2
         rgba: 0
       ctime0: 0
-      ctime1: 16384
-      ctime2: 32768
-      ctime3: 49151
-      ctime4: 65535
+      ctime1: 65535
+      ctime2: 34502
+      ctime3: 65535
+      ctime4: 50115
       ctime5: 0
       ctime6: 0
       ctime7: 0
@@ -2711,7 +2709,7 @@ TrailRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 5
+      m_NumColorKeys: 2
       m_NumAlphaKeys: 5
     numCornerVertices: 30
     numCapVertices: 30
@@ -6919,19 +6917,19 @@ TrailRenderer:
     colorGradient:
       key0:
         serializedVersion: 2
-        rgba: 4293848296
+        rgba: 4293914088
       key1:
         serializedVersion: 2
-        rgba: 4293848296
+        rgba: 4293914088
       key2:
         serializedVersion: 2
         rgba: 4291347647
       key3:
         serializedVersion: 2
-        rgba: 4287927684
+        rgba: 4287400830
       key4:
         serializedVersion: 2
-        rgba: 4287927684
+        rgba: 4287400830
       key5:
         serializedVersion: 2
         rgba: 0
@@ -6942,10 +6940,10 @@ TrailRenderer:
         serializedVersion: 2
         rgba: 0
       ctime0: 0
-      ctime1: 16384
-      ctime2: 32768
-      ctime3: 49151
-      ctime4: 65535
+      ctime1: 65535
+      ctime2: 34502
+      ctime3: 65535
+      ctime4: 50115
       ctime5: 0
       ctime6: 0
       ctime7: 0
@@ -6958,12 +6956,12 @@ TrailRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 5
+      m_NumColorKeys: 2
       m_NumAlphaKeys: 5
     numCornerVertices: 30
     numCapVertices: 30
     alignment: 0
-    textureMode: 0
+    textureMode: 1
   m_MinVertexDistance: 1e-10
   m_Autodestruct: 0
 --- !u!1 &915319708
@@ -8432,7 +8430,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8631,7 +8629,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11905,7 +11903,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11962,7 +11960,7 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 7
+  preFillCount: 29
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
@@ -11975,6 +11973,28 @@ MonoBehaviour:
   - {fileID: 1000010533850858, guid: 8dfc07b64c8f24520a93ad680d654e25, type: 2}
   - {fileID: 1000012866914586, guid: 9928d7614e8a847caa206fc095c9963e, type: 2}
   - {fileID: 1000011766365092, guid: db1930ef0ede4488998ed36b524b0d51, type: 2}
+  - {fileID: 1000010298111182, guid: 58381e02d9bb54205bbf3f683292d79f, type: 2}
+  - {fileID: 1000013440715112, guid: 87197ec8dc0714655b0330b1ad5d8d98, type: 2}
+  - {fileID: 1000011147308640, guid: 57e3c2bc596b0433a87ded13ad8f03fc, type: 2}
+  - {fileID: 1000010736936822, guid: 9ae2915137603435bb4fece3ac03ccbf, type: 2}
+  - {fileID: 1000010951590974, guid: 917ec10f49985406ebfa7e80cf7de271, type: 2}
+  - {fileID: 1000011719479392, guid: 7363c95b72852455cbd0a3ec7d237807, type: 2}
+  - {fileID: 1000011627236026, guid: c083e7615a3d5489b901fc827fc100f7, type: 2}
+  - {fileID: 1000013960631486, guid: 0eda57c5d7b464e639ec3d652dcb62ad, type: 2}
+  - {fileID: 1000012641607680, guid: 16fff06031b08432cabd362a74bffe2d, type: 2}
+  - {fileID: 1000012359278204, guid: a84bd61f3fdf74790be4172180d7c518, type: 2}
+  - {fileID: 1000012988525274, guid: b6084bb6fe8624bb7bc6b0ca003ce236, type: 2}
+  - {fileID: 1000011435340846, guid: bc351d15d11524cf184a5f8c33267ed7, type: 2}
+  - {fileID: 1000010430458148, guid: 13913e9fbc5db44b482b8fdd89cf4c0a, type: 2}
+  - {fileID: 1000014243071918, guid: 3750a179a984c4f72b7ed28bb835ec09, type: 2}
+  - {fileID: 1000013133936158, guid: 2550bcdf5bcfc471a8b356baf264cbc4, type: 2}
+  - {fileID: 1000012835508372, guid: d6dbdf1fa9e8f43d49115f1815416310, type: 2}
+  - {fileID: 1000012270065178, guid: 41f3c9af52e8f4d2e971188ce57d48df, type: 2}
+  - {fileID: 1000012168878044, guid: 4839a8811ad2046f09b3142a8cfb0539, type: 2}
+  - {fileID: 1000013729971284, guid: 2927b785d9c8e4e71bd2951fbbb469c9, type: 2}
+  - {fileID: 1000011982188694, guid: c3a025f15ad5b477dbb25b43211fd31f, type: 2}
+  - {fileID: 1000012431188082, guid: 7493393522fd040a2be4669a65c4e501, type: 2}
+  - {fileID: 1000013908610958, guid: 94e8151a25c6046a0bb0e4c4d11e6f79, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -12012,13 +12032,43 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 9
+  preFillCount: 39
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1529533287521608, guid: 0d15cf415d3a24eaa9af6f4f6903eb22, type: 2}
+  - {fileID: 1000010809933284, guid: 49bfa4dc4fb144e2f867b1c3b026021f, type: 2}
+  - {fileID: 1000012371204592, guid: 06d15b0a678ff4ec2950d27b9f3ad16c, type: 2}
+  - {fileID: 1000013280533554, guid: 901f86a73125e4475999b18b522a00b8, type: 2}
+  - {fileID: 1000012244103154, guid: cd9b13e9cd5d046df8e4720cb91de161, type: 2}
+  - {fileID: 1000013199880998, guid: f69398cce8cee4e2995a063020c58d9b, type: 2}
+  - {fileID: 1000010769804250, guid: 8b4ba07ab9e5741ce9ed8d812bb12f7b, type: 2}
+  - {fileID: 1000011827967276, guid: 81a14ec5238394ce59628bfaef0fc4cc, type: 2}
+  - {fileID: 1000013589284818, guid: b84df2703a0cc4d5eaefe2b3688a882c, type: 2}
+  - {fileID: 1000010439879950, guid: dc99c0df8815c4e81980f8a546199b34, type: 2}
+  - {fileID: 1000011316680222, guid: 92f715ed216484cc3adbf05c70b5f748, type: 2}
+  - {fileID: 1000011915759950, guid: 988f78c888bbf45b9b3e2bec61337e25, type: 2}
+  - {fileID: 1000010473580502, guid: b8ea83583cbd24d57a864f5afdf55dfa, type: 2}
+  - {fileID: 1000012267706630, guid: 192dae1a2e3ca4e159ac82361c0b9b1e, type: 2}
+  - {fileID: 1000010983039788, guid: a355582a7fa5b4786bbde6b09efa8bd9, type: 2}
+  - {fileID: 1000011557528876, guid: 4969635974ab04fa7a101ed176912884, type: 2}
+  - {fileID: 1000013682418684, guid: 3c202a7a669344a9da62d116032bf306, type: 2}
+  - {fileID: 1000012444397830, guid: 5ccabbc71e45d442eaeec9abac7605a5, type: 2}
+  - {fileID: 1000011679655478, guid: fbe948fc89d874049a86ab6a28a79967, type: 2}
+  - {fileID: 1000010194527768, guid: 66a25c02069c5477bb5b3d71e8616b31, type: 2}
+  - {fileID: 1000012569490730, guid: 1657c135476da4dc1999b7b8690c65e8, type: 2}
+  - {fileID: 1000013437374976, guid: 75d3d89c671f749c591837b3a8f22ebc, type: 2}
+  - {fileID: 1000013829876860, guid: 978bef768527c4edd87b555610e6ea64, type: 2}
+  - {fileID: 1000013481729740, guid: 74f3e09c4bbd24ab1a4e6d4ca3914c55, type: 2}
+  - {fileID: 1000012138140298, guid: 290727665305a4d5c81bda2b39b83e9b, type: 2}
+  - {fileID: 1000013411588796, guid: 45d430fe77a364e0aa165bc2c2dd9e7b, type: 2}
+  - {fileID: 1000014112236714, guid: 92c54e8837fcd42e488cc29a1f3d095b, type: 2}
+  - {fileID: 1000012938203774, guid: b98f76a1725f84f289582998b4c80a0b, type: 2}
+  - {fileID: 1000013371424268, guid: 575a227dd3347488b92bd8c0a5b1b28c, type: 2}
+  - {fileID: 1000012274679934, guid: 4f6af1759ba244dd48051919919641a4, type: 2}
+  - {fileID: 1000012975335104, guid: 9019e37a6f5d542df8019cda6764e85b, type: 2}
+  - {fileID: 1529533287521608, guid: 8e1b0772b63034139b86753faba28f97, type: 2}
   - {fileID: 1000011667218098, guid: 36baf8746896e40a8843c7e8b0b18ab5, type: 2}
   - {fileID: 1000013908494534, guid: 86314e503605c47df9fe3f70594cf46a, type: 2}
   - {fileID: 1000012618238682, guid: dcba0fd252cbd4292ba11614d0c93252, type: 2}
@@ -12064,12 +12114,15 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 1
+  preFillCount: 4
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
+  - {fileID: 1000010477677100, guid: 4705c0d0499093a4aa02ea13ebddac6f, type: 2}
+  - {fileID: 1000011615303622, guid: d7385860543e04a3689c842feaba4c83, type: 2}
+  - {fileID: 1000010143604888, guid: 77b0da65b0fcc4125a1003d2ba7678c8, type: 2}
   - {fileID: 1000010137757198, guid: f435c189a98b84450bbd6a00581b82f2, type: 2}
   preFillIntList: 
   preFillMaterialList: []
@@ -12108,17 +12161,33 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 5
+  preFillCount: 21
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000011334739114, guid: 646660e5539f4499692f24ce65d85a8e, type: 2}
-  - {fileID: 1000012255968934, guid: ae3eb2987e65d4406ab21cf9442a662c, type: 2}
   - {fileID: 1000011044530788, guid: 630f95abc0a1644de826a41c363dd6ab, type: 2}
-  - {fileID: 1000011722909478, guid: 069cb473cf155488c94f0539cf470644, type: 2}
+  - {fileID: 1000012255968934, guid: ae3eb2987e65d4406ab21cf9442a662c, type: 2}
   - {fileID: 1000012232875722, guid: 77f089270da99480fafb6f43fae49147, type: 2}
+  - {fileID: 1000011722909478, guid: 069cb473cf155488c94f0539cf470644, type: 2}
+  - {fileID: 1000011334739114, guid: 646660e5539f4499692f24ce65d85a8e, type: 2}
+  - {fileID: 1000011195690312, guid: f3f67ab3bcf574ef19aade1c86123e14, type: 2}
+  - {fileID: 1000013293515372, guid: 98ab957396bb94b1da0f6e656762c66f, type: 2}
+  - {fileID: 1000010331495096, guid: d42eda5aed052433cae0ea8a6c8f7730, type: 2}
+  - {fileID: 1000011727047266, guid: b28a9ebbb06ec4e73ba2cccc6bf23425, type: 2}
+  - {fileID: 1000013151580378, guid: 7516039f051824b759e1450face3959b, type: 2}
+  - {fileID: 1000010611225508, guid: 197f10a822e1044c8a83589d23460b65, type: 2}
+  - {fileID: 1000012166943806, guid: f8167e33a11d64c8481a77b6d7045bb2, type: 2}
+  - {fileID: 1000010034745834, guid: 3c5427ea68c734015be8300cc482da05, type: 2}
+  - {fileID: 1000010965660106, guid: 43461a23c0fca418185a95e2e53e34b8, type: 2}
+  - {fileID: 1000014071866974, guid: 2d83f02b8ce3e49d383dde4f2f9b7816, type: 2}
+  - {fileID: 1000012903506098, guid: d78c62b69ce8d4413832e73057914b21, type: 2}
+  - {fileID: 1000010599309264, guid: 46d2015ad02914aaa9f906567f264c1b, type: 2}
+  - {fileID: 1000010538431404, guid: 10e2b64fba8794290bb9d703934d76dc, type: 2}
+  - {fileID: 1000013871165134, guid: 6d13b5ed135ec41e297b02bd31f5bca2, type: 2}
+  - {fileID: 1000014240974190, guid: bc16c54baea7946fb92d5e8c10624f88, type: 2}
+  - {fileID: 1000013778513338, guid: 336882eff6b714e27a45f3e2a526d695, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -12528,7 +12597,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000001
+        actionIsOpen: 000000000101
         actionStartIndex: 00000000070000000a0000000e000000120000001a000000
         actionHashCodes: 5552ad059845b3052a6e8a000c8bc100f6e5be037bce7604
         unityObjectParams: []
