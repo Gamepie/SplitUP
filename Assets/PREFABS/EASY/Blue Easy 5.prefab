@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 60204453455758616}
   m_Layer: 0
   m_Name: B_Polygon
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 60178146419757136}
   m_Layer: 0
   m_Name: B_5
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,7 +398,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010322180556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1.01, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4000011354807442}
@@ -453,7 +453,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011554811010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.3, z: 0}
+  m_LocalPosition: {x: 3, y: -4, z: 0}
   m_LocalScale: {x: 1.01, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4000011354807442}
@@ -762,9 +762,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.01}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 6.3, y: 0.02}
+  m_Size: {x: 0.8125, y: 0.6875}
 --- !u!61 &61000010904316552
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -776,9 +776,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.01}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 6.3, y: 0.02}
+  m_Size: {x: 0.8125, y: 0.6875}
 --- !u!95 &95000011109470112
 Animator:
   serializedVersion: 3
@@ -827,7 +827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea5152debc2d1e04ca46040b3dfca5b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac5e621707ca845a890be0442f26704d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1002,7 +1002,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea5152debc2d1e04ca46040b3dfca5b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac5e621707ca845a890be0442f26704d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

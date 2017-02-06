@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 60824516349957930}
   m_Layer: 0
   m_Name: B_Small triangle 3
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 60842149894709302}
   m_Layer: 0
   m_Name: B_Small triangle 2
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 114407567983577768}
   m_Layer: 0
   m_Name: B_Circle
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 114052871385590568}
   m_Layer: 0
   m_Name: B_Circle (1)
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1473,7 +1473,7 @@ MonoBehaviour:
   eventHandlerComponentsAdded: 1
 --- !u!114 &114052871385590568
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975594624467170}
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   eventHandlerComponentsAdded: 1
 --- !u!114 &114407567983577768
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1590022836738778}
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &114497621765892850
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013128522912}
