@@ -5,7 +5,9 @@ public class AdsManager : MonoBehaviour {
 
 public static bool showOnce = false;
 
-	// Use this for initialization
+	// Use this for initializationd 
+
+
 	void Start () {
 		HeyzapAds.Start("35848a20ffa97036bf2d562bcc9641ce", HeyzapAds.FLAG_DISABLE_AUTOMATIC_FETCHING);
 
@@ -18,6 +20,8 @@ public static bool showOnce = false;
 	void Update () {
 
 	}
+
+
 	
 	void FetchAdGameOver () {
 		HZInterstitialAd.Fetch("GameOver");

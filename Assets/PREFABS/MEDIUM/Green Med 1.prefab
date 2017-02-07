@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 60979627821472292}
   m_Layer: 15
   m_Name: 6
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 60976617833835328}
   m_Layer: 15
   m_Name: 7
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,8 +125,8 @@ GameObject:
   - component: {fileID: 212000012293481678}
   - component: {fileID: 60210875828105072}
   m_Layer: 15
-  m_Name: 4
-  m_TagString: Untagged
+  m_Name: 6 (2)
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 60740278738937624}
   m_Layer: 15
   m_Name: 6 (1)
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 58839536589620416}
   m_Layer: 0
   m_Name: G_Dot 1 (1)
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 58205171213773020}
   m_Layer: 0
   m_Name: G_Dot 1 (3)
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 58054979209585696}
   m_Layer: 0
   m_Name: G_Dot 1
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 58256569593831934}
   m_Layer: 0
   m_Name: G_Dot 1 (2)
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2156,7 +2156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1923212793
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f8edb465afee643ef9046d7774cbf14c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fa8f04470367407b83e2ccec7e62d62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2541,7 +2541,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: df0c56f15c1784c79a660234354c4137, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a97f3a387ee7e4787a9d83c6fae51410, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
