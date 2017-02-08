@@ -8898,6 +8898,7 @@ GameObject:
   - component: {fileID: 1857752989}
   - component: {fileID: 1857752988}
   - component: {fileID: 1857752991}
+  - component: {fileID: 1857752992}
   m_Layer: 0
   m_Name: s_PatternManager
   m_TagString: Untagged
@@ -9790,7 +9791,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: p=2
+        toState: Test patterns
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9869,8 +9870,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 464.48438
-        y: 409.73438
+        x: 510.5703
+        y: 405.6953
         width: 119
         height: 48
       isBreakpoint: 0
@@ -10187,7 +10188,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 5, z: 0}
+          value: {x: 0, y: 8, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -10533,7 +10534,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 9, z: 0}
+          value: {x: 0, y: 8, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
@@ -10874,7 +10875,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 371.0547
         y: 531.7344
-        width: 120
+        width: 100
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -11878,6 +11879,254 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
+    - name: Test patterns
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 76.6875
+        y: 645.7969
+        width: 120
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Add to array Test
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayListGetNext
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 28fda400
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Test
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: RandomTestPattern
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        - 
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000120000001100000010000000100000001700000017000000170000001000000027000000
+        paramName:
+        - gameObject
+        - reference
+        - reset
+        - startIndex
+        - endIndex
+        - loopEvent
+        - finishedEvent
+        - failureEvent
+        - currentIndex
+        - result
+        paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: Add to array Test
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 107.69531
+        y: 751.9219
+        width: 134
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Array Get Next
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayListAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 1cc91602
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: ObstaclesPattern
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: RandomTestPattern
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000270000000100000010000000
+        paramName:
+        - gameObject
+        - reference
+        - variable
+        - convertIntToByte
+        - index
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000100000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -11899,7 +12148,7 @@ MonoBehaviour:
         name: DestructCreate
         isSystemEvent: 0
         isGlobal: 1
-      toState: p=2
+      toState: Test patterns
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -11951,6 +12200,12 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
+        name: RandomTestPattern
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: Randompattern
         tooltip: 
         showInInspector: 0
@@ -11963,7 +12218,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -12255,6 +12510,54 @@ MonoBehaviour:
   - {fileID: 1000013871165134, guid: 6d13b5ed135ec41e297b02bd31f5bca2, type: 2}
   - {fileID: 1000014240974190, guid: bc16c54baea7946fb92d5e8c10624f88, type: 2}
   - {fileID: 1000013778513338, guid: 336882eff6b714e27a45f3e2a526d695, type: 2}
+  preFillIntList: 
+  preFillMaterialList: []
+  preFillObjectList: []
+  preFillQuaternionList: []
+  preFillRectList: []
+  preFillStringList: []
+  preFillTextureList: []
+  preFillVector2List: []
+  preFillVector3List: []
+  preFillAudioClipList: []
+  preFillByteList: 
+  preFillSpriteList: []
+--- !u!114 &1857752992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857752982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showEvents: 1
+  showContent: 1
+  TextureElementSmall: 0
+  condensedView: 0
+  liveUpdate: 0
+  referenceName: Test
+  enablePlayMakerEvents: 0
+  addEvent: 
+  setEvent: 
+  removeEvent: 
+  contentPreviewStartIndex: 0
+  contentPreviewMaxRows: 10
+  preFillType: 0
+  preFillObjectTypeIndex: 0
+  preFillCount: 5
+  preFillKeyList: []
+  preFillBoolList: 
+  preFillColorList: []
+  preFillFloatList: []
+  preFillGameObjectList:
+  - {fileID: 1000013481729740, guid: 74f3e09c4bbd24ab1a4e6d4ca3914c55, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -12756,7 +13059,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -14635,7 +14938,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -14766,7 +15069,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
