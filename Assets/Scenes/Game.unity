@@ -2286,7 +2286,7 @@ MonoBehaviour:
           name: Collision Detected
           isSystemEvent: 0
           isGlobal: 1
-        toState: Deactivate target Box Collider
+        toState: Deactivate target Box Collider!
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2649,14 +2649,14 @@ MonoBehaviour:
         - cancelOnExit
         paramDataPos: 00000000000000000100000000000000000000000100000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
-    - name: Deactivate target Box Collider
+    - name: Deactivate target Box Collider!
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 54.375
         y: 237.36719
-        width: 219
+        width: 224
         height: 32
       isBreakpoint: 0
       isSequence: 0
