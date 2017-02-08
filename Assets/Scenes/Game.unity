@@ -3009,7 +3009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &127960477
 Transform:
   m_ObjectHideFlags: 0
@@ -4176,18 +4176,28 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayListGetRandom
         - HutongGames.PlayMaker.Actions.ArrayListGet
         - HutongGames.PlayMaker.Actions.ArrayListAdd
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 7d0dad031cc91602
+        - 
+        actionEnabled: 010001
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: b8a182027d0dad031cc91602
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -4211,6 +4221,12 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Backgrounds
         - useVariable: 0
           name: 
           tooltip: 
@@ -4273,10 +4289,40 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
+        - variableName: BackgroundsPattern
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -4297,13 +4343,19 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001000000027000000170000001400000012000000270000000100000010000000
+        paramDataType: 140000001200000027000000100000001700000014000000120000001000000027000000170000001400000012000000270000000100000010000000
         paramName:
+        - gameObject
+        - reference
+        - randomItem
+        - randomIndex
+        - failureEvent
         - gameObject
         - reference
         - atIndex
@@ -4314,8 +4366,8 @@ MonoBehaviour:
         - variable
         - convertIntToByte
         - index
-        paramDataPos: 00000000000000000000000000000000000000000100000001000000010000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000000000000
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000100000001000000010000000200000002000000020000000000000002000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: Bool test
       description: 
       colorIndex: 0
@@ -4556,7 +4608,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -5477,7 +5529,7 @@ MonoBehaviour:
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000012515343968, guid: 3bf3049c602974027813066a0ec90732, type: 2}
+  - {fileID: 0}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -12805,7 +12857,7 @@ MonoBehaviour:
   - {fileID: 1000012371204592, guid: 06d15b0a678ff4ec2950d27b9f3ad16c, type: 2}
   - {fileID: 1000013280533554, guid: 901f86a73125e4475999b18b522a00b8, type: 2}
   - {fileID: 1000012244103154, guid: cd9b13e9cd5d046df8e4720cb91de161, type: 2}
-  - {fileID: 1000013199880998, guid: f69398cce8cee4e2995a063020c58d9b, type: 2}
+  - {fileID: 0}
   - {fileID: 1000010769804250, guid: 8b4ba07ab9e5741ce9ed8d812bb12f7b, type: 2}
   - {fileID: 1000011827967276, guid: 81a14ec5238394ce59628bfaef0fc4cc, type: 2}
   - {fileID: 1000013589284818, guid: b84df2703a0cc4d5eaefe2b3688a882c, type: 2}
@@ -12994,9 +13046,9 @@ MonoBehaviour:
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000013199880998, guid: f69398cce8cee4e2995a063020c58d9b, type: 2}
-  - {fileID: 1000013199880998, guid: f69398cce8cee4e2995a063020c58d9b, type: 2}
-  - {fileID: 1000013199880998, guid: f69398cce8cee4e2995a063020c58d9b, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
