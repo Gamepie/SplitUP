@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 95000011109470112}
   - component: {fileID: 114236383562541262}
   m_Layer: 0
-  m_Name: HSBar (1)
+  m_Name: 'New Score '
   m_TagString: HSBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 61000010167856296}
   - component: {fileID: 114965345901257088}
   m_Layer: 0
-  m_Name: HSBar
+  m_Name: New Score
   m_TagString: HSBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
