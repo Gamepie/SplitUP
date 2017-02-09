@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpriteBG : MonoBehaviour {
 
+	public Sprite HighScore;
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +14,10 @@ public class SpriteBG : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void putsprite () {
+		this.GetComponent<SpriteRenderer> ().sprite = HighScore;
+		
+	}
+
 }
