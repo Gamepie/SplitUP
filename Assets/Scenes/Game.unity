@@ -16260,7 +16260,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.06
+          value: 0.04
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
