@@ -60,3 +60,9 @@ TagManager:
   - name: 4
     uniqueID: 2819981613
     locked: 0
+  - name: Menu Pause 1
+    uniqueID: 199799495
+    locked: 0
+  - name: Menu Pause 2
+    uniqueID: 1116153993
+    locked: 0
