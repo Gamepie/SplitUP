@@ -879,6 +879,7 @@ GameObject:
   - component: {fileID: 181746060}
   - component: {fileID: 181746062}
   - component: {fileID: 181746061}
+  - component: {fileID: 181746063}
   m_Layer: 0
   m_Name: Rate
   m_TagString: Untagged
@@ -984,14 +985,14 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1178595747}
+            value: {fileID: 1737992791}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -1004,13 +1005,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: AdsManager
+          value: Rate_me
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: AdTestSuite
+          value: rate
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1261,7 +1262,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1307,6 +1308,17 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.8359375, y: 2.5390625}
+--- !u!114 &181746063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181746058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12ebfb1e11932914c89a17fcbbd79841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &380158874
 GameObject:
   m_ObjectHideFlags: 0
