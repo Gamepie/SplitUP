@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System;
 using System.IO;
@@ -284,7 +284,7 @@ namespace PaperPlaneTools
 		/// Increments the custom counter.
 		/// Call IncrementCustomCounter to increment the counter if MinCustomEventsCount restriction is greater than 0
 		/// </summary>
-		public void IncrementCustomCounter(int value = 1)
+		 public void IncrementCustomCounter(int value = 1)
 		{
 			Statistics.CustomEventCount += value;
 			SaveStatistics ();
@@ -399,7 +399,7 @@ namespace PaperPlaneTools
 		/// It's really rare when Statistics is manupulated outside the RateBox class, and I would not recomend you to do so without a strong reason.
 		/// However, if you have such reason call SaveStatistics after you've changed Statistic to store it permanently
 		/// </summary>
-		public bool SaveStatistics() 
+		 public bool SaveStatistics() 
 		{
 			try {
 				string path = Application.persistentDataPath + "/" + statisticsPath;

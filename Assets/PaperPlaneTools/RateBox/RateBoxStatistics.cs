@@ -6,12 +6,12 @@ using System.Xml.Serialization;
 namespace PaperPlaneTools
 {
 	[Serializable]
-	public class RateBoxStatistics
+	 public class RateBoxStatistics
 	{
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PaperPlaneTools.RateBoxStatistics"/> class.
 		/// </summary>
-		public RateBoxStatistics()
+		 public RateBoxStatistics()
 		{
 			SessionsCount = 0;
 			CustomEventCount = 0;
