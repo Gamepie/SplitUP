@@ -119,7 +119,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.gamepie.splitup
-  bundleVersion: 0.6.4
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -133,7 +133,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  iPhoneBuildNumber: 11.1
+  iPhoneBuildNumber: 0
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0
@@ -369,7 +369,7 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
-  spritePackerPolicy: TightPackerPolicy
+  spritePackerPolicy: TightRotateEnabledSpritePackerPolicy
   webGLMemorySize: 256
   webGLExceptionSupport: 1
   webGLDataCaching: 0
@@ -477,12 +477,9 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 1
     Collab: 0
-    ErrorHub: 0
-    Hub: 0
     UNet: 1
-  cloudProjectId: 174f9543-0131-4f28-8864-3a8b365f34ea
-  projectName: Split Up
+  cloudProjectId: e9c28942-aaf7-40f5-9d42-ec3864b4e99f
+  projectName: Split Up (1)
   organizationId: ougrouk
   cloudEnabled: 0

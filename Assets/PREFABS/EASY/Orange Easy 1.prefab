@@ -535,28 +535,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1193708858981858}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -5, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4468699820676650}
   m_Father: {fileID: 4000012460595646}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4044280580489802
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1314914048649200}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 5, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4256895118933282}
   m_Father: {fileID: 4000012460595646}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4123870116986488
 Transform:
   m_ObjectHideFlags: 1
@@ -968,14 +968,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -3.515625, y: -0.015625}
-      - {x: -0.0625, y: -3.515625}
-      - {x: 0.015625, y: -3.515625}
-      - {x: 3.515625, y: -0.0546875}
-      - {x: 3.515625, y: 0.015625}
-      - {x: 0.046875, y: 3.515625}
-      - {x: -0.03125, y: 3.515625}
-      - {x: -3.515625, y: 0.0546875}
+    - - {x: -2.484375, y: 2.484375}
+      - {x: -2.484375, y: -2.484375}
+      - {x: 2.484375, y: -2.484375}
+      - {x: 2.484375, y: 2.484375}
 --- !u!60 &60983256451996246
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -990,14 +986,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -3.515625, y: -0.015625}
-      - {x: -0.0625, y: -3.515625}
-      - {x: 0.015625, y: -3.515625}
-      - {x: 3.515625, y: -0.0546875}
-      - {x: 3.515625, y: 0.015625}
-      - {x: 0.046875, y: 3.515625}
-      - {x: -0.03125, y: 3.515625}
-      - {x: -3.515625, y: 0.0546875}
+    - - {x: -2.484375, y: 2.484375}
+      - {x: -2.484375, y: -2.484375}
+      - {x: 2.484375, y: -2.484375}
+      - {x: 2.484375, y: 2.484375}
 --- !u!61 &61445536984869428
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -7544,7 +7536,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3701158d1c67842cd942ebd1d6c45e29, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87d2aa24849044ea8a898ae308a9a5f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -602,28 +602,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014119497396}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: -6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4390390980475196}
   m_Father: {fileID: 4000011082944628}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4000013028794334
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011784324632}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 4.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4121643469887900}
   m_Father: {fileID: 4000011082944628}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4076973681533886
 Transform:
   m_ObjectHideFlags: 1
@@ -645,7 +645,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1106094275658014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4000013028794334}
@@ -739,7 +739,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1839412727167454}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4701720884354492}
@@ -820,7 +820,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1507122863837402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4978539285005806}
@@ -913,14 +913,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1287818552115172}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -4.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4293203369578874}
   m_Father: {fileID: 4000011082944628}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4701867296880176
 Transform:
   m_ObjectHideFlags: 1
@@ -1020,14 +1020,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1127053567611430}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4447659096612968}
   m_Father: {fileID: 4000011082944628}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!50 &50000013003234820
 Rigidbody2D:
   serializedVersion: 4
@@ -1146,10 +1146,14 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 2.1484375, y: 0.0703125}
-      - {x: 0.0035916865, y: -2.1997437}
-      - {x: -2.152547, y: 0.057602644}
-      - {x: 0.006860256, y: 2.1724691}
+    - - {x: -1.5078125, y: 1.546875}
+      - {x: -1.5234375, y: 1.4921875}
+      - {x: -1.546875, y: -0.3125}
+      - {x: -1.546875, y: -1.546875}
+      - {x: -0.359375, y: -1.546875}
+      - {x: 1.421875, y: -1.515625}
+      - {x: 1.546875, y: -1.5078125}
+      - {x: 1.546875, y: 1.546875}
 --- !u!60 &60000013271513802
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1164,10 +1168,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 0.007744193, y: -2.1340208}
-      - {x: 2.130883, y: 0.004655838}
-      - {x: 0.02, y: 2.125}
-      - {x: -2.1117163, y: 0.033283234}
+    - - {x: -1.4960938, y: 1.4960938}
+      - {x: -1.4960938, y: -1.4960938}
+      - {x: 1.4960938, y: -1.4960938}
+      - {x: 1.4960938, y: 1.4960938}
 --- !u!60 &60187603986087038
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1218,10 +1222,14 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 2.1484375, y: 0.0703125}
-      - {x: 0.0035916865, y: -2.1997437}
-      - {x: -2.152547, y: 0.057602644}
-      - {x: 0.006860256, y: 2.1724691}
+    - - {x: -1.5078125, y: 1.546875}
+      - {x: -1.5234375, y: 1.4921875}
+      - {x: -1.546875, y: -0.3125}
+      - {x: -1.546875, y: -1.546875}
+      - {x: -0.359375, y: -1.546875}
+      - {x: 1.421875, y: -1.515625}
+      - {x: 1.546875, y: -1.5078125}
+      - {x: 1.546875, y: 1.546875}
 --- !u!60 &60505653668609282
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1236,10 +1244,14 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 2.1484375, y: 0.0703125}
-      - {x: 0.0035916865, y: -2.1997437}
-      - {x: -2.152547, y: 0.057602644}
-      - {x: 0.006860256, y: 2.1724691}
+    - - {x: -1.5078125, y: 1.546875}
+      - {x: -1.5234375, y: 1.4921875}
+      - {x: -1.546875, y: -0.3125}
+      - {x: -1.546875, y: -1.546875}
+      - {x: -0.359375, y: -1.546875}
+      - {x: 1.421875, y: -1.515625}
+      - {x: 1.546875, y: -1.5078125}
+      - {x: 1.546875, y: 1.546875}
 --- !u!60 &60787597823689970
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1585,7 +1597,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1616,7 +1628,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114161435500951096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1906,7 +1918,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114798420900972060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2173,7 +2185,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2204,7 +2216,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114927339100153234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2483,7 +2495,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2514,7 +2526,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114991355744201998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8841,7 +8853,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f73abb77f45254cdb98fc7edff0fdb09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a147548ee1b2347898ef18dd29d5f1b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
