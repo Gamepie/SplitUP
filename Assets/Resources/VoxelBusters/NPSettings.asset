@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
   m_Name: NPSettings
   m_EditorClassIdentifier: 
-  m_lastOpenedDateString: 2/27/2017 12:00:00 AM
+  m_lastOpenedDateString: 3/9/2017 12:00:00 AM
   m_applicationSettings:
     m_supportedFeatures:
       m_usesAddressBook: 0
@@ -32,9 +32,9 @@ MonoBehaviour:
       m_usesWebView: 0
     m_iOS:
       m_storeIdentifier: com.gamepie.splitup
-      m_addressBookUsagePermissionDescription: $(PRODUCT_NAME) uses contacts
-      m_cameraUsagePermissionDescription: $(PRODUCT_NAME) uses camera
-      m_photoAlbumUsagePermissionDescription: $(PRODUCT_NAME) uses photo library
+      m_addressBookUsagePermissionDescription: 
+      m_cameraUsagePermissionDescription: 
+      m_photoAlbumUsagePermissionDescription: 
     m_android:
       m_storeIdentifier: com.gamepie.splitup
     m_supportedAddonServices:
