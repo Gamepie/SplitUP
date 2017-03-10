@@ -609,14 +609,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010237562580}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -5.3, y: 6.0200005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000012540901364}
   m_Father: {fileID: 4000011291398134}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4000012534870952
 Transform:
   m_ObjectHideFlags: 1
@@ -783,14 +783,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010163654756}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 5.53, y: 6.0200005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000013206332892}
   m_Father: {fileID: 4000011291398134}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4223491955442880
 Transform:
   m_ObjectHideFlags: 1
@@ -879,14 +879,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.015625, y: 3.125}
-      - {x: -3.125, y: 0.015625}
-      - {x: -3.125, y: -0.015625}
-      - {x: -0.015625, y: -3.125}
-      - {x: 0.015625, y: -3.125}
-      - {x: 3.125, y: -0.015625}
-      - {x: 3.125, y: 0.015625}
-      - {x: 0.015625, y: 3.125}
+    - - {x: -2.2148438, y: 2.2148438}
+      - {x: -2.2148438, y: -2.2148438}
+      - {x: 2.2148438, y: -2.2148438}
+      - {x: 2.2148438, y: 2.2148438}
 --- !u!60 &60000010177970394
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -977,14 +973,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.015625, y: 3.125}
-      - {x: -3.125, y: 0.015625}
-      - {x: -3.125, y: -0.015625}
-      - {x: -0.015625, y: -3.125}
-      - {x: 0.015625, y: -3.125}
-      - {x: 3.125, y: -0.015625}
-      - {x: 3.125, y: 0.015625}
-      - {x: 0.015625, y: 3.125}
+    - - {x: -2.2148438, y: 2.2148438}
+      - {x: -2.2148438, y: -2.2148438}
+      - {x: 2.2148438, y: -2.2148438}
+      - {x: 2.2148438, y: 2.2148438}
 --- !u!60 &60000011322516806
 PolygonCollider2D:
   m_ObjectHideFlags: 1
