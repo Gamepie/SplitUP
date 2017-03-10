@@ -80,7 +80,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -0.95
+          value: 0.65
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -170,7 +170,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleApplicationEvents: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
