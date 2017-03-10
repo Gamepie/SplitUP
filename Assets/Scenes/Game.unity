@@ -2274,7 +2274,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2418,7 +2418,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: State 1
         linkStyle: 0
         linkConstraint: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Trigger Event
         linkStyle: 0
         linkConstraint: 0
@@ -2606,7 +2606,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Destroy
         linkStyle: 0
         linkConstraint: 0
@@ -2756,7 +2756,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Add 1 score
         linkStyle: 0
         linkConstraint: 0
@@ -2925,7 +2925,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -3193,7 +3193,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Trigger Event
         linkStyle: 0
         linkConstraint: 0
@@ -7827,7 +7827,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -12198,7 +12198,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Collision with Fader
         linkStyle: 0
         linkConstraint: 0
@@ -12364,7 +12364,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -13658,7 +13658,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: p=2
+        toState: Test patterns
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -14742,7 +14742,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 371.0547
         y: 531.7344
-        width: 113
+        width: 100
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -15753,7 +15753,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 76.6875
         y: 645.7969
-        width: 103
+        width: 113
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16015,7 +16015,7 @@ MonoBehaviour:
         name: DestructCreate
         isSystemEvent: 0
         isGlobal: 1
-      toState: p=2
+      toState: Test patterns
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -16095,7 +16095,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16429,13 +16429,15 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 1
+  preFillCount: 3
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 1000011719479392, guid: 7363c95b72852455cbd0a3ec7d237807, type: 2}
+  - {fileID: 0}
+  - {fileID: 1133923446313676, guid: fd2a5f960a2dd42ec8fb167166c42d17, type: 2}
+  - {fileID: 1372018502762606, guid: 53ca56bff13ff45158e8e81587778c85, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -18422,7 +18424,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -19465,7 +19467,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: State 1
         linkStyle: 0
         linkConstraint: 0
@@ -19577,7 +19579,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -20251,7 +20253,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: State 2
         linkStyle: 0
         linkConstraint: 0

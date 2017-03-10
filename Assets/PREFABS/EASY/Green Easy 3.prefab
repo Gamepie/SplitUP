@@ -419,28 +419,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508296187038756}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4919985994574692}
   m_Father: {fileID: 4000014068978000}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4241231570297596
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1688906180932934}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: -5.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4076054835837474}
   m_Father: {fileID: 4000014068978000}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4416593303926482
 Transform:
   m_ObjectHideFlags: 1
@@ -568,7 +568,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556395918071124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4121499355180986}
@@ -580,14 +580,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1600932002495366}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4456006638683614}
   m_Father: {fileID: 4000014068978000}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!4 &4955790991451012
 Transform:
   m_ObjectHideFlags: 1
@@ -672,10 +672,14 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 0.009841204, y: -2.1573925}
-      - {x: 2.1542344, y: 0.06451607}
-      - {x: -0.0062651187, y: 2.164836}
-      - {x: -2.147183, y: 0.055942297}
+    - - {x: -1.5078125, y: 1.546875}
+      - {x: -1.5234375, y: 1.4921875}
+      - {x: -1.546875, y: -0.3125}
+      - {x: -1.546875, y: -1.546875}
+      - {x: -0.359375, y: -1.546875}
+      - {x: 1.421875, y: -1.515625}
+      - {x: 1.546875, y: -1.5078125}
+      - {x: 1.546875, y: 1.546875}
 --- !u!60 &60628405077025874
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -708,10 +712,12 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 0.0010906011, y: -1.5910244}
-      - {x: 1.568753, y: 0.048434258}
-      - {x: -0.02421099, y: 1.5632734}
-      - {x: -1.5782772, y: 0.032645226}
+    - - {x: -1.1171875, y: 1.125}
+      - {x: -1.125, y: 0.9765625}
+      - {x: -1.125, y: -1.125}
+      - {x: 1.125, y: -1.125}
+      - {x: 1.125, y: 1.1171875}
+      - {x: 0.9921875, y: 1.125}
 --- !u!60 &60924721996644196
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -744,10 +750,12 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 1.5901861, y: 0.042626143}
-      - {x: -0.0054915547, y: 1.578125}
-      - {x: -1.5539017, y: 0.048434258}
-      - {x: -0.018883944, y: -1.5713024}
+    - - {x: -1.1171875, y: 1.125}
+      - {x: -1.125, y: 0.9765625}
+      - {x: -1.125, y: -1.125}
+      - {x: 1.125, y: -1.125}
+      - {x: 1.125, y: 1.1171875}
+      - {x: 0.9921875, y: 1.125}
 --- !u!61 &61550827031206294
 BoxCollider2D:
   m_ObjectHideFlags: 1
