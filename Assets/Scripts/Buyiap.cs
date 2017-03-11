@@ -129,6 +129,7 @@ private void OnDisable ()
             Debug.Log("Transaction Identifier = "    + _currentTransaction.TransactionIdentifier);
             Debug.Log("Transaction Receipt = "        + _currentTransaction.TransactionReceipt);
             Debug.Log("Error = "                    + _currentTransaction.Error.GetPrintableString());
+					Adsbought = true;
         }
     }
 }
