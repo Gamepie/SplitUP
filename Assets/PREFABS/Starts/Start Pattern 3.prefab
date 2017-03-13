@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4118502617825618}
   - component: {fileID: 212219104019668236}
+  - component: {fileID: 61108725799063928}
   m_Layer: 0
   m_Name: O_8
   m_TagString: SpwnedObject
@@ -726,6 +727,20 @@ PolygonCollider2D:
       - {x: -2.9296875, y: -0.12890625}
       - {x: 2.9296875, y: -0.12890625}
       - {x: 2.9296875, y: 0.12890625}
+--- !u!61 &61108725799063928
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032917709831992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.140625, y: 0.2578125}
 --- !u!95 &95587142604829288
 Animator:
   serializedVersion: 3

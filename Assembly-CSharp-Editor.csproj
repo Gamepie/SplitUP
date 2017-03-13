@@ -268,9 +268,6 @@
      <None Include="Assets\Plugins\Android\twitter_lib\res\values-in\values.xml" />
      <None Include="Assets\Plugins\Android\twitter_lib\res\drawable\tw__login_btn_default_light.xml" />
      <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\Editor\Editor.ReorderableList.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -312,9 +309,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
@@ -369,6 +363,15 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/Valentin/Gamepie/JEUX/SplitUp/New/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver">
+ <HintPath>/Users/Valentin/Gamepie/JEUX/SplitUp/New/Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver">
+ <HintPath>/Users/Valentin/Gamepie/JEUX/SplitUp/New/Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

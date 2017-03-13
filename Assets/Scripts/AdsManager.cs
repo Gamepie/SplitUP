@@ -8,19 +8,11 @@ public static bool showOnce = false;
 	// Use this for initializationd 
 
 
-	void Start () {
-		HeyzapAds.Start("35848a20ffa97036bf2d562bcc9641ce", HeyzapAds.FLAG_DISABLE_AUTOMATIC_FETCHING);
-
-		
 
 
+	void starheyzap () {
+		HeyzapAds.Start ("35848a20ffa97036bf2d562bcc9641ce", HeyzapAds.FLAG_DISABLE_AUTOMATIC_FETCHING);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-
-	}
-
 
 	
 	void FetchAdGameOver () {
