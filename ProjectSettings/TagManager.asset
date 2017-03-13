@@ -9,6 +9,9 @@ TagManager:
   - BG Trigger
   - Boules
   - AdsManager
+  - Twitter
+  - Rate Manager
+  - s_manager
   layers:
   - Default
   - TransparentFX
@@ -41,7 +44,7 @@ TagManager:
   - 
   - 
   - Boules
-  - 
+  - POP UP
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -66,4 +69,7 @@ TagManager:
     locked: 0
   - name: Menu Pause 2
     uniqueID: 1116153993
+    locked: 0
+  - name: Pop up
+    uniqueID: 164827863
     locked: 0

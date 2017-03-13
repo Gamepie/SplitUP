@@ -53,7 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000011312958106}
   - component: {fileID: 212000011049125858}
-  - component: {fileID: 60000013756241294}
+  - component: {fileID: 58142403112935136}
   m_Layer: 14
   m_Name: Dot 2 (1)
   m_TagString: SpwnedObject
@@ -487,6 +487,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &58142403112935136
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011697186844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1953125
 --- !u!60 &60000012635013724
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -519,16 +533,12 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.40625, y: 2.09375}
-      - {x: -0.453125, y: 2.09375}
-      - {x: -0.46875, y: 2.078125}
-      - {x: -1.6875, y: 0.109375}
-      - {x: -1.6875, y: -0.234375}
-      - {x: -0.484375, y: -2.09375}
-      - {x: -0.450243, y: -2.09375}
-      - {x: 1.6875, y: -0.03125}
-      - {x: 1.6875, y: 0.046875}
-      - {x: -0.125, y: 1.84375}
+    - - {x: -0.43476152, y: 2.1796875}
+      - {x: -0.4765625, y: 1.3359375}
+      - {x: -1.7567925, y: 0.02861929}
+      - {x: -0.45132685, y: -1.2761488}
+      - {x: -0.4182515, y: -2.139362}
+      - {x: 1.7684159, y: -0.0064167976}
 --- !u!60 &60000012800251790
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -561,35 +571,12 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -1.6875, y: 0.015170097}
-      - {x: 0.46541357, y: -2.1137743}
-      - {x: 0.5625, y: -2.09375}
-      - {x: 1.6875, y: -0.390625}
-      - {x: 1.6875, y: 0.28125}
-      - {x: 0.484375, y: 2.09375}
-      - {x: 0.375, y: 2.09375}
-      - {x: 0.4385624, y: 2.0864682}
-      - {x: -1.6875, y: 0.03125}
---- !u!60 &60000013756241294
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011697186844}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: -0.125, y: 0.1875}
-      - {x: -0.1875, y: 0.15625}
-      - {x: -0.1875, y: -0.1875}
-      - {x: 0.125, y: -0.1875}
-      - {x: 0.1875, y: -0.15625}
-      - {x: 0.1875, y: 0.1875}
+    - - {x: -1.7781651, y: 0.015170574}
+      - {x: 0.42914724, y: -2.1500401}
+      - {x: 0.47183514, y: -1.1870973}
+      - {x: 1.741899, y: -0.027964354}
+      - {x: 0.49071932, y: 1.4054985}
+      - {x: 0.44810867, y: 2.2025476}
 --- !u!60 &60254479760145308
 PolygonCollider2D:
   m_ObjectHideFlags: 1
