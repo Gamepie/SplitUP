@@ -2418,7 +2418,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: State 1
         linkStyle: 0
         linkConstraint: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: Trigger Event
         linkStyle: 0
         linkConstraint: 0
@@ -2606,7 +2606,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: Destroy
         linkStyle: 0
         linkConstraint: 0
@@ -2756,7 +2756,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: Add 1 score
         linkStyle: 0
         linkConstraint: 0
@@ -3193,7 +3193,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: Trigger Event
         linkStyle: 0
         linkConstraint: 0
@@ -12198,7 +12198,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: Collision with Fader
         linkStyle: 0
         linkConstraint: 0
@@ -19467,7 +19467,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: State 1
         linkStyle: 0
         linkConstraint: 0
@@ -20253,7 +20253,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 1
+          isGlobal: 0
         toState: State 2
         linkStyle: 0
         linkConstraint: 0
