@@ -2222,11 +2222,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-<<<<<<< HEAD
-        toState: State 1
-=======
         toState: Get s_manager
->>>>>>> bfc39a0307da9a27675ee46b23535ae0b0650e82
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2309,11 +2305,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-<<<<<<< HEAD
-        toState: Trigger Event
-=======
         toState: Get s_manager
->>>>>>> bfc39a0307da9a27675ee46b23535ae0b0650e82
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2429,11 +2421,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-<<<<<<< HEAD
-        toState: Destroy
-=======
         toState: GameOver
->>>>>>> bfc39a0307da9a27675ee46b23535ae0b0650e82
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2661,19 +2649,7 @@ MonoBehaviour:
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-<<<<<<< HEAD
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Add 1 score
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-=======
       transitions: []
->>>>>>> bfc39a0307da9a27675ee46b23535ae0b0650e82
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetStringValue
@@ -3005,19 +2981,7 @@ MonoBehaviour:
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-<<<<<<< HEAD
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Trigger Event
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-=======
       transitions: []
->>>>>>> bfc39a0307da9a27675ee46b23535ae0b0650e82
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetStringValue
@@ -17754,7 +17718,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: p=2
+        toState: Test patterns
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -18838,7 +18802,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 371.0547
         y: 531.7344
-        width: 120
+        width: 100
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -19849,7 +19813,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 76.6875
         y: 645.7969
-        width: 107
+        width: 113
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -20111,7 +20075,7 @@ MonoBehaviour:
         name: DestructCreate
         isSystemEvent: 0
         isGlobal: 1
-      toState: p=2
+      toState: Test patterns
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -20525,15 +20489,16 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 3
+  preFillCount: 4
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
   preFillFloatList: []
   preFillGameObjectList:
-  - {fileID: 0}
+  - {fileID: 1672844451051258, guid: 1fefe3aecfad24b65a08be17b012b87f, type: 2}
   - {fileID: 1133923446313676, guid: fd2a5f960a2dd42ec8fb167166c42d17, type: 2}
   - {fileID: 1372018502762606, guid: 53ca56bff13ff45158e8e81587778c85, type: 2}
+  - {fileID: 1747400675107120, guid: 18462dd1bad6e4cdb82d96adf12637b7, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []

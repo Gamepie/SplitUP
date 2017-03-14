@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
   m_Name: NPSettings
   m_EditorClassIdentifier: 
-  m_lastOpenedDateString: 3/9/2017 12:00:00 AM
+  m_lastOpenedDateString: 03/13/2017 00:00:00
   m_applicationSettings:
     m_supportedFeatures:
       m_usesAddressBook: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
       m_usesTwitter: 0
       m_usesWebView: 0
     m_iOS:
-      m_storeIdentifier: com.gamepie.splitup
+      m_storeIdentifier: 1188678963
       m_addressBookUsagePermissionDescription: 
       m_cameraUsagePermissionDescription: 
       m_photoAlbumUsagePermissionDescription: 
