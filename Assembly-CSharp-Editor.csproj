@@ -179,6 +179,13 @@
      <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
      <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
      <Compile Include="Assets\VoxelBusters\NativePlugins\Editor\NPAndroidLibraryDependencies.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowFbShareComposerActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowMailShareComposerActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowShareSheetActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowSocialShareSheetActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowTwitterShareComposerActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\Sharing\Editor\SharingShowWhatsAppShareComposerActionEditor.cs" />
+     <Compile Include="Assets\VoxelBusters\NativePlugins\PlayMaker\Scripts\Actions\SocialNetwork\Twitter\Editor\TwitterShowTweetComposerActionEditor.cs" />
      <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
      <None Include="Assets\Plugins\Android\Vungle\proguard.txt" />
      <None Include="Assets\Plugins\Android\native_plugins_lib\res\layout\np_webview_layout.xml" />
