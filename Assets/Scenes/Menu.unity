@@ -4489,7 +4489,7 @@ MonoBehaviour:
           name: Menu
           isSystemEvent: 0
           isGlobal: 0
-        toState: Destroy Banner Menu
+        toState: Hide Banner Menu
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4497,7 +4497,7 @@ MonoBehaviour:
           name: Game
           isSystemEvent: 0
           isGlobal: 0
-        toState: Destroy Banner Game
+        toState: Hide Banner Game
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4505,7 +4505,7 @@ MonoBehaviour:
           name: Gameover
           isSystemEvent: 0
           isGlobal: 0
-        toState: Destroy Banner Gameover
+        toState: Hide Banner Gameover
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4642,14 +4642,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000000000000010000000100000002000000000000000300000004000000050000000100000000000000010000000200000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
-    - name: Destroy Banner Game
+    - name: Hide Banner Game
       description: 
       colorIndex: 6
       position:
         serializedVersion: 2
         x: 962.03125
         y: 274.79688
-        width: 165
+        width: 143
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4668,7 +4668,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.InvokeMethod
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 59f9a004
@@ -4755,14 +4755,14 @@ MonoBehaviour:
         - cancelOnExit
         paramDataPos: 00000000000000000100000000000000000000000100000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
-    - name: Destroy Banner Gameover
+    - name: Hide Banner Gameover
       description: 
       colorIndex: 6
       position:
         serializedVersion: 2
         x: 975.1719
         y: 342.78906
-        width: 195
+        width: 173
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4814,7 +4814,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: DestroyAdBanner
+          value: HideAdBanner
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -4868,14 +4868,14 @@ MonoBehaviour:
         - cancelOnExit
         paramDataPos: 00000000000000000100000000000000000000000100000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
-    - name: Destroy Banner Menu
+    - name: Hide Banner Menu
       description: 
       colorIndex: 6
       position:
         serializedVersion: 2
         x: 916.2344
         y: 204.32031
-        width: 162
+        width: 140
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4927,7 +4927,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: DestroyAdBanner
+          value: HideAdBanner
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -8894,7 +8894,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -9172,7 +9172,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 148
+        y: 164
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9261,7 +9261,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 328.21875
-        y: 186.39062
+        y: 202.39062
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9279,16 +9279,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.InvokeMethod
-        - HutongGames.PlayMaker.Actions.SetMaterialColor
         - HutongGames.PlayMaker.Actions.SendEvent
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010001
-        actionIsOpen: 010101
-        actionStartIndex: 00000000070000000d000000
-        actionHashCodes: 59f9a00431ae64035e69bb04
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 59f9a0045e69bb04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -9300,14 +9298,6 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 1178595747}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 1513194821}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -9359,20 +9349,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: BuyRemoveADS
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: _Color
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: 
-          value: {fileID: 0}
+        fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -9395,13 +9372,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -9417,23 +9388,17 @@ MonoBehaviour:
           value: 0
         fsmVector2Params: []
         fsmVector3Params: []
-        fsmColorParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0.42647058, g: 0.0972102, b: 0.16812778, a: 1}
+        fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - Changed!
-        byteData: 0000
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f000000110000001400000010000000200000001200000019000000010000001f000000170000000f00000001000000
+        paramDataType: 1400000012000000120000000f000000110000000f000000110000001f000000170000000f00000001000000
         paramName:
         - gameObject
         - behaviour
@@ -9442,25 +9407,19 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        - gameObject
-        - materialIndex
-        - material
-        - namedColor
-        - color
-        - everyFrame
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000010000000100000001000000000000000000000002000000000000000000000000000000000000000200000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000000000000200000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: wait 2
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 299
-        y: 105.96875
+        x: 352.0703
+        y: 103.046875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9532,7 +9491,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 168
-        y: 108.90625
+        y: 124.90625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9664,7 +9623,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 122.921875
-        y: 227.67969
+        y: 243.67969
         width: 110
         height: 48
       isBreakpoint: 0
@@ -9738,7 +9697,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 133.53906
-        y: 303.75
+        y: 319.75
         width: 107
         height: 32
       isBreakpoint: 0
@@ -9867,7 +9826,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
