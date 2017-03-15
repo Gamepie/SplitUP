@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
   m_Name: NPSettings
   m_EditorClassIdentifier: 
-  m_lastOpenedDateString: 3/9/2017 12:00:00 AM
+  m_lastOpenedDateString: 3/15/2017 12:00:00 AM
   m_applicationSettings:
     m_supportedFeatures:
       m_usesAddressBook: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
       m_usesTwitter: 0
       m_usesWebView: 0
     m_iOS:
-      m_storeIdentifier: com.gamepie.splitup
+      m_storeIdentifier: 1188678963
       m_addressBookUsagePermissionDescription: 
       m_cameraUsagePermissionDescription: 
       m_photoAlbumUsagePermissionDescription: 
@@ -87,12 +87,43 @@ MonoBehaviour:
       m_userInfoKey: user_info
       m_tagKey: tag
   m_gameServicesSettings:
-    m_leaderboardMetadataCollection: []
-    m_achievementMetadataCollection: []
+    m_leaderboardMetadataCollection:
+    - m_globalID: Best Scores
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAQ
+      - m_platform: 0
+        m_value: topscore
+    m_achievementMetadataCollection:
+    - m_globalID: 1st Death
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 0
+    - m_globalID: Scored 5
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 0
+    - m_globalID: Scored 15
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQBA
+      m_noOfSteps: 0
+    - m_globalID: Scored 50
+      m_platformIDs:
+      - m_platform: 1
+        m_value: 'CgkIyvWdtJMBEAIQBQ '
+      m_noOfSteps: 0
+    - m_globalID: Scored 100
+      m_platformIDs:
+      - m_platform: 1
+        m_value: 'CgkIyvWdtJMBEAIQBg '
+      m_noOfSteps: 0
     m_iOS:
       m_showDefaultAchievementCompletionBanner: 1
     m_android:
-      m_playServicesApplicationID: 
+      m_playServicesApplicationID: 39569554122
       m_serverClientID: 
       m_showDefaultErrorDialogs: 1
     m_achievementIDCollection: []

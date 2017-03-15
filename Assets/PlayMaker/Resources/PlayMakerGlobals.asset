@@ -14,6 +14,18 @@ MonoBehaviour:
   variables:
     floatVariables:
     - useVariable: 1
+      name: Added BG speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0.01
+    - useVariable: 1
+      name: Added BoulesSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0.05
+    - useVariable: 1
       name: BG speed
       tooltip: 
       showInInspector: 0
@@ -24,7 +36,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1
+      value: 0
     - useVariable: 1
       name: Delta Split
       tooltip: 
@@ -43,6 +55,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: SplitInSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 3.5
+    - useVariable: 1
+      name: SplitOutSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 2.5
     - useVariable: 1
       name: Touch Time
       tooltip: 
@@ -88,6 +112,12 @@ MonoBehaviour:
       networkSync: 0
       value: 1
     stringVariables:
+    - useVariable: 1
+      name: Achievedwhat?
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     - useVariable: 1
       name: ActualScoreString
       tooltip: 
@@ -216,12 +246,11 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - 'State: Game'
   - Split & Play
   - Add 1 Score
-  - Collision Detected
   - DestructCreate
   - Add Vector 3
   - Clicked
@@ -231,3 +260,4 @@ MonoBehaviour:
   - Click Up
   - Unpause
   - Pause
+  - Collision Detected
