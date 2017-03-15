@@ -38,6 +38,9 @@ public static bool showOnce = false;
 		HZBannerAd.Destroy ();
 
 	}
+	void HideAdBanner () {
+		HZBannerAd.Hide ();
+	}
 	
 	void ShowAdMenu () {
 			if (HZInterstitialAd.IsAvailable("MainMenu")) {

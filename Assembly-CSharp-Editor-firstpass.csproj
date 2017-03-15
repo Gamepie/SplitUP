@@ -180,6 +180,9 @@
      <None Include="Assets\Plugins\Android\twitter_lib\res\values-in\values.xml" />
      <None Include="Assets\Plugins\Android\twitter_lib\res\drawable\tw__login_btn_default_light.xml" />
      <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\Editor\Editor.ReorderableList.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
