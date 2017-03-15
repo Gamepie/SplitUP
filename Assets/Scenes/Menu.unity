@@ -3071,7 +3071,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -4479,8 +4479,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 735.1328
         y: 235.89844
-        width: 100
-        height: 64
+        width: 126
+        height: 80
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -4506,6 +4506,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Hide Banner Gameover
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Death Feedback
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State changed
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4574,6 +4582,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Game Over
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Death Feedback
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -4614,14 +4628,15 @@ MonoBehaviour:
         - Menu
         - Game
         - Gameover
+        - Death Feedback
         byteData: 00
-        arrayParamSizes: 0300000003000000
+        arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000120000000c0000001200000012000000120000000c00000017000000170000001700000001000000
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000120000000c000000120000001200000012000000120000000c0000001700000017000000170000001700000001000000
         paramName:
         - gameObject
         - behaviour
@@ -4635,13 +4650,15 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - sendEvent
         - 
         - 
         - 
+        - 
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000010000000100000002000000000000000300000004000000050000000100000000000000010000000200000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000020000000000000003000000040000000500000006000000010000000000000001000000020000000300000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: Hide Banner Game
       description: 
       colorIndex: 6
@@ -6023,6 +6040,9 @@ MonoBehaviour:
     - name: Bought
       isSystemEvent: 0
       isGlobal: 1
+    - name: Death Feedback
+      isSystemEvent: 0
+      isGlobal: 0
     - name: Don't show ads yet
       isSystemEvent: 0
       isGlobal: 0
@@ -6093,7 +6113,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -6593,8 +6613,8 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 268.28906
-        y: 230.25781
+        x: 272.20312
+        y: 234.17188
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6762,7 +6782,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8043,7 +8063,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -9826,7 +9846,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10690,8 +10710,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 260.6953
-        y: 105.88281
+        x: 260.625
+        y: 112.71094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -13331,8 +13351,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 60
         y: 198.03906
-        width: 100
-        height: 64
+        width: 126
+        height: 80
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -13355,6 +13375,14 @@ MonoBehaviour:
         colorIndex: 0
       - fsmEvent:
           name: Game
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State changed
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Death Feedback
           isSystemEvent: 0
           isGlobal: 0
         toState: State changed
@@ -13404,6 +13432,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Menu
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Death Feedback
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -13420,17 +13454,19 @@ MonoBehaviour:
         - Gameover
         - Game
         - Menu
+        - Death Feedback
         byteData: 00
-        arrayParamSizes: 0300000003000000
+        arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000c0000001200000012000000120000000c00000017000000170000001700000001000000
+        paramDataType: 120000000c000000120000001200000012000000120000000c0000001700000017000000170000001700000001000000
         paramName:
         - stringVariable
         - compareTo
+        - 
         - 
         - 
         - 
@@ -13438,9 +13474,10 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - everyFrame
-        paramDataPos: 00000000000000000100000002000000030000000100000000000000010000000200000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000001000000020000000300000004000000010000000000000001000000020000000300000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: State 2
       description: 
       colorIndex: 0
@@ -14821,6 +14858,9 @@ MonoBehaviour:
     events:
     - name: FINISHED
       isSystemEvent: 1
+      isGlobal: 0
+    - name: Death Feedback
+      isSystemEvent: 0
       isGlobal: 0
     - name: Game
       isSystemEvent: 0

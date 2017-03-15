@@ -34,6 +34,7 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 
 		public override void Reset ()
 		{
+			Debug.Log ("1");
 			// Results properties
 			count			= new FsmInt {
 				UseVariable	= true
@@ -49,9 +50,11 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 		
 		public override void OnEnter ()
 		{
+			Debug.Log ("2");
 #if USES_BILLING
 			// Register for events
 			Billing.DidFinishRequestForBillingProductsEvent += OnDidFinishRequestForBillingProducts;
+			Debug.Log ("3");
 #endif
 		}
 		
@@ -62,6 +65,7 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 #if USES_BILLING
 		private void OnDidFinishRequestForBillingProducts (BillingProduct[] _products, string _error)
 		{
+			Debug.Log ("4");
 			if (string.IsNullOrEmpty(_error))
 			{
 				// Update properties

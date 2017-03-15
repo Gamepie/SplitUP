@@ -69,7 +69,7 @@ MonoBehaviour:
       m_iosProductId: 
       m_androidProductId: 
     m_iOS:
-      m_supportsReceiptValidation: 1
+      m_supportsReceiptValidation: 0
       m_validateUsingServerURL: 
     m_android:
       m_publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBaQNGcURDLpUVhVZWzXtrF9Qgnwy4Id0tav9laNB5kKzXqWTl3Oie0gX787oPr3PQtvxKfm4O8Ui7X1kCKNu7cWWBydlcG3bIV84hwgOCLz500XBO9DPDB/9LTHsm0EjJSiBB/B+5FZrGPdloWL7KxDdnzffjhGNF13O1R54m+skKHam/VSRyT+hzJqRlp8a5a5VTkAuCj2ulxyI4ZkfEfe5xiQSmT7kNlnUEUBWXt38O8w5mnoFGsvGUIIilK2aCHn9pALoYocrhHVLgZuzpe78iwBNnbBFdHYGXV7bP6JBUy8+fNcMedMctV92PrCZhW7wfPrH5P+adhRvPgBfwIDAQAB

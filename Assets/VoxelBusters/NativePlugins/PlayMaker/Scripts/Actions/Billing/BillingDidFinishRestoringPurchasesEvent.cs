@@ -52,6 +52,11 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 #if USES_BILLING
 			// Register for events
 			Billing.DidFinishRestoringPurchasesEvent += OnDidFinishRestoringPurchases;
+
+
+#else 
+
+
 #endif
 		}
 		
@@ -71,6 +76,7 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 
 				// Send event
 				Fsm.Event(successEvent);
+				Debug.Log("123456789");
 			}
 			else
 			{
@@ -81,8 +87,11 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 				
 				// Send event
 				Fsm.Event(failedEvent);
+				Debug.Log("azerty");
 			}
 		}
+
+
 #endif
 		
 		#endregion
