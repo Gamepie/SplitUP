@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 42938266, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
-  m_Name: PlayMakerGlobals
+  m_Name: PlaymakerGlobals_EXPORTED
   m_EditorClassIdentifier: 
   variables:
     floatVariables:
