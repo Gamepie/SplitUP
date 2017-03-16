@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 114015024654348658}
   m_Layer: 0
   m_Name: New Score (1)
-  m_TagString: HSBar
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 114702846118007724}
   m_Layer: 0
   m_Name: 'New Score '
-  m_TagString: HSBar
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1246,7 +1246,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!114 &114015024654348658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1547,7 +1547,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1578,7 +1578,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!114 &114702846118007724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1869,7 +1869,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!198 &198024412535635550
 ParticleSystem:
   m_ObjectHideFlags: 1
