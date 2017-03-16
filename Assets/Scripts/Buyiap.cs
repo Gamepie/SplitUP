@@ -39,7 +39,7 @@ private void OnEnable ()
     // Register for callbacks
     Billing.DidFinishRequestForBillingProductsEvent    += OnDidFinishProductsRequest;
     Billing.DidFinishProductPurchaseEvent            += OnDidFinishTransaction;
-			Debug.Log ("register callback");
+
     // For receiving restored transactions.
     Billing.DidFinishRestoringPurchasesEvent        += OnDidFinishRestoringPurchases;
 
