@@ -2274,8 +2274,8 @@ MonoBehaviour:
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000007000000
-        actionHashCodes: 59f9a004b2cf1000
+        actionStartIndex: 0000000008000000
+        actionHashCodes: c661c400b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -2363,12 +2363,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f000000110000001400000011000000110000000100000001000000
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000010000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -2377,13 +2377,14 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
+        - debug
         - gameObject
         - activate
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000001000000010000000100000002000000030000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000000000000100000002000000030000000100000002000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000100000001000000
     - name: wait 2
       description: 
       colorIndex: 0
@@ -3542,7 +3543,7 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000006000000
-        actionHashCodes: d290ad025ac85204
+        actionHashCodes: d290ad0266328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3729,12 +3730,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - errorzen
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1200000012000000120000001100000012000000170000002400000001000000
+        paramDataType: 120000001200000012000000110000001200000017000000240000000100000001000000
         paramName:
         - loadValue
         - tag
@@ -3744,8 +3745,9 @@ MonoBehaviour:
         - ifError
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000001000000020000000000000003000000000000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
+        - debug
+        paramDataPos: 000000000100000002000000000000000300000000000000000000000000000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000001000000
     - name: State 1
       description: 
       colorIndex: 0
@@ -4556,7 +4558,7 @@ MonoBehaviour:
         actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -4624,12 +4626,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -4638,8 +4640,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Listener
       description: 
       colorIndex: 0
@@ -4694,8 +4697,8 @@ MonoBehaviour:
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000007000000
-        actionHashCodes: 59f9a00476d0e601
+        actionStartIndex: 0000000008000000
+        actionHashCodes: c661c40076d0e601
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -4797,14 +4800,14 @@ MonoBehaviour:
         - Game
         - Gameover
         - Death Feedback
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000120000000c000000120000001200000012000000120000000c0000001700000017000000170000001700000001000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000120000000c000000120000001200000012000000120000000c0000001700000017000000170000001700000001000000
         paramName:
         - gameObject
         - behaviour
@@ -4813,6 +4816,7 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
+        - debug
         - stringVariable
         - compareTo
         - 
@@ -4825,8 +4829,8 @@ MonoBehaviour:
         - 
         - 
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000020000000000000003000000040000000500000006000000010000000000000001000000020000000300000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000020000000000000003000000040000000500000006000000010000000000000001000000020000000300000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: Hide Banner Game
       description: 
       colorIndex: 6
@@ -4856,7 +4860,7 @@ MonoBehaviour:
         actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -4924,12 +4928,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -4938,8 +4942,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Hide Banner Gameover
       description: 
       colorIndex: 6
@@ -4969,7 +4974,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5037,12 +5042,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -5051,8 +5056,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Hide Banner Menu
       description: 
       colorIndex: 6
@@ -5082,7 +5088,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5150,12 +5156,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -5164,8 +5170,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Show Ad Game
       description: 
       colorIndex: 3
@@ -5195,7 +5202,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5263,12 +5270,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -5277,8 +5284,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Show Ad Game 2
       description: 
       colorIndex: 3
@@ -5308,7 +5316,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5376,12 +5384,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -5390,8 +5398,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: State changed
       description: 
       colorIndex: 0
@@ -5913,7 +5922,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5981,12 +5990,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -5995,8 +6004,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -6069,7 +6079,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8904,7 +8914,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -8972,12 +8982,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -8986,8 +8996,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: wait 2
       description: 
       colorIndex: 0
@@ -9912,7 +9923,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10740,7 +10751,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10863,7 +10874,7 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000006000000
-        actionHashCodes: 665320015ac85204
+        actionHashCodes: 6653200166328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -11050,12 +11061,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - bug
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1100000012000000120000001100000012000000170000002400000001000000
+        paramDataType: 110000001200000012000000110000001200000017000000240000000100000001000000
         paramName:
         - loadValue
         - tag
@@ -11065,8 +11076,9 @@ MonoBehaviour:
         - ifError
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000010000000100000002000000000000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
+        - debug
+        paramDataPos: 000000000000000001000000010000000200000000000000000000000000000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000001000000
     - name: State 3
       description: 
       colorIndex: 3
@@ -12005,7 +12017,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -12344,7 +12356,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -12414,7 +12426,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        actionHashCodes: 66328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -12570,17 +12582,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 240000000100000001000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - debug
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 000000000100000001000000
     events:
     - name: Clicked
       isSystemEvent: 0
@@ -12622,7 +12635,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -12692,7 +12705,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -12760,12 +12773,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -12774,8 +12787,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Get bool
       description: 
       colorIndex: 0
@@ -12806,8 +12820,8 @@ MonoBehaviour:
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000002000000
-        actionHashCodes: 5ac8520466532001
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 66328a0566532001
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -12994,23 +13008,24 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000110000001200000012000000110000001200000017000000
+        paramDataType: 240000000100000001000000110000001200000012000000110000001200000017000000
         paramName:
         - targetProperty
         - everyFrame
+        - debug
         - saveValue
         - tag
         - filename
         - encrypt
         - encryptionPassword
         - ifError
-        paramDataPos: 0000000000000000000000000000000001000000010000000200000000000000
-        paramByteDataSize: 0000000001000000000000000000000000000000000000000000000000000000
+        paramDataPos: 000000000000000001000000000000000000000001000000010000000200000000000000
+        paramByteDataSize: 000000000100000001000000000000000000000000000000000000000000000000000000
     - name: Test bool
       description: 
       colorIndex: 0
@@ -13441,7 +13456,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -13946,7 +13961,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -14014,12 +14029,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -14028,8 +14043,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: Wait
       description: 
       colorIndex: 0
@@ -14138,7 +14154,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -14243,7 +14259,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -14311,12 +14327,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -14325,8 +14341,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: State 1
       description: 
       colorIndex: 0
@@ -14524,8 +14541,8 @@ MonoBehaviour:
         - 
         actionEnabled: 0101010101
         actionIsOpen: 0101010101
-        actionStartIndex: 0000000002000000040000000600000008000000
-        actionHashCodes: 5ac852045ac852045ac852045ac852045ac85204
+        actionStartIndex: 000000000300000006000000090000000c000000
+        actionHashCodes: 66328a0566328a0566328a0566328a0566328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -15209,25 +15226,30 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000
+        byteData: 00000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 24000000010000002400000001000000240000000100000024000000010000002400000001000000
+        paramDataType: 240000000100000001000000240000000100000001000000240000000100000001000000240000000100000001000000240000000100000001000000
         paramName:
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
-        paramDataPos: 00000000000000000100000001000000020000000200000003000000030000000400000004000000
-        paramByteDataSize: 00000000010000000000000001000000000000000100000000000000010000000000000001000000
+        - debug
+        paramDataPos: 000000000000000001000000010000000200000003000000020000000400000005000000030000000600000007000000040000000800000009000000
+        paramByteDataSize: 000000000100000001000000000000000100000001000000000000000100000001000000000000000100000001000000000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -15316,7 +15338,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -15543,7 +15565,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 59f9a004
+        actionHashCodes: c661c400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -15611,12 +15633,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramDataType: 1400000012000000120000000f000000110000000f0000001100000001000000
         paramName:
         - gameObject
         - behaviour
@@ -15625,8 +15647,9 @@ MonoBehaviour:
         - repeating
         - repeatDelay
         - cancelOnExit
-        paramDataPos: 00000000000000000100000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - debug
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     - name: State changed
       description: 
       colorIndex: 0
@@ -15739,8 +15762,8 @@ MonoBehaviour:
         - 
         actionEnabled: 01010101
         actionIsOpen: 01010101
-        actionStartIndex: 00000000020000000400000006000000
-        actionHashCodes: 5ac852045ac852045ac852045ac85204
+        actionStartIndex: 00000000030000000600000009000000
+        actionHashCodes: 66328a0566328a0566328a0566328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -16292,23 +16315,27 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000
+        byteData: 0000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000240000000100000024000000010000002400000001000000
+        paramDataType: 240000000100000001000000240000000100000001000000240000000100000001000000240000000100000001000000
         paramName:
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
+        - debug
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000010000000100000002000000020000000300000003000000
-        paramByteDataSize: 0000000001000000000000000100000000000000010000000000000001000000
+        - debug
+        paramDataPos: 000000000000000001000000010000000200000003000000020000000400000005000000030000000600000007000000
+        paramByteDataSize: 000000000100000001000000000000000100000001000000000000000100000001000000000000000100000001000000
     - name: State 5
       description: 
       colorIndex: 0
@@ -16724,7 +16751,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        actionHashCodes: 66328a05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -16880,17 +16907,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 240000000100000001000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - debug
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -17000,7 +17028,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
