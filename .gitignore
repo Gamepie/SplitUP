@@ -21,7 +21,7 @@ ExportedObj/
 
 # Unity3D generated meta files
 
-
+ *Library/
 !Library/*.asset
 !Library/AssetImportState
 !Library/AssetVersioning.db
