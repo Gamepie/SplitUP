@@ -34,7 +34,7 @@
     <receiver android:name="com.voxelbusters.nativeplugins.features.notification.core.AlarmEventReceiver" />
     <!--Notifications : GCM Service-->
     <service android:name="com.voxelbusters.nativeplugins.features.notification.serviceprovider.gcm.GCMIntentService" />
-    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 39569554122" />
+    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ " />
   </application>
   <!--Permissions-->
   <!--Billing-->

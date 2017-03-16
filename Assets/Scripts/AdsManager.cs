@@ -8,8 +8,6 @@ public static bool showOnce = false;
 	// Use this for initializationd 
 
 
-
-
 	void starheyzap () {
 		HeyzapAds.Start ("35848a20ffa97036bf2d562bcc9641ce", HeyzapAds.FLAG_DISABLE_AUTOMATIC_FETCHING);
 	}
