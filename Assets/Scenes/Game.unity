@@ -5930,7 +5930,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2.2
+          value: 10
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -7038,7 +7038,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.8
+          value: 0.7
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -7131,7 +7131,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -7229,7 +7229,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1044712228
+  randomSeed: -1613678700
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -15711,7 +15711,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2.2
+          value: 10
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -16708,8 +16708,8 @@ MonoBehaviour:
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
+        actionEnabled: 0001
+        actionIsOpen: 0001
         actionStartIndex: 000000000f000000
         actionHashCodes: 7ecde8049cdc3905
         unityObjectParams:
@@ -16796,7 +16796,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.8
+          value: 0.7
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -16889,7 +16889,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16987,7 +16987,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1587292007
+  randomSeed: -119896683
   InitialModule:
     serializedVersion: 3
     enabled: 1
