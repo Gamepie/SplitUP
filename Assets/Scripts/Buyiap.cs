@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using VoxelBusters.Utility;
 using VoxelBusters.NativePlugins;
+using HutongGames.PlayMaker;
 
 
 namespace VoxelBusters.NativePlugins {
 public class Buyiap : MonoBehaviour {
-
+		public PlayMakerFSM theFSM;
+		public PlayMakerFSM buttonFSM;
+		public PlayMakerFSM Restoreobj;
 		public bool Adsbought = false;
-		public string boughtrestore = "";
+
 	// Use this for initialization
+
+
 	void Start () {
 			
 	}
@@ -74,12 +79,11 @@ private void OnDisable ()
 		public void BuyProduct (BillingProduct _product)
 		{
 			Debug.Log (_product.Name);
-			if (NPBinding.Billing.IsProductPurchased(_product.ProductIdentifier))
+			if (NPBinding.Billing.IsProductPurchased (_product))
 			{
 				// Show alert message that item is already purchased
-				Debug.Log ("already bought");
-				boughtrestore = "restore";
-
+				buttonFSM.SendEvent ("Zaeubri");
+				Debug.Log ("Bought");
 				return;
 			}
 
@@ -100,41 +104,50 @@ private void OnDisable ()
 				{
 					if (_transaction.TransactionState == eBillingTransactionState.PURCHASED)
 					{
-						Debug.Log ("Bought, no more ads");
+
 						Adsbought = true;
+						theFSM.FsmVariables.GetFsmBool ("Adsboughtfsm").Value = Adsbought;
+
 					}
 				}
 			}
 		}
 		private void RestoreCompletedTransactions ()
 		{
-			NPBinding.Billing.RestoreCompletedTransactions ();
+			NPBinding.Billing.RestorePurchases ();
 		}
 		
 		private void OnDidFinishRestoringPurchases (BillingTransaction[] _transactions, string _error)
 {
     Debug.Log(string.Format("Received restore purchases response. Error = {0}.", _error.GetPrintableString()));
 
-    if (_transactions != null)
-    {                
-        Debug.Log(string.Format("Count of transaction information received = {0}.", _transactions.Length));
+			if (_error == null) {                
+				foreach (BillingTransaction _currentTransaction in _transactions) {
+					if (_currentTransaction.VerificationState == eBillingTransactionVerificationState.SUCCESS) {
+						// Insert code to restore product associated with this transaction
+						Adsbought = true;
+						theFSM.FsmVariables.GetFsmBool ("Adsboughtfsm").Value = Adsbought;
+						Restoreobj.SendEvent ("Restored");
+					} else if (_currentTransaction.VerificationState == eBillingTransactionVerificationState.FAILED) {
+						//something went wrong!
+						Restoreobj.SendEvent ("nonrestored");
+					} else {
+						//recieved transaction object isnot validated yet
+						//skipping this step will cause unusual behavior
+					}
+				}
+			}
+			else 
+			{
+				Restoreobj.SendEvent ("nonrestored");
+				//something went wrong
+				//resotre failed
 
-        foreach (BillingTransaction _currentTransaction in _transactions)
-        {
-            Debug.Log("Product Identifier = "         + _currentTransaction.ProductIdentifier);
-            Debug.Log("Transaction State = "        + _currentTransaction.TransactionState);
-            Debug.Log("Verification State = "        + _currentTransaction.VerificationState);
-            Debug.Log("Transaction Date[UTC] = "    + _currentTransaction.TransactionDateUTC);
-            Debug.Log("Transaction Date[Local] = "    + _currentTransaction.TransactionDateLocal);
-            Debug.Log("Transaction Identifier = "    + _currentTransaction.TransactionIdentifier);
-            Debug.Log("Transaction Receipt = "        + _currentTransaction.TransactionReceipt);
-            Debug.Log("Error = "                    + _currentTransaction.Error.GetPrintableString());
-					Adsbought = true;
+					}
+
         }
     }
 }
+	
 
-
-}
-}
 
