@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VoxelBusters.Utility;
 using VoxelBusters.NativePlugins;
+using PlayMaker;
 
 
 namespace VoxelBusters.NativePlugins {
@@ -74,7 +75,7 @@ private void OnDisable ()
 		public void BuyProduct (BillingProduct _product)
 		{
 			Debug.Log (_product.Name);
-			if (NPBinding.Billing.IsProductPurchased(_product.ProductIdentifier))
+			if (NPBinding.Billing.IsProductPurchased (_product))
 			{
 				// Show alert message that item is already purchased
 				Debug.Log ("already bought");
@@ -108,7 +109,7 @@ private void OnDisable ()
 		}
 		private void RestoreCompletedTransactions ()
 		{
-			NPBinding.Billing.RestoreCompletedTransactions ();
+			NPBinding.Billing.RestorePurchases ();
 		}
 		
 		private void OnDidFinishRestoringPurchases (BillingTransaction[] _transactions, string _error)
@@ -130,6 +131,7 @@ private void OnDisable ()
             Debug.Log("Transaction Receipt = "        + _currentTransaction.TransactionReceipt);
             Debug.Log("Error = "                    + _currentTransaction.Error.GetPrintableString());
 					Adsbought = true;
+					PlayMakerFSM.BroadcastEvent ("val");
         }
     }
 }

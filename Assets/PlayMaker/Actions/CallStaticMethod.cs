@@ -5,6 +5,10 @@ using System.Reflection;
 using UnityEngine;
 using System.Collections.Generic;
 
+#if UNITY_EDITOR
+using HutongGames.PlayMaker.Ecosystem.Utils;
+#endif
+
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.ScriptControl)]
@@ -37,6 +41,23 @@ namespace HutongGames.PlayMaker.Actions
         private object[] parametersArray;
         private string errorString;
         
+		#if UNITY_EDITOR
+		public bool debug;
+		#endif
+
+		public override void Reset()
+		{
+			className = null;
+			methodName = null;
+			parameters = null;
+			storeResult = null;
+			everyFrame = false;
+			
+			#if UNITY_EDITOR
+			debug = false;
+			#endif
+		}
+
         public override void OnEnter()
         {
             parametersArray = new object[parameters.Length];
@@ -89,7 +110,24 @@ namespace HutongGames.PlayMaker.Actions
 
                 result = cachedMethodInfo.Invoke(null, parametersArray);
             }
-            storeResult.SetValue(result);
+
+			if (!storeResult.IsNone)
+			{
+            	storeResult.SetValue(result);
+			}
+
+			#if UNITY_EDITOR
+			if (debug || LinkerData.DebugAll)
+			{
+				
+				UnityEngine.Debug.Log("<Color=blue>CallStaticMethod</Color> on "+this.Fsm.GameObjectName+":"+this.Fsm.Name+"\n" +
+				                      "<Color=red>TargetType</Color>\t\t"+ cachedType+"\n" +
+				                      "<Color=red>Assembly</Color>\t\t"+cachedType.Assembly.FullName+"\n" +
+				                      "<Color=red>Method</Color>\t\t\t"+cachedMethodInfo.Name+"\n" );
+				
+				LinkerData.RegisterClassDependancy(cachedType,cachedType.ToString());
+			}
+			#endif
         }
 
         private bool DoCache()

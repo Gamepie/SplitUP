@@ -7,6 +7,10 @@ using System.Collections.Generic;
 using Object = UnityEngine.Object;
 using HutongGames.PlayMaker;
 
+#if UNITY_EDITOR
+using HutongGames.PlayMaker.Ecosystem.Utils;
+#endif
+
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.ScriptControl)]
@@ -36,6 +40,10 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("Use the old manual editor UI.")]
         public bool manualUI;
 
+		#if UNITY_EDITOR
+		public bool debug;
+		#endif
+
         private FsmObject cachedBehaviour;
         private FsmString cachedMethodName;
         private Type cachedType;
@@ -51,6 +59,10 @@ namespace HutongGames.PlayMaker.Actions
             parameters = null;
             storeResult = null;
             everyFrame = false;
+
+			#if UNITY_EDITOR
+			debug = false;
+			#endif
         }
 
         public override void OnEnter()
@@ -58,6 +70,19 @@ namespace HutongGames.PlayMaker.Actions
             parametersArray = new object[parameters.Length];
 
             DoMethodCall();
+
+			#if UNITY_EDITOR
+			if (debug || LinkerData.DebugAll)
+			{
+				
+				UnityEngine.Debug.Log("<Color=blue>CallMethod</Color> on "+this.Fsm.GameObjectName+":"+this.Fsm.Name+"\n" +
+				                      "<Color=red>TargetType</Color>\t\t"+ cachedType+"\n" +
+				                      "<Color=red>Assembly</Color>\t\t"+cachedType.Assembly.FullName+"\n" +
+				                      "<Color=red>Method</Color>\t\t\t"+cachedMethodInfo.Name+"\n" );
+				
+				LinkerData.RegisterClassDependancy(cachedType,cachedType.ToString());
+			}
+			#endif
 
             if (!everyFrame)
             {
