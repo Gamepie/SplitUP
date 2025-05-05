@@ -370,3 +370,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1214ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (814ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (673ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4584 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (23.0 KB). Loaded Objects now: 5164.
+Memory consumption went from 152.3 MB to 152.3 MB.
+Total: 4.104300 ms (FindLiveObjects: 0.443600 ms CreateObjectMapping: 0.140700 ms MarkObjects: 3.442400 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4260.817860 seconds.
+  path: Assets/IMAGES/Backgrounds/Background-02.png
+  artifactKey: Guid(23b6e700c9bda426694bc5177aa547f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background-02.png using Guid(23b6e700c9bda426694bc5177aa547f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633792786e5ee5fc9c8e29a79e54c31c') in 0.174896 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IMAGES/Backgrounds/Background-05.png
+  artifactKey: Guid(f2dde30910b9f4d7cb6266b33805702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background-05.png using Guid(f2dde30910b9f4d7cb6266b33805702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb553b5f28aef1d39b85fb9c712be5') in 0.138818 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IMAGES/Backgrounds/Background-03.png
+  artifactKey: Guid(0fb4fa93ea573448e84323a766322289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background-03.png using Guid(0fb4fa93ea573448e84323a766322289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723a48637e3d3c7056ad981cce2c9b79') in 0.139916 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 155.133074 seconds.
+  path: Assets/IMAGES/Backgrounds/Background-02.png
+  artifactKey: Guid(23b6e700c9bda426694bc5177aa547f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background-02.png using Guid(23b6e700c9bda426694bc5177aa547f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342d3eaec1a293291966195534d38c2') in 0.205972 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IMAGES/Backgrounds/Background.png
+  artifactKey: Guid(a0766a9bc93ad40a7ba9ae5c02d1ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background.png using Guid(a0766a9bc93ad40a7ba9ae5c02d1ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99456038040f293f21215490d58f025f') in 0.218365 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IMAGES/Backgrounds/Background-04.png
+  artifactKey: Guid(17194de1dd34a420988a3aad4b79c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IMAGES/Backgrounds/Background-04.png using Guid(17194de1dd34a420988a3aad4b79c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e26f9312723f53fd9dea3427da0953') in 0.164417 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 58.651222 seconds.
+  path: Assets/PREFABS/Backgrounds/Background-03.prefab
+  artifactKey: Guid(a779eee5692886446afdf5129dae063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PREFABS/Backgrounds/Background-03.prefab using Guid(a779eee5692886446afdf5129dae063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1366006e6f1a9841ef2cb575f6968363') in 0.045964 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PREFABS/Backgrounds/Background-05.prefab
+  artifactKey: Guid(d50c96f8d429eea44a6c030c4786794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PREFABS/Backgrounds/Background-05.prefab using Guid(d50c96f8d429eea44a6c030c4786794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae9597867cf85ab4382f7e29fd296fc') in 0.037514 seconds 
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
