@@ -2948,38 +2948,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Background
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 0
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList: []
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &127960479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3124,41 +3092,27 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayListGetNext
+        - HutongGames.PlayMaker.Actions.ArrayGetNext
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 28fda400
+        actionHashCodes: 3df26a04
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Background
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
         - variableName: CurrentBGPattern
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -3181,7 +3135,20 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: Background
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
@@ -3218,26 +3185,23 @@ MonoBehaviour:
         stringParams:
         - FINISHED
         - Do Nothing
-        - Do Nothing
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001100000010000000100000001700000017000000170000001000000027000000
+        paramDataType: 2900000010000000100000001700000011000000170000002700000010000000
         paramName:
-        - gameObject
-        - reference
-        - reset
+        - array
         - startIndex
         - endIndex
         - loopEvent
+        - resetFlag
         - finishedEvent
-        - failureEvent
-        - currentIndex
         - result
-        paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000200000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+        - currentIndex
+        paramDataPos: 0000000000000000010000000000000000000000010000000000000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
     - name: Do none
       description: 
       colorIndex: 0
@@ -3629,41 +3593,27 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayListAdd
+        - HutongGames.PlayMaker.Actions.ArrayAdd
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 1cc91602
+        actionHashCodes: 978a9b03
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: SpawnedBGPatterns
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
         - variableName: BGPatterns
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -3686,16 +3636,23 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmArrayParams:
         - useVariable: 1
-          name: 
+          name: SpawnedBGPatterns
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -3703,20 +3660,17 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000270000000100000010000000
+        paramDataType: 2900000027000000
         paramName:
-        - gameObject
-        - reference
-        - variable
-        - convertIntToByte
-        - index
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000000000000000000000100000000000000
+        - array
+        - value
+        paramDataPos: 0000000000000000
+        paramByteDataSize: 0000000000000000
     - name: State 2
       description: 
       colorIndex: 0
@@ -3794,18 +3748,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayGet
-        - HutongGames.PlayMaker.Actions.MissingAction
-        - HutongGames.PlayMaker.Actions.MissingAction
-        - HutongGames.PlayMaker.Actions.MissingAction
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.ArrayAdd
         customNames:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 00000000050000000600000007000000
-        actionHashCodes: 6ba5930178c5300178c5300178c53001
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: 6ba593016ba59301978a9b03
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3818,10 +3770,58 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: 
-          objectType: UnityEngine.Object
+        - variableName: BGtoCreateActual
+          objectType: UnityEngine.GameObject
           useVariable: 1
-          type: -1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: BackgroundsPattern
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: BackgroundsPattern
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -3844,11 +3844,37 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams:
         - useVariable: 1
-          name: 
+          name: SpawnedBGPatterns
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          type: -1
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: Backgrounds
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: Background
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -3864,6 +3890,12 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 2
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 0
         fsmBoolParams: []
         fsmVector2Params: []
@@ -3873,26 +3905,28 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - HutongGames.PlayMaker.Actions.ArrayListGet
-        - HutongGames.PlayMaker.Actions.ArrayListGet
-        - HutongGames.PlayMaker.Actions.ArrayListAdd
-        byteData: 00
+        - 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000010000000270000000100000017000000030000000300000003000000
+        paramDataType: 290000001000000027000000010000001700000029000000100000002700000001000000170000002900000027000000
         paramName:
         - array
         - index
         - storeValue
         - everyFrame
         - indexOutOfRange
-        - actionName
-        - actionName
-        - actionName
-        paramDataPos: 0000000000000000000000000000000000000000010000000200000003000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - value
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000100000001000000010000000200000002000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000
     - name: 'Remove Vector 3 to PatternPos '
       description: 
       colorIndex: 0
@@ -4010,57 +4044,29 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayListGet
-        - HutongGames.PlayMaker.Actions.ArrayListAdd
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.ArrayAdd
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000005000000
-        actionHashCodes: 7d0dad031cc91602
+        actionHashCodes: 6ba59301978a9b03
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Backgrounds
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Background
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
         - variableName: BackgroundsPattern
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -4084,7 +4090,7 @@ MonoBehaviour:
             vector4Values: []
             objectReferences: []
         - variableName: BackgroundsPattern
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -4107,17 +4113,37 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: Backgrounds
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: Background
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -4136,20 +4162,17 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001000000027000000170000001400000012000000270000000100000010000000
+        paramDataType: 29000000100000002700000001000000170000002900000027000000
         paramName:
-        - gameObject
-        - reference
-        - atIndex
-        - result
-        - failureEvent
-        - gameObject
-        - reference
-        - variable
-        - convertIntToByte
+        - array
         - index
-        paramDataPos: 00000000000000000000000000000000000000000100000001000000010000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000000000000
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - value
+        paramDataPos: 00000000000000000000000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000
     - name: Bool test
       description: 
       colorIndex: 0
@@ -4360,6 +4383,12 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
+        name: Background-s
+        tooltip: hm
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: BackgroundPattern
         tooltip: 
         showInInspector: 0
@@ -4380,11 +4409,37 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-      arrayVariables: []
+      arrayVariables:
+      - useVariable: 1
+        name: Background
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 3
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
+      - useVariable: 1
+        name: Backgrounds
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 3
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -4444,38 +4499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: SpawnedBGPatterns
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 0
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList: []
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &127960481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4527,7 +4550,7 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayListGet
+        - HutongGames.PlayMaker.Actions.ArrayGet
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.FloatOperator
@@ -4541,18 +4564,10 @@ MonoBehaviour:
         actionEnabled: 0101010101
         actionIsOpen: 0101010101
         actionStartIndex: 00000000050000000c0000001300000018000000
-        actionHashCodes: 7d0dad035552ad055552ad050cdb04051bcdca04
+        actionHashCodes: 6ba593015552ad055552ad050cdb04051bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -4575,17 +4590,11 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: SpawnedBGPatterns
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
         - variableName: ActualBGPattern
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -4608,7 +4617,20 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: SpawnedBGPatterns
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
@@ -4713,18 +4735,18 @@ MonoBehaviour:
         - destroy
         - FINISHED
         - destroy
-        byteData: 00000000000000000000010000000000
+        byteData: 0000000000000000000000010000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000100000002700000017000000140000001c0000000f0000000f0000000f0000000700000001000000140000001c0000000f0000000f0000000f00000007000000010000000f0000000f000000070000000f000000010000000f0000000f0000000f00000017000000170000001700000001000000
+        paramDataType: 2900000010000000270000000100000017000000140000001c0000000f0000000f0000000f0000000700000001000000140000001c0000000f0000000f0000000f00000007000000010000000f0000000f000000070000000f000000010000000f0000000f0000000f00000017000000170000001700000001000000
         paramName:
-        - gameObject
-        - reference
-        - atIndex
-        - result
-        - failureEvent
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
         - gameObject
         - vector
         - x
@@ -4751,8 +4773,8 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000010000000000000000000000010000000200000000000000040000000200000001000000030000000400000005000000050000000900000006000000070000000a000000080000000e000000090000000a0000000b0000000100000002000000030000000f000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000400000001000000000000000000000004000000000000000100000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000000000000010000000200000001000000050000000100000001000000030000000400000005000000060000000a00000006000000070000000b000000080000000f000000090000000a0000000b00000001000000020000000300000010000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000400000001000000000000000000000004000000000000000100000000000000000000000000000000000000000000000000000001000000
     - name: Destroy & Remove from list
       description: 
       colorIndex: 0
@@ -4778,14 +4800,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.DestroyObject
-        - HutongGames.PlayMaker.Actions.ArrayListRemove
+        - HutongGames.PlayMaker.Actions.ArrayRemove
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000003000000
-        actionHashCodes: 9ff80c024d7f4f05
+        actionHashCodes: 9ff80c029f77b305
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -4794,32 +4816,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: SpawnedBGPatterns
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
         - variableName: ActualBGPattern
-          objectType: UnityEngine.Object
+          objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
           floatValue: 0
@@ -4842,7 +4850,20 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: SpawnedBGPatterns
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 0
@@ -4859,29 +4880,33 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
+        stringParams: []
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000000f0000001100000014000000120000002700000017000000
+        paramDataType: 130000000f00000011000000290000002700000011000000
         paramName:
         - gameObject
         - delay
         - detachChildren
-        - gameObject
-        - reference
-        - variable
-        - notFoundEvent
-        paramDataPos: 00000000000000000000000000000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - array
+        - value
+        - allMatches
+        paramDataPos: 000000000000000000000000000000000000000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000
     - name: Send Event to Create
       description: 
       colorIndex: 0
@@ -5268,7 +5293,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5317,39 +5342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Backgrounds
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 1
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList:
-  - {fileID: 1000012515343968, guid: 3bf3049c602974027813066a0ec90732, type: 2}
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!1 &258693478
 GameObject:
   m_ObjectHideFlags: 0
@@ -9227,38 +9219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: SpawnedPatterns
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 0
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList: []
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &1857752985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10036,38 +9996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: ObstaclesPattern
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 0
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList: []
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &1857752987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12354,46 +12282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Medium
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 8
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList:
-  - {fileID: 1000012706291774, guid: ff037cfb71765423184f1bc92b592cb3, type: 2}
-  - {fileID: 1000011337977720, guid: d4658ae19657f476aa9454d5dddd2f91, type: 2}
-  - {fileID: 1000011071162824, guid: 707b9f0bba17a4b87a3c954e61ddf70a, type: 2}
-  - {fileID: 1000011794580096, guid: b5db2e19891a843bc8d2c19f6bcf76be, type: 2}
-  - {fileID: 1000010533850858, guid: 8dfc07b64c8f24520a93ad680d654e25, type: 2}
-  - {fileID: 1000012866914586, guid: 9928d7614e8a847caa206fc095c9963e, type: 2}
-  - {fileID: 1000011766365092, guid: db1930ef0ede4488998ed36b524b0d51, type: 2}
-  - {fileID: 1000014029549804, guid: 4c0124dc131b64d2686bc9d7e65b38b3, type: 2}
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &1857752989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12406,43 +12294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Easy
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 5
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList:
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  - {fileID: 1000012716974436, guid: a3609b792528a4d94b1f3714ea1a53ab, type: 2}
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &1857752990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12455,39 +12306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 0
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Start
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 1
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList:
-  - {fileID: 1000010137757198, guid: f435c189a98b84450bbd6a00581b82f2, type: 2}
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!114 &1857752991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12500,43 +12318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showEvents: 1
-  showContent: 1
-  TextureElementSmall: 0
-  condensedView: 0
-  liveUpdate: 0
-  referenceName: Hard
-  enablePlayMakerEvents: 0
-  addEvent: 
-  setEvent: 
-  removeEvent: 
-  contentPreviewStartIndex: 0
-  contentPreviewMaxRows: 10
-  preFillType: 0
-  preFillObjectTypeIndex: 0
-  preFillCount: 5
-  preFillKeyList: []
-  preFillBoolList: 
-  preFillColorList: []
-  preFillFloatList: []
-  preFillGameObjectList:
-  - {fileID: 1000011334739114, guid: 646660e5539f4499692f24ce65d85a8e, type: 2}
-  - {fileID: 1000012255968934, guid: ae3eb2987e65d4406ab21cf9442a662c, type: 2}
-  - {fileID: 1000011044530788, guid: 630f95abc0a1644de826a41c363dd6ab, type: 2}
-  - {fileID: 1000011722909478, guid: 069cb473cf155488c94f0539cf470644, type: 2}
-  - {fileID: 1000012232875722, guid: 77f089270da99480fafb6f43fae49147, type: 2}
-  preFillIntList: 
-  preFillMaterialList: []
-  preFillObjectList: []
-  preFillQuaternionList: []
-  preFillRectList: []
-  preFillStringList: []
-  preFillTextureList: []
-  preFillVector2List: []
-  preFillVector3List: []
-  preFillAudioClipList: []
-  preFillByteList: 
-  preFillSpriteList: []
 --- !u!1 &1930512012
 GameObject:
   m_ObjectHideFlags: 0

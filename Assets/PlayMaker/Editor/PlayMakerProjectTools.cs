@@ -105,8 +105,6 @@ namespace HutongGames.PlayMakerEditor
 
             if (prefabs.Count == 0) return report;
 
-            /*
-            // Unity Bug: https://github.com/TeamSirenix/odin-serializer/issues/10
             // Note: StartAssetEditing/StopAssetEditing doesn't seem to work across scene loading.
             // another reason to collect all the prefabs first.
 
@@ -120,18 +118,7 @@ namespace HutongGames.PlayMakerEditor
             {
                 StopAssetEditing();
             }
-            */
-            
-            try
-            {
-                report += DoPreprocessPrefabFSMs(prefabs);
-            }
-            finally
-            {
-                AssetDatabase.Refresh();
-            }
-            
-            // Restore previously loaded scenes
+
             LoadScenes(loadedScenes);
 
             return report;
