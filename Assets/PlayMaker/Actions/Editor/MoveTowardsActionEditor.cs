@@ -1,8 +1,5 @@
-﻿using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
-using System.Collections;
 
 namespace HutongGames.PlayMakerEditor
 {
@@ -16,7 +13,11 @@ namespace HutongGames.PlayMakerEditor
 
         public override void OnSceneGUI()
         {
-            var moveTowardsAction = (HutongGames.PlayMaker.Actions.MoveTowards) target;
+            var moveTowardsAction = target as HutongGames.PlayMaker.Actions.MoveTowards;
+            if (moveTowardsAction == null) // shouldn't happen!
+            {
+                return;
+            }
 
             if (moveTowardsAction.UpdateTargetPos())
             {
@@ -61,8 +62,12 @@ namespace HutongGames.PlayMakerEditor
                 // Target vector
 
                 Handles.DrawLine(goPosition, lookAtPosition);
-            Handles.ConeCap(0, goPosition + lookAtVector.normalized * (distance - arrowSize * 0.7f), lookAtRotation, arrowSize); // fudge factor to position cap correctly
 
+#if UNITY_5_5_OR_NEWER
+                Handles.ConeHandleCap(0, goPosition + lookAtVector.normalized * (distance - arrowSize * 0.7f), lookAtRotation, arrowSize, EventType.Repaint); // fudge factor to position cap correctly
+#else
+                Handles.ConeCap(0, goPosition + lookAtVector.normalized * (distance - arrowSize * 0.7f), lookAtRotation, arrowSize); // fudge factor to position cap correctly
+#endif
                 // Show vertical offset
 
                 if (moveTowardsAction.ignoreVertical.Value)

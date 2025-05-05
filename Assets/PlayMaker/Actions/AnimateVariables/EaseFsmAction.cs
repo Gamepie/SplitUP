@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2020. All rights reserved.
 
 /*
 TERMS OF USE - EASING EQUATIONS
@@ -21,14 +21,25 @@ namespace HutongGames.PlayMaker.Actions
 	public abstract class EaseFsmAction : FsmStateAction
 	{
 		[RequiredField]
+        [Tooltip("How long the ease should take in seconds")]
 		public FsmFloat time;
+
+        [Tooltip("Optionally, use speed instead of time.")]
 		public FsmFloat speed;
+
+        [Tooltip("Optional delay in seconds before starting to ease.")]
 		public FsmFloat delay;
+
+        [Tooltip("The easing function to use.")]
 		public EaseType easeType = EaseType.linear;
-		public FsmBool reverse;
-		[Tooltip("Optionally send an Event when the animation finishes.")]
+
+        [Tooltip("Reverse the ease.")]
+        public FsmBool reverse;
+
+        [Tooltip("Optionally send an Event when the animation finishes.")]
 		public FsmEvent finishEvent;
-		[Tooltip("Ignore TimeScale. Useful if the game is paused.")]
+
+        [Tooltip("Ignore TimeScale. Useful if the game is paused.")]
 		public bool realTime;
 				
 		protected delegate float EasingFunction(float start, float end, float value);
@@ -40,12 +51,12 @@ namespace HutongGames.PlayMaker.Actions
 		protected float delayTime = 0f;
 		protected float percentage = 0f;
 		
-		//in descendet class, please set OnEnter or Reset all these arrays to the same length
+		//in descendant class, please set OnEnter or Reset all these arrays to the same length
 		protected float[] fromFloats = new float[0];
 		protected float[] toFloats = new float[0];
 		protected float[] resultFloats = new float[0];
 		
-		//set the end point in the descedent class and call Finish() and finishEvent in OnUpdate()
+		//set the end point in the decedent class and call Finish() and finishEvent in OnUpdate()
 		protected bool finishAction = false;
 		protected bool start = false;
 		protected bool finished = false;
@@ -139,7 +150,16 @@ namespace HutongGames.PlayMaker.Actions
 				}	
 			}
 		}
-		
+
+		#if UNITY_EDITOR
+
+		public override float GetProgress()
+		{
+			return Mathf.Min(percentage, 1f);
+		}
+
+		#endif
+
 		protected void UpdatePercentage(){
 
 	        // Added by PressPlay   
@@ -165,7 +185,7 @@ namespace HutongGames.PlayMaker.Actions
 			}
 		}
 		
-		//instantiates a cached ease equation refrence:
+		//instantiates a cached ease equation reference:
 		protected void SetEasingFunction(){
 			switch (easeType){
 			case EaseType.easeInQuad:
@@ -252,6 +272,9 @@ namespace HutongGames.PlayMaker.Actions
 			case EaseType.elastic:
 				ease = new EasingFunction(elastic);
 				break;
+			case EaseType.punch:
+			    ease = new EasingFunction(elastic); // TODO: Fix Punch easing function
+			        break;
 			}
 		}
 		

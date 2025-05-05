@@ -107,9 +107,10 @@ namespace HutongGames.PlayMakerEditor
                 if ((!callMethod.behaviour.UseVariable && callMethod.behaviour.Value == null) || 
                     callMethod.behaviour.IsNone)
                 {
-                    if (callMethod.behaviour.ObjectType != typeof (MonoBehaviour))
+                    var component = callMethod.behaviour.Value as Component;
+                    if (component == null)
                     {
-                        callMethod.behaviour.ObjectType = typeof (MonoBehaviour);
+                        callMethod.behaviour.ObjectType = typeof (Component);
                         callMethod.methodName = "";
                         ClearCache();
                         UpdateCache();

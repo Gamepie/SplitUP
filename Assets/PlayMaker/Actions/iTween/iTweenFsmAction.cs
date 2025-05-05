@@ -27,10 +27,10 @@ namespace HutongGames.PlayMaker.Actions
 		
 		internal iTweenFSMEvents itweenEvents;
 				
-		//Don't forget to asign this value in descendatns in order to stop iTween when stopOnExit is true
+		//Don't forget to assign this value in descendants in order to stop iTween when stopOnExit is true
 		protected string itweenType = "";
 		protected int itweenID = -1;
-		//Since all iTween gets param delay, this variable is set automatically in order to help descedants to pass this param
+		//Since all iTween gets param delay, this variable is set automatically in order to help descendants to pass this param
 		
 		public override void Reset()
 		{

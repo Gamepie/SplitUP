@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace HutongGames.PlayMakerEditor
 {
@@ -16,82 +16,127 @@ namespace HutongGames.PlayMakerEditor
     {
         static PlayMakerDefines()
         {
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER");
 
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8");
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_3");
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_OR_NEWER");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER_1_9");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER_1_9_1");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER_1_8_OR_NEWER");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER_1_8_5_OR_NEWER");
+            DefinesHelper.AddSymbolToAllTargets("PLAYMAKER_1_9_OR_NEWER");
             
-            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_0");
-            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_1");
-            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_2");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_0");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_1");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_2");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_3");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_4");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_5");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_6");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_7");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_8");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_8_9");
+            DefinesHelper.RemoveSymbolFromAllTargets("PLAYMAKER_1_9_0");
+
+            UpdateTextMeshProDefines();
+            UpdatePipelineDefines();
         }
 
         public static void AddScriptingDefineSymbolToAllTargets(string defineSymbol)
         {
-            foreach (BuildTargetGroup group in Enum.GetValues(typeof(BuildTargetGroup)))
-            {
-                if (!IsValidBuildTargetGroup(group)) continue;
-
-                var defineSymbols = PlayerSettings.GetScriptingDefineSymbolsForGroup(group).Split(';').Select(d => d.Trim()).ToList();
-                if (!defineSymbols.Contains(defineSymbol))
-                {
-                    defineSymbols.Add(defineSymbol);
-                    try
-                    {
-                        PlayerSettings.SetScriptingDefineSymbolsForGroup(group, string.Join(";", defineSymbols.ToArray()));
-                    }
-                    catch (Exception)
-                    {
-                        Debug.Log("Could not set PLAYMAKER defines for build target group: " + group);
-                        throw;
-                    }
-                    
-                }
-            }
+            DefinesHelper.AddSymbolToAllTargets(defineSymbol);
         }
 
         public static void RemoveScriptingDefineSymbolFromAllTargets(string defineSymbol)
         {
-            foreach (BuildTargetGroup group in Enum.GetValues(typeof(BuildTargetGroup)))
-            {
-                if (!IsValidBuildTargetGroup(group)) continue;
+            DefinesHelper.RemoveSymbolFromAllTargets(defineSymbol);
+        }
 
-                var defineSymbols = PlayerSettings.GetScriptingDefineSymbolsForGroup(group).Split(';').Select(d => d.Trim()).ToList();
-                if (defineSymbols.Contains(defineSymbol))
-                {
-                    defineSymbols.Remove(defineSymbol);
-                    PlayerSettings.SetScriptingDefineSymbolsForGroup(group, string.Join(";", defineSymbols.ToArray()));
-                }
+        #region TextMeshPro
+
+        private static void UpdateTextMeshProDefines()
+        {
+            if (TextMeshProIsPresent())
+            {
+                DefinesHelper.AddSymbol("PLAYMAKER_TMPRO");
+            }
+            else
+            {
+                DefinesHelper.RemoveSymbol("PLAYMAKER_TMPRO");
             }
         }
 
-        private static bool IsValidBuildTargetGroup(BuildTargetGroup group)
+        private static bool TextMeshProIsPresent()
         {
-            if (group == BuildTargetGroup.Unknown || IsObsolete(group)) return false;
-
-            // Checking Obsolete attribute should be enough, 
-            // but sometimes Unity versions are missing attributes
-            // so keeping these checks around just in case:
-
-#if UNITY_5_3_0 // Unity 5.3.0 had tvOS in enum but throws error if used
-            if ((int)(object)group == 25) return false;
-#endif
-
-#if UNITY_5_4 || UNITY_5_5 // Unity 5.4+ doesn't like Wp8 and Blackberry any more
-            if ((int)(object)group == 15) return false;
-            if ((int)(object)group == 16) return false;
-#endif
-
-            return true;
+            return PlayMakerEditorStartup.GetType("TMPro.TMP_Dropdown") != null;
         }
 
-        private static bool IsObsolete(Enum value)
+        #endregion
+
+        #region Render Pipelines
+
+        private enum PipelineType
         {
-            var fi = value.GetType().GetField(value.ToString());
-            var attributes = (ObsoleteAttribute[]) fi.GetCustomAttributes(typeof(ObsoleteAttribute), false);
-            return attributes.Length > 0;
+            Unsupported,
+            BuiltInPipeline,
+            UniversalPipeline,
+            HDPipeline
         }
+
+        private static void UpdatePipelineDefines()
+        {
+            var pipeline = GetPipeline();
+
+            if (pipeline == PipelineType.UniversalPipeline)
+            {
+                DefinesHelper.AddSymbol("PLAYMAKER_URP");
+            }
+            else
+            {
+                DefinesHelper.RemoveSymbol("PLAYMAKER_URP");
+            }
+            if (pipeline == PipelineType.HDPipeline)
+            {
+                DefinesHelper.AddSymbol("PLAYMAKER_HDRP");
+            }
+            else
+            {
+                DefinesHelper.RemoveSymbol("PLAYMAKER_HDRP");
+            }
+        }
+
+        /// <summary>
+        /// Returns the type of renderpipeline that is currently running
+        /// </summary>
+        /// <returns></returns>
+        private static PipelineType GetPipeline()
+        {
+#if UNITY_2019_1_OR_NEWER
+        if (GraphicsSettings.renderPipelineAsset != null)
+        {
+            // SRP
+            var srpType = GraphicsSettings.renderPipelineAsset.GetType().ToString();
+            if (srpType.Contains("HDRenderPipelineAsset"))
+            {
+                return PipelineType.HDPipeline;
+            }
+            else if (srpType.Contains("UniversalRenderPipelineAsset") || srpType.Contains("LightweightRenderPipelineAsset"))
+            {
+                return PipelineType.UniversalPipeline;
+            }
+            else return PipelineType.Unsupported;
+        }
+#elif UNITY_2017_1_OR_NEWER
+            if (GraphicsSettings.renderPipelineAsset != null)
+            {
+                // SRP not supported before 2019
+                return PipelineType.Unsupported;
+            }
+#endif
+            // no SRP
+            return PipelineType.BuiltInPipeline;
+        }
+
+        #endregion
     }
 }
 

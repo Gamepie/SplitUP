@@ -10,7 +10,7 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(Animator))]
-		[Tooltip("The target. An Animator component is required")]
+        [Tooltip("The GameObject with an Animator Component.")]
 		public FsmOwnerDefault gameObject;
 		
 		[UIHint(UIHint.Variable)]
@@ -21,11 +21,12 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("The avatar delta position for the last evaluated frame")]
 		public FsmQuaternion deltaRotation;
 
-		private Transform _transform;
-		
-		private Animator _animator;
-		
-		public override void Reset()
+        private Animator animator
+        {
+            get { return cachedComponent; }
+        }
+
+        public override void Reset()
 		{
 			base.Reset();
 			gameObject = null;
@@ -35,44 +36,29 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnEnter()
 		{
-			// get the animator component
-			var go = Fsm.GetOwnerDefaultTarget(gameObject);
-			
-			if (go==null)
-			{
-				Finish();
-				return;
-			}
-			
-			_animator = go.GetComponent<Animator>();
-			
-			if (_animator==null)
-			{
-				Finish();
-				return;
-			}
+            DoGetDeltaPosition();
 
-			DoGetDeltaPosition();
-			
-			Finish();
-			
-		}
+            if (!everyFrame)
+            {
+                Finish();
+            }
+        }
 	
 		public override void OnActionUpdate() 
 		{
 			DoGetDeltaPosition();
-
 		}
 
-		void DoGetDeltaPosition()
-		{		
-			if (_animator==null)
-			{
-				return;
-			}
-			
-			deltaPosition.Value = _animator.deltaPosition;
-			deltaRotation.Value = _animator.deltaRotation;
+        private void DoGetDeltaPosition()
+        {
+            if (!UpdateCache(Fsm.GetOwnerDefaultTarget(gameObject)))
+            {
+                Finish();
+                return;
+            }
+
+            deltaPosition.Value = animator.deltaPosition;
+			deltaRotation.Value = animator.deltaRotation;
 		}
 
 	}

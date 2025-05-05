@@ -1,11 +1,11 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2020. All rights reserved.
 
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Array)]
-	[Tooltip("Each time this action is called it gets the next item from a Array. \n" +
+	[Tooltip("Each time this action is called it gets the next item from a Array. " +
 	         "This lets you quickly loop through all the items of an array to perform actions on them.")]
 	public class ArrayGetNext : FsmStateAction
 	{
@@ -22,16 +22,23 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[Tooltip("Event to send to get the next item.")]
 		public FsmEvent loopEvent;
-		
-		[Tooltip("Event to send when there are no more items.")]
+
+        [Tooltip("If you want to reset the iteration, raise this flag to true when you enter the state, it will indicate you want to start from the beginning again")]
+        [UIHint(UIHint.Variable)]
+        public FsmBool resetFlag;
+
+        [Tooltip("Event to send when there are no more items.")]
 		public FsmEvent finishedEvent;
 			
 		[ActionSection("Result")]
 
 		[MatchElementType("array")]
-		public FsmVar result;
+		[UIHint(UIHint.Variable)]
+        [Tooltip("Store the current array item in a variable of the same type.")]
+        public FsmVar result;
 
 		[UIHint(UIHint.Variable)]
+        [Tooltip("Store the current array index in an int variable.")]
 		public FsmInt currentIndex;
 	
 		// increment that index as we loop through item
@@ -42,13 +49,12 @@ namespace HutongGames.PlayMaker.Actions
 			array = null;
 			startIndex = null;
 			endIndex = null;
-
 			currentIndex = null;
-
 			loopEvent = null;
 			finishedEvent = null;
-			
-			result = null;
+            resetFlag = null;
+
+            result = null;
 		}
 		
 		public override void OnEnter()
@@ -60,8 +66,14 @@ namespace HutongGames.PlayMaker.Actions
 					nextItemIndex = startIndex.Value;
 				}
 			}
-			
-			DoGetNextItem();
+
+            if (resetFlag.Value)
+            {
+                nextItemIndex = startIndex.Value;
+                resetFlag.Value = false;
+            }
+
+            DoGetNextItem();
 			
 			Finish();
 		}

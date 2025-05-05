@@ -1,7 +1,22 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC. All rights reserved.
 
+//#define PROFILE_PLAYMAKER_EDITOR
+
+#if PROFILE_PLAYMAKER_EDITOR
+using System.Diagnostics;
+using Debug = UnityEngine.Debug;
+#endif
+
+using System.Collections;
+using HutongGames.Editor;
+using HutongGames.PlayMaker;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
+
+#if PLAYMAKER_SOURCE
+using EditorCoroutines;
+#endif
 
 /* NOTE: Wrapper no longer needed in Unity 4.x
  * BUT changing it breaks saved layouts
@@ -14,18 +29,74 @@ using UnityEngine;
 namespace HutongGames.PlayMakerEditor
 {
     [System.Serializable]
-    class FsmEditorWindow : BaseEditorWindow
+    internal class FsmEditorWindow : BaseEditorWindow
     {
+        // Only one instance allowed
+        // PM2 will allow multiple FSM editor windows         
+        private static FsmEditorWindow instance;
+
         /// <summary>
-        /// Open the Fsm Editor and optionally show the Welcome Screen
+        /// Open the main Fsm Editor
         /// </summary>
         public static void OpenWindow()
         {
-            GetWindow<FsmEditorWindow>();
+            OpenWindow<FsmEditorWindow>();
         }
 
         /// <summary>
-        /// Open the Fsm Editor and select an Fsm Component
+        /// Opens a PlayMaker Tool Window.
+        /// Opens the main Fsm Editor window first if not open already.
+        /// </summary>
+        public static void OpenToolWindow<T>() where T : EditorWindow
+        {
+            if (instance == null)
+            {
+                OpenWindow();
+
+                // Tool windows check if the main editor is open
+                // so we wait a frame to open the tool window
+                // otherwise it will close itself after opening
+
+                EditorApplication.delayCall += DelayedOpenWindow<T>;
+            }
+            else
+            {
+                OpenWindow<T>();
+            }
+        }
+
+        /// <summary>
+        /// Add one more delay.
+        /// Otherwise window would sometimes close immediately.
+        /// </summary>
+        private static void DelayedOpenWindow<T>() where T : EditorWindow
+        {
+            EditorApplication.delayCall += () => OpenWindow<T>();
+        }
+
+        /// <summary>
+        /// Open a window and optionally "ping" it if it's already open.
+        /// </summary>
+        public static void OpenWindow<T>(string id = "Window") where T : EditorWindow
+        {
+            // Sometimes it's confusing in Unity when you open a window
+            // that's already open but you get no feedback and can't find it.
+            // We fix this by "pinging" the window if it's already open.
+            
+            if (FsmEditorSettings.PingOpenEditorWindows)
+            {
+                var window = Resources.FindObjectsOfTypeAll<T>();
+                if (window.Length > 0)
+                {
+                    HighlighterHelper.PingHighlight(typeof(T), id);
+                }
+            }
+
+            GetWindow<T>();
+        }
+
+        /// <summary>
+        /// Open the main Fsm Editor and select an Fsm Component
         /// </summary>
         public static void OpenWindow(PlayMakerFSM fsmComponent)
         {
@@ -52,34 +123,66 @@ namespace HutongGames.PlayMakerEditor
             return instance != null;
         }
 
-        private static FsmEditorWindow instance;
+        /// <summary>
+        /// Open a PlayMakerFSM component in the main FSM Editor.
+        /// If the component uses a template we select it to edit.
+        /// </summary>
+        public static void OpenInEditor(PlayMakerFSM fsmComponent)
+        {
+            if (!IsOpen())
+            {
+                OpenWindow(fsmComponent);
+            }
+            else
+            {
+                FocusWindowIfItsOpen<FsmEditorWindow>();
+                FsmEditor.SelectFsm(fsmComponent.FsmTemplate == null ? fsmComponent.Fsm : fsmComponent.FsmTemplate.fsm);
+            }
+        }
+
+        /// <summary>
+        /// Open an Fsm in the main FSM Editor
+        /// </summary>
+        public static void OpenInEditor(Fsm fsm)
+        {
+            if (fsm != null && fsm.Owner != null)
+            {
+                OpenInEditor(fsm.Owner as PlayMakerFSM);
+            }
+        }
+
+        /// <summary>
+        /// Open an Fsm in the main FSM Editor
+        /// </summary>
+        public static void OpenInEditor(GameObject go)
+        {
+            if (go != null)
+            {
+                OpenInEditor(FsmSelection.FindFsmOnGameObject(go));
+            }
+        }
+
 
         [SerializeField]
         private FsmEditor fsmEditor;
 
-        // tool windows (can't open them inside dll)
-
-	[SerializeField] private FsmSelectorWindow fsmSelectorWindow;    
-    [SerializeField] private FsmTemplateWindow fsmTemplateWindow;
-    [SerializeField] private FsmStateWindow stateSelectorWindow;
-    [SerializeField] private FsmActionWindow actionWindow;
-    [SerializeField] private FsmErrorWindow errorWindow;
-    [SerializeField] private TimelineWindow timelineWindow;
-    [SerializeField] private FsmLogWindow logWindow;
-    [SerializeField] private ContextToolWindow toolWindow;
-    [SerializeField] private GlobalEventsWindow globalEventsWindow;
-    [SerializeField] private GlobalVariablesWindow globalVariablesWindow;
-    [SerializeField] private ReportWindow reportWindow;
-    [SerializeField] private AboutWindow aboutWindow;
-
         // ReSharper disable UnusedMember.Local
 
         /// <summary>
-        /// Delay initialization until first OnGUI to avoid interfering with runtime system intialization.
+        /// Delay initialization until first OnGUI to avoid interfering with runtime system initialization.
         /// </summary>
         public override void Initialize()
         {
-            instance = this;
+            // Unmaximize fix : when unmaximizing, a new window is enabled and disabled.
+            // Prevent it from overriding the instance pointer.
+            if (instance == null)
+            {
+                instance = this;
+            }
+
+#if PROFILE_PLAYMAKER_EDITOR
+            var stopwatch = Stopwatch.StartNew();
+#endif
 
             if (fsmEditor == null)
             {
@@ -88,245 +191,159 @@ namespace HutongGames.PlayMakerEditor
 
             fsmEditor.InitWindow(this);
             fsmEditor.OnEnable();
+
+#if PROFILE_PLAYMAKER_EDITOR            
+            if (FsmEditor.debugStartupTime) 
+                Debug.Log("Stopwatch: PlayMaker Editor Startup Time: " + stopwatch.ElapsedMilliseconds);
+#endif
+        }
+
+        public override void InitWindowTitle()
+        {
+            SetTitle(Strings.ProductName);
+        }
+
+        protected override void DoUpdateHighlightIdentifiers()
+        {
+            // Not called? Need to investigate further...
+            //fsmEditor.DoUpdateHighlightIdentifiers();
         }
 
         public override void DoGUI()
         {
             fsmEditor.OnGUI();
 
-            /* Debug Repaint events
-            if (Event.current.type == EventType.repaint)
+            switch (eventType)
             {
-                Debug.Log("Repaint");
-            }*/
+                case EventType.ValidateCommand:
+                    switch (Event.current.commandName)
+                    {
+                        case "Cut":
+                        case "Copy":
+                        case "Paste":
+                        case "SelectAll":
+                            Event.current.Use();
+                            break;
+                    }
 
-            if (Event.current.type == EventType.ValidateCommand)
-            {
-                switch (Event.current.commandName)
-                {
-                    case "UndoRedoPerformed":
-                    case "Cut":
-                    case "Copy":
-                    case "Paste":
-                    case "SelectAll":
-                        Event.current.Use();
-                        break;
-                }
-            }
+                    break;
 
-            if (Event.current.type == EventType.ExecuteCommand)
-            {
-                switch (Event.current.commandName)
-                {
-                    /* replaced with Undo.undoRedoPerformed callback added in Unity 4.3
-                    case "UndoRedoPerformed":
-                        FsmEditor.UndoRedoPerformed();
-                        break;
-                    */
+                case EventType.ExecuteCommand:
+                    switch (Event.current.commandName)
+                    {
+                        // NOTE: OSX 2018.3 needs Event.current.Use();
+                        // otherwise e.g., it pastes twice #1814
 
-                    case "Cut":
-                        FsmEditor.Cut();
-                        break;
+                        case "Cut":
+                            FsmEditor.Cut();
+                            Event.current.Use();
+                            break;
 
-                    case "Copy":
-                        FsmEditor.Copy();
-                        break;
+                        case "Copy":
+                            FsmEditor.Copy();
+                            Event.current.Use();
+                            break;
 
-                    case "Paste":
-                        FsmEditor.Paste();
-                        break;
+                        case "Paste":
+                            FsmEditor.Paste();
+                            Event.current.Use();
+                            break;
 
-                    case "SelectAll":
-                        FsmEditor.SelectAll();
-                        break;
+                        case "SelectAll":
+                            FsmEditor.SelectAll();
+                            Event.current.Use();
+                            break;
 
-                    case "OpenWelcomeWindow":
-                        GetWindow<PlayMakerWelcomeWindow>();
-                        break;
+                        case "OpenWelcomeWindow":
+                            OpenWindow<PlayMakerWelcomeWindow>();
+                            break;
 
-                    case "OpenToolWindow":
-                        toolWindow = GetWindow<ContextToolWindow>();
-                        break;
+                        case "OpenToolWindow":
+                            OpenWindow<ContextToolWindow>();
+                            break;
 
-                    case "OpenFsmSelectorWindow":
-                        fsmSelectorWindow = GetWindow<FsmSelectorWindow>();
-                        fsmSelectorWindow.ShowUtility();
-                        break;
+                        case "OpenFsmSelectorWindow":
+                            OpenWindow<FsmSelectorWindow>();
+                            break;
 
-                    case "OpenFsmTemplateWindow":
-                        fsmTemplateWindow = GetWindow<FsmTemplateWindow>();
-                        break;
+                        case "OpenFsmTemplateWindow":
+                            OpenWindow<FsmTemplateWindow>();
+                            break;
 
-                    case "OpenStateSelectorWindow":
-                        stateSelectorWindow = GetWindow<FsmStateWindow>();
-                        break;
+                        case "OpenStateSelectorWindow":
+                            OpenWindow<FsmStateWindow>();
+                            break;
 
-                    case "OpenActionWindow":
-                        actionWindow = GetWindow<FsmActionWindow>();
-                        break;
+                        case "OpenActionWindow":
+                            OpenWindow<FsmActionWindow>();
+                            break;
 
-                    case "OpenGlobalEventsWindow":
-                        globalEventsWindow = GetWindow<FsmEventsWindow>();
-                        break;
+                        case "OpenGlobalEventsWindow":
+                            OpenWindow<FsmEventsWindow>();
+                            break;
 
-                    case "OpenGlobalVariablesWindow":
-                        globalVariablesWindow = GetWindow<FsmGlobalsWindow>();
-                        break;
+                        case "OpenGlobalVariablesWindow":
+                            OpenWindow<FsmGlobalsWindow>();
+                            break;
 
-                    case "OpenErrorWindow":
-                        errorWindow = GetWindow<FsmErrorWindow>();
-                        break;
+                        case "OpenErrorWindow":
+                            OpenWindow<FsmErrorWindow>();
+                            break;
 
-                    case "OpenTimelineWindow":
-                        timelineWindow = GetWindow<FsmTimelineWindow>();
-                        break;
+                        case "OpenTimelineWindow":
+                            OpenWindow<FsmTimelineWindow>();
+                            break;
 
-                    case "OpenFsmLogWindow":
-                        logWindow = GetWindow<FsmLogWindow>();
-                        break;
+                        case "OpenFsmLogWindow":
+                            OpenWindow<FsmLogWindow>();
+                            break;
 
-                    case "OpenAboutWindow":
-                        aboutWindow = GetWindow<AboutWindow>();
-                        break;
+                        case "OpenAboutWindow":
+                            OpenWindow<AboutWindow>();
+                            break;
 
-                    case "OpenReportWindow":
-                        reportWindow = GetWindow<ReportWindow>();
-                        break;
+                        case "OpenReportWindow":
+                            OpenWindow<ReportWindow>();
+                            break;
 
-                    case "AddFsmComponent":
-                        PlayMakerMainMenu.AddFsmToSelected();
-                        break;
+                        case "AddFsmComponent":
+                            PlayMakerMainMenu.AddFsmToSelected();
+                            Event.current.Use();
+                            break;
 
-                    case "RepaintAll":
-                        RepaintAllWindows();
-                        break;
+                        case "ChangeLanguage":
+                            ResetWindowTitles();
+                            Event.current.Use();
+                            break;
 
-                    case "ChangeLanguage":
-                        ResetWindowTitles();
-                        break;
-                }
+                        case "OpenFsmControlsWindow":
+                            OpenWindow<FsmControlsWindow>();
+                            break;
+                    }
 
-                GUIUtility.ExitGUI();
+                    GUIUtility.ExitGUI();
+                    break;
             }
         }
 
-        // called when you change editor language
+        /// <summary>
+        /// Called when you change editor language
+        /// </summary>
         public void ResetWindowTitles()
         {
-            if (toolWindow != null)
+            var windows = Resources.FindObjectsOfTypeAll<BaseEditorWindow>();
+            foreach (var window in windows)
             {
-                toolWindow.InitWindowTitle();
-            }
-
-            if (fsmSelectorWindow != null)
-            {
-                fsmSelectorWindow.InitWindowTitle();
-            }
-
-            if (stateSelectorWindow != null)
-            {
-                stateSelectorWindow.InitWindowTitle();
-            }
-
-            if (actionWindow != null)
-            {
-                actionWindow.InitWindowTitle();
-            }
-
-            if (globalEventsWindow != null)
-            {
-                globalEventsWindow.InitWindowTitle();
-            }
-
-            if (globalVariablesWindow != null)
-            {
-                globalVariablesWindow.InitWindowTitle();
-            }
-
-            if (errorWindow != null)
-            {
-                errorWindow.InitWindowTitle();
-            }
-
-            if (timelineWindow != null)
-            {
-                timelineWindow.InitWindowTitle();
-            }
-
-            if (logWindow != null)
-            {
-                logWindow.InitWindowTitle();
-            }
-
-            if (reportWindow != null)
-            {
-                reportWindow.InitWindowTitle();
-            }
-
-            if (fsmTemplateWindow != null)
-            {
-                fsmTemplateWindow.InitWindowTitle();
+                window.InitWindowTitle();
             }
         }
 
         public void RepaintAllWindows()
         {
-            if (toolWindow != null)
+            if (fsmEditor != null)
             {
-                toolWindow.Repaint();
+                fsmEditor.RepaintAllWindows();
             }
-
-            if (fsmSelectorWindow != null)
-            {
-                fsmSelectorWindow.Repaint();
-            }
-
-            if (stateSelectorWindow != null)
-            {
-                stateSelectorWindow.Repaint();
-            }
-
-            if (actionWindow != null)
-            {
-                actionWindow.Repaint();
-            }
-
-            if (globalEventsWindow != null)
-            {
-                globalEventsWindow.Repaint();
-            }
-
-            if (globalVariablesWindow != null)
-            {
-                globalVariablesWindow.Repaint();
-            }
-
-            if (errorWindow != null)
-            {
-                errorWindow.Repaint();
-            }
-
-            if (timelineWindow != null)
-            {
-                timelineWindow.Repaint();
-            }
-
-            if (logWindow != null)
-            {
-                logWindow.Repaint();
-            }
-
-            if (reportWindow != null)
-            {
-                reportWindow.Repaint();
-            }
-
-            if (fsmTemplateWindow != null)
-            {
-                fsmTemplateWindow.Repaint();
-            }
-
-            Repaint();
         }
 
         private void Update()
@@ -353,6 +370,11 @@ namespace HutongGames.PlayMakerEditor
             }
         }
 
+        private void OnBecameVisible()
+        {
+            OnSelectionChange();
+        }
+
         private void OnSelectionChange()
         {
             if (Initialized && fsmEditor != null)
@@ -369,6 +391,14 @@ namespace HutongGames.PlayMakerEditor
             }
         }
 
+        /// <summary>
+        /// Handler for message that is sent whenever the state of the project changes.
+        /// Actions that trigger this message include creating, renaming, or re-parenting assets,
+        /// as well as moving or renaming folders in the project.
+        /// Note that the message is not sent immediately in response to these actions,
+        /// but rather during the next update of the editor application.
+        /// https://docs.unity3d.com/ScriptReference/EditorWindow.OnProjectChange.html
+        /// </summary>
         private void OnProjectChange()
         {
             if (Initialized && fsmEditor != null)
@@ -384,80 +414,75 @@ namespace HutongGames.PlayMakerEditor
                 fsmEditor.OnDisable();
             }
 
-            instance = null;
+            HighlighterHelper.Reset(GetType());
+
+            if (instance == this)
+            {
+                instance = null;
+            }
         }
 
         private void OnDestroy()
         {
-            if (toolWindow != null)
+            if (instance == this)
             {
-                toolWindow.SafeClose();
-            }
-
-            if (fsmSelectorWindow != null)
-            {
-                fsmSelectorWindow.SafeClose();
-            }
-
-            if (fsmTemplateWindow != null)
-            {
-                fsmTemplateWindow.SafeClose();
-            }
-
-            if (stateSelectorWindow != null)
-            {
-                stateSelectorWindow.SafeClose();
-            }
-
-            if (actionWindow != null)
-            {
-                actionWindow.SafeClose();
-            }
-
-            if (globalVariablesWindow != null)
-            {
-                globalVariablesWindow.SafeClose();
-            }
-
-            if (globalEventsWindow != null)
-            {
-                globalEventsWindow.SafeClose();
-            }
-
-            if (errorWindow != null)
-            {
-                errorWindow.SafeClose();
-            }
-
-            if (timelineWindow != null)
-            {
-                timelineWindow.SafeClose();
-            }
-
-            if (logWindow != null)
-            {
-                logWindow.SafeClose();
-            }
-
-            if (reportWindow != null)
-            {
-                reportWindow.SafeClose();
-            }
-
-            if (aboutWindow != null)
-            {
-                aboutWindow.SafeClose();
-            }
-
-            if (Initialized && fsmEditor != null)
-            {
-                fsmEditor.OnDestroy();
+                CloseAllWindowsThatNeedMainEditor();
             }
         }
 
+#if PLAYMAKER_SOURCE
+
+        public override IEnumerator CaptureDocScreenshots()
+        {
+            position = new Rect(100,100,695,305);
+
+            FsmEditorSettings.GraphViewShowMinimap = false;
+            FsmEditorSettings.ShowScrollBars = false;
+            FsmEditorSettings.ShowFsmDescriptionInGraphView = false;
+
+            EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();            
+            EditorSceneManager.OpenScene("assets/docs/fake-scene.unity");
+            
+            Selection.activeGameObject = GameObject.FindWithTag("MainCamera");
+            FsmEditor.SelectFsm(Selection.activeGameObject.GetComponent<PlayMakerFSM>());
+            FsmEditor.Inspector.SetMode(InspectorMode.StateInspector);
+            FsmEditor.InspectorPanelWidth = 350;
+            FsmEditor.GraphView.SetScrollPosition(new Vector2(0, -30));
+            FsmEditor.Selection.ActiveTransition = null;
+            Repaint();
+            
+            yield return this.StartCoroutine(Capture("main-editor"));
+
+            //FsmEditor.Inspector.SetMode(InspectorMode.FsmInspector);
+            var captureWidth = position.width;
+            var inspectorModeArea = new Rect(position.xMax - captureWidth, position.y, captureWidth, 87);
+            yield return this.StartCoroutine(Capture("inspector-modes", inspectorModeArea));
+
+            var selectionToolbarArea = new Rect(position.x, position.y, position.width - 345, 100);
+            yield return this.StartCoroutine(Capture("selection-toolbar", selectionToolbarArea));
+
+
+            Selection.activeGameObject = GameObject.Find("Camera");
+            FsmEditor.SelectFsm(Selection.activeGameObject.GetComponent<PlayMakerFSM>());
+            FsmEditor.Inspector.SetMode(InspectorMode.Watermarks);
+            yield return this.StartCoroutine(Capture("inspector-watermarks"));
+
+            var inspectorArea = new Rect(position.xMax - 350, position.y, 350, position.height);
+            FsmEditor.Inspector.SetMode(InspectorMode.StateInspector);
+            yield return this.StartCoroutine(Capture("state-inspector", inspectorArea));
+            FsmEditor.Inspector.SetMode(InspectorMode.EventManager);
+            yield return this.StartCoroutine(Capture("event-manager", inspectorArea));
+            FsmEditor.Inspector.SetMode(InspectorMode.VariableManager);
+            yield return this.StartCoroutine(Capture("variable-manager", inspectorArea));
+
+            /* Doesn't work. Dropdown is modal?
+            MainToolbar.ScreenshotMessageId = 2; Repaint();
+            yield return this.StartCoroutine(Capture("fsm-selection-dropdown", selectionToolbarArea));
+            MainToolbar.ScreenshotMessageId = 0;*/
+        }
+
+#endif
+
         // ReSharper restore UnusedMember.Local
     }
-
-
-
 }

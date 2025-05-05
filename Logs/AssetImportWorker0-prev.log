@@ -1,0 +1,259 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'fr' Physical Memory: 65461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/alemi/Desktop/Clean Desk/ParisML/SplitUP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+9641
+Successfully changed project path to: C:/Users/alemi/Desktop/Clean Desk/ParisML/SplitUP
+C:/Users/alemi/Desktop/Clean Desk/ParisML/SplitUP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29572] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2843316250 [EditorId] 2843316250 [Version] 1048832 [Id] WindowsEditor(7,Alexandre) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29572] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2843316250 [EditorId] 2843316250 [Version] 1048832 [Id] WindowsEditor(7,Alexandre) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 64.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alemi/Desktop/Clean Desk/ParisML/SplitUP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6900 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16311 MB
+    Driver:   32.0.13031.3015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005164 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 200 ms
+Refreshing native plugins compatible for Editor in 59.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (288ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3700ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (3522ms)
+			LoadAssemblies (2556ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (742ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (654ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (47.4 KB). Loaded Objects now: 4920.
+Memory consumption went from 146.1 MB to 146.1 MB.
+Total: 2.789800 ms (FindLiveObjects: 0.253000 ms CreateObjectMapping: 0.095500 ms MarkObjects: 2.382500 ms  DeleteObjects: 0.058100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23488.299382 seconds.
+  path: Assets/PlayMaker/UpdateHelper.cs
+  artifactKey: Guid(3c296afe5d1d4db4793bb16e1e9f607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/UpdateHelper.cs using Guid(3c296afe5d1d4db4793bb16e1e9f607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fe71f6e7beb745cc50984af5301136') in 0.043371 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.216691 seconds.
+  path: Assets/PlayMaker/Versions/PlaymakerDefault.unitypackage
+  artifactKey: Guid(13193f8361d6541429275feb05e0eafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Versions/PlaymakerDefault.unitypackage using Guid(13193f8361d6541429275feb05e0eafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd6861ed447e5d242f75b404014e5b3') in 0.017966 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.974137 seconds.
+  path: Assets/PlayMaker/Versions/PlaymakerPreview.unitypackage
+  artifactKey: Guid(ddda830d60ad2384b8cff5d58ce815ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Versions/PlaymakerPreview.unitypackage using Guid(ddda830d60ad2384b8cff5d58ce815ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a585cc9da5e1ada7507b42243d8bad') in 0.014225 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.876926 seconds.
+  path: Assets/PlayMaker/Actions
+  artifactKey: Guid(e0f28db390b02c649923758f704fd26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Actions using Guid(e0f28db390b02c649923758f704fd26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b12c8f7b2595c8ad78bbcc71c1360a0') in 0.010261 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.549175 seconds.
+  path: Assets/PlayMaker/Editor
+  artifactKey: Guid(2bf744966664dc244822242e4a49cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor using Guid(2bf744966664dc244822242e4a49cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5422304ff64ab279e0414c18269aa894') in 0.010603 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.100016 seconds.
+  path: Assets/PlayMaker/Resources
+  artifactKey: Guid(e1eabd03ef748d54ebd26d7be14378fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Resources using Guid(e1eabd03ef748d54ebd26d7be14378fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e09d8d3ddc10d3cec3b679fe091eae') in 0.010628 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.501075 seconds.
+  path: Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll
+  artifactKey: Guid(3588691a691f1074eb5388783b2d2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll using Guid(3588691a691f1074eb5388783b2d2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f225c2bb3ddb88b550edd1926172c5') in 0.011972 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.964644 seconds.
+  path: Assets/PlayMaker/Editor/PlayMakerEditor.dll
+  artifactKey: Guid(336aa50a81ce85b47b50a7b6adf85a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor/PlayMakerEditor.dll using Guid(336aa50a81ce85b47b50a7b6adf85a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2854cf1fc606ed3992fae70620a29b88') in 0.011114 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.663844 seconds.
+  path: Assets/PlayMaker/Editor/Install
+  artifactKey: Guid(4978b25009fee8143966a36c7b734b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor/Install using Guid(4978b25009fee8143966a36c7b734b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5230e102e08087f5f7e72223c8bae9c1') in 0.010576 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.541124 seconds.
+  path: Assets/PlayMaker/Editor/Install/LegacyITween.unitypackage
+  artifactKey: Guid(6d756ccf978926042887a51b4116f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor/Install/LegacyITween.unitypackage using Guid(6d756ccf978926042887a51b4116f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6208ae21f9f216ab28aa05eda089c4dd') in 0.012283 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.213473 seconds.
+  path: Assets/PlayMaker/Editor/Install/LegacyGUI.unitypackage
+  artifactKey: Guid(a4dfaee68dc865741bff8cd7207b91ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PlayMaker/Editor/Install/LegacyGUI.unitypackage using Guid(a4dfaee68dc865741bff8cd7207b91ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0ee75b5959d3ba01c30aa253215207') in 0.011298 seconds 
+Number of asset objects unloaded after import = 1
