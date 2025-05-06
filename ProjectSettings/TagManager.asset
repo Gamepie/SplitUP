@@ -8,6 +8,7 @@ TagManager:
   - HSBar
   - BG Trigger
   - Boules
+  - s_manager
   layers:
   - Default
   - TransparentFX
