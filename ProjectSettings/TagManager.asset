@@ -7,6 +7,7 @@ TagManager:
   - SpwnedObject
   - HSBar
   - BG Trigger
+  - Boules
   layers:
   - Default
   - TransparentFX
