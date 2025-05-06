@@ -37,7 +37,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.01
+      value: 0.05
     - useVariable: 1
       name: BG speed
       tooltip: 
@@ -46,6 +46,12 @@ MonoBehaviour:
       value: 0
     - useVariable: 1
       name: BoulesSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: "Added NpimesS\xEAed"
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -139,5 +145,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []
